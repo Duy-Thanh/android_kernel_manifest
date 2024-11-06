@@ -16,14 +16,9 @@
     <linkfile src="gbl/bazel.MODULE.bazel" dest="MODULE.bazel" />
     <linkfile src="gbl/bazel.WORKSPACE" dest="WORKSPACE" />
     <linkfile src="gbl/bazel.bazelrc" dest="device.bazelrc" />
-    <linkfile src="gbl/build.config.constants" dest="common/build.config.constants" />
+    <linkfile src="gbl/bazel.sh" dest="tools/bazel" />
   </project>
   <project path="bootable/recovery" name="platform/bootable/recovery" />
-  <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" />
-  <project path="build/kernel" name="kernel/build" >
-    <linkfile src="kleaf/bazel.sh" dest="tools/bazel" />
-    <linkfile src="kleaf/bzlmod/empty_BUILD.bazel" dest="common/BUILD.bazel" />
-  </project>
   <project path="external/arm-trusted-firmware" name="platform/external/arm-trusted-firmware" revision="main" />
   <project path="external/avb" name="platform/external/avb" />
   <project path="external/bazel-contrib-bazel_features" name="platform/external/bazel-contrib-bazel_features"/>
