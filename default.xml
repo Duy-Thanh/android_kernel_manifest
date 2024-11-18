@@ -61,7 +61,7 @@
     clone-depth="1" revision="u-boot-mainline" />
   <project path="prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" clone-depth="1" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
-  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" revision="5dedfe5cc164ec79ae4f7ac23336727c723f9f38" />
+  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" revision="513791fb7edceb387ab12b9d29a9ccbe01cae193" />
   <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" clone-depth="1" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" />
   <project path="prebuilts/ndk-r26" name="toolchain/prebuilts/ndk/r26" clone-depth="1" />
