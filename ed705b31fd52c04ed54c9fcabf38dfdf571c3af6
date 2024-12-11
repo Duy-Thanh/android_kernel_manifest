@@ -1,5 +1,23 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6da92506_98230d2a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2024-12-11T03:54:29Z",
+      "side": 1,
+      "message": "Can we not create these symlinks at the top level? It is polluting the repo root, and not all manifests contains these symlinks (e.g. partner manifests). Please consider moving it to `tools/` etc. so it is less eye-catching.",
+      "revId": "ed705b31fd52c04ed54c9fcabf38dfdf571c3af6",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ],
   "submitRequirementResults": [
     {
       "submitRequirement": {
