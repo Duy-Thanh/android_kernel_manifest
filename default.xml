@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
+    <remote  name="partner"
+           fetch="https://partner-android.googlesource.com/"
+           review="https://partner-android-review.googlesource.com/" />
   <default revision="main" remote="aosp" sync-j="4" />
 
   <superproject name="kernel/superproject" remote="aosp" revision="common-android16-6.12-desktop" />
@@ -59,4 +62,7 @@
 
   <project path="test/dittosuite" name="platform/test/dittosuite"/>
   <project path="test/ltp" name="platform/external/ltp"/>
+
+  <!-- Vendor modules -->
+  <project path="private/google-modules/linux/brya" name="kernel-desktop/private/google-modules/linux/brya" remote="partner" revision="android16-6.12-desktop" />
 </manifest>
