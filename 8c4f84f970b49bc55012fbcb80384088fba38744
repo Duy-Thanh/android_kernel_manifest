@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "be62f8d2_591e3601",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1886327
+      },
+      "writtenOn": "2024-12-19T18:30:33Z",
+      "side": 1,
+      "message": "Example CL: https://android-review.git.corp.google.com/c/kernel/manifest/+/3315993",
+      "revId": "8c4f84f970b49bc55012fbcb80384088fba38744",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
