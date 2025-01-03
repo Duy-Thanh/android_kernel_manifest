@@ -9,7 +9,7 @@
     <linkfile src="kleaf/bazel.sh" dest="tools/bazel" />
     <linkfile src="kleaf/bzlmod/bazel.MODULE.bazel" dest="MODULE.bazel" />
   </project>
-  <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" groups="ddk" />
+  <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" />
   <project path="common" name="kernel/common" revision="android-mainline" />
   <project path="kernel/common-patches" name="kernel/common-patches" >
       <linkfile src="android-mainline" dest="common/patches" />
