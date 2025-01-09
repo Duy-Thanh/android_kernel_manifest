@@ -46,6 +46,30 @@
       },
       "revId": "c3f16532b51efdec7988eabd6a2ad73299fff027",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "477eaf7b_0db74b4e",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2025-01-09T17:52:40Z",
+      "side": 1,
+      "message": "perhaps `android-mainline` and `android-mainline-rust` can share (or automerge).",
+      "parentUuid": "cfff8ed3_64ff1cb7",
+      "range": {
+        "startLine": 23,
+        "startChar": 0,
+        "endLine": 23,
+        "endChar": 78
+      },
+      "revId": "c3f16532b51efdec7988eabd6a2ad73299fff027",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
