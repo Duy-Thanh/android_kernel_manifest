@@ -16,6 +16,24 @@
       "message": "you need the same change on common-android-mainline and likely some downstream branches (...-rust, ...-desktop).",
       "revId": "7b0d1006e57fe8857ec6bbd8236551c4f665dfaa",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f736768d_aa042b6b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1892347
+      },
+      "writtenOn": "2025-01-14T18:39:56Z",
+      "side": 1,
+      "message": "I don\u0027t plan to make it work with common-android-mainline until at least v6.13-rc1 has landed there due to various dependencies. Do you still want me to add the mapping there? I\u0027ll add it to -rust of course.",
+      "parentUuid": "dd56700b_bec1022b",
+      "revId": "7b0d1006e57fe8857ec6bbd8236551c4f665dfaa",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
