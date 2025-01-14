@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dd56700b_bec1022b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2025-01-14T17:52:35Z",
+      "side": 1,
+      "message": "you need the same change on common-android-mainline and likely some downstream branches (...-rust, ...-desktop).",
+      "revId": "7b0d1006e57fe8857ec6bbd8236551c4f665dfaa",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
