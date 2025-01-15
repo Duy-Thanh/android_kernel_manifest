@@ -52,6 +52,23 @@
       "parentUuid": "f736768d_aa042b6b",
       "revId": "7b0d1006e57fe8857ec6bbd8236551c4f665dfaa",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3bf03332_c87d1c7a",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2025-01-15T10:57:10Z",
+      "side": 1,
+      "message": "nit: sort alphabetically (at least amongst the common-modules)",
+      "revId": "7b0d1006e57fe8857ec6bbd8236551c4f665dfaa",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
