@@ -12,10 +12,11 @@
     <linkfile src="config.sh" dest="build/config.sh" />
   </project>
   <project path="common" name="kernel/common" revision="android14-6.1-2024-09" upstream="android14-6.1-2024-09" dest-branch="android14-6.1-2024-09" />
-  <project path="kernel/configs" name="kernel/configs" revision="0950b8c2d3f35199d3f103d107d6225dc97ced6f" upstream="main" dest-branch="main" />
-  <project path="kernel/tests" name="kernel/tests" revision="029eb2de8fa8088995f0809b9847d60bf19e4098" upstream="main" dest-branch="main">
+  <project path="kernel/configs" name="kernel/configs" revision="main" upstream="main" dest-branch="main" />
+  <project path="kernel/tests" name="kernel/tests" revision="main" upstream="main" dest-branch="main">
     <linkfile src="tools/run_test_only.sh" dest="run_test_only.sh" />
     <linkfile src="tools/launch_cvd.sh" dest="launch_cvd.sh" />
+    <linkfile src="tools/flash_device.sh" dest="flash_device.sh" />
   </project>
   <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="6282281e9858f54e69552d9658bf25c1b9e1e3b7" upstream="android14-6.1" dest-branch="android14-6.1" />
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" />
@@ -23,6 +24,8 @@
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
   <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" clone-depth="1" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" />
+  <project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts" revision="main" clone-depth="1" upstream="main" dest-branch="main" />
+  <project path="prebuilts/asuite" name="platform/prebuilts/asuite" revision="main" clone-depth="1" upstream="main" dest-branch="main" />
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
 
   <project path="prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" clone-depth="1" />
