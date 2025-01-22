@@ -5,6 +5,7 @@
 
   <superproject name="kernel/superproject" remote="aosp" revision="common-android12-5.10-2024-11" />
 
+<<<<<<< HEAD   (d9915a Snap projects from 12579921)
   <project path="build" name="kernel/build" />
   <project path="hikey-modules" name="kernel/hikey-modules" revision="6f0a2a72f849d8bb8e708587582c20019ef91a3c" upstream="android12-5.10" dest-branch="android12-5.10" />
   <project path="common" name="kernel/common" revision="android12-5.10-2024-11" upstream="android12-5.10-2024-11" dest-branch="android12-5.10-2024-11" />
@@ -12,10 +13,67 @@
   <project path="kernel/configs" name="kernel/configs" />
   <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="dc70f7869b031d2280d4b10188e1531ce41aac70" upstream="android12-5.10" dest-branch="android12-5.10" />
   <project path="prebuilts-master/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" />
+||||||| BASE
+  <project path="build/kernel" name="kernel/build">
+    <linkfile src="kleaf/bazel.sh" dest="tools/bazel" />
+    <linkfile src="kleaf/bazel.WORKSPACE" dest="WORKSPACE" />
+    <linkfile src="build.sh" dest="build/build.sh" />
+    <linkfile src="build_abi.sh" dest="build/build_abi.sh" />
+    <linkfile src="build_test.sh" dest="build/build_test.sh" />
+    <linkfile src="build_utils.sh" dest="build/build_utils.sh" />
+    <linkfile src="config.sh" dest="build/config.sh" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="_setup_env.sh" dest="build/_setup_env.sh" />
+    <linkfile src="multi-switcher.sh" dest="build/multi-switcher.sh" />
+    <linkfile src="abi" dest="build/abi" />
+    <linkfile src="static_analysis" dest="build/static_analysis" />
+  </project>
+  <project path="hikey-modules" name="kernel/hikey-modules" revision="a068c3379fab21a8719c03e661c7d9de97583244" upstream="android13-5.10" dest-branch="android13-5.10" />
+  <project path="common" name="kernel/common" revision="android13-5.10-2024-07" upstream="android13-5.10-2024-07" dest-branch="android13-5.10-2024-07">
+    <linkfile src="." dest=".source_date_epoch_dir" />
+  </project>
+  <project path="kernel/tests" name="kernel/tests" />
+  <project path="kernel/configs" name="kernel/configs" />
+  <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="423eb1c11b3ec94ab40900529c0bf7aca94cf4fa" upstream="android13-5.10" dest-branch="android13-5.10" />
+  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" />
+=======
+  <project path="build/kernel" name="kernel/build">
+    <linkfile src="kleaf/bazel.sh" dest="tools/bazel" />
+    <linkfile src="kleaf/bazel.WORKSPACE" dest="WORKSPACE" />
+    <linkfile src="build.sh" dest="build/build.sh" />
+    <linkfile src="build_abi.sh" dest="build/build_abi.sh" />
+    <linkfile src="build_test.sh" dest="build/build_test.sh" />
+    <linkfile src="build_utils.sh" dest="build/build_utils.sh" />
+    <linkfile src="config.sh" dest="build/config.sh" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="_setup_env.sh" dest="build/_setup_env.sh" />
+    <linkfile src="multi-switcher.sh" dest="build/multi-switcher.sh" />
+    <linkfile src="abi" dest="build/abi" />
+    <linkfile src="static_analysis" dest="build/static_analysis" />
+  </project>
+  <project path="hikey-modules" name="kernel/hikey-modules" revision="a068c3379fab21a8719c03e661c7d9de97583244" upstream="android13-5.10" dest-branch="android13-5.10" />
+  <project path="common" name="kernel/common" revision="android13-5.10-2024-07" upstream="android13-5.10-2024-07" dest-branch="android13-5.10-2024-07">
+    <linkfile src="." dest=".source_date_epoch_dir" />
+  </project>
+  <project path="kernel/configs" name="kernel/configs" revision="main" upstream="main" dest-branch="main" />
+  <project path="kernel/tests" name="kernel/tests" revision="main" upstream="main" dest-branch="main">
+    <linkfile src="tools/run_test_only.sh" dest="run_test_only.sh" />
+    <linkfile src="tools/launch_cvd.sh" dest="launch_cvd.sh" />
+    <linkfile src="tools/flash_device.sh" dest="flash_device.sh" />
+  </project>
+  <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="423eb1c11b3ec94ab40900529c0bf7aca94cf4fa" upstream="android13-5.10" dest-branch="android13-5.10" />
+  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" />
+>>>>>>> CHANGE (0722f3 Unpin repos from platform main)
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" />
+<<<<<<< HEAD   (d9915a Snap projects from 12579921)
   <project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts" revision="8e576213061a50b9790500c71dce76e1f3fc769c" clone-depth="1" upstream="main" dest-branch="main" />
   <project path="prebuilts/asuite" name="platform/prebuilts/asuite" revision="ab7dd529e998993e626869c8cc45d906400d6e3e" clone-depth="1" upstream="main" dest-branch="main" />
+||||||| BASE
+=======
+  <project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts" revision="main" clone-depth="1" upstream="main" dest-branch="main" />
+  <project path="prebuilts/asuite" name="platform/prebuilts/asuite" revision="main" clone-depth="1" upstream="main" dest-branch="main" />
+>>>>>>> CHANGE (0722f3 Unpin repos from platform main)
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
 </manifest>
