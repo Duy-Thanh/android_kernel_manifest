@@ -13,8 +13,8 @@
   </project>
   <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" groups="ddk" />
   <project path="common" name="kernel/common" revision="android15-6.6-2024-10" upstream="android15-6.6-2024-10" dest-branch="android15-6.6-2024-10" />
-  <project path="kernel/configs" name="kernel/configs" revision="dc5a8e5ef642c44c693187e1fa48a492068d2530" upstream="main" dest-branch="main" />
-  <project path="kernel/tests" name="kernel/tests" revision="029eb2de8fa8088995f0809b9847d60bf19e4098" upstream="main" dest-branch="main">
+  <project path="kernel/configs" name="kernel/configs" revision="main" upstream="main" dest-branch="main" />
+  <project path="kernel/tests" name="kernel/tests" revision="main" upstream="main" dest-branch="main">
     <linkfile src="tools/run_test_only.sh" dest="run_test_only.sh" />
     <linkfile src="tools/launch_cvd.sh" dest="launch_cvd.sh" />
     <linkfile src="tools/flash_device.sh" dest="flash_device.sh" />
@@ -27,8 +27,8 @@
   <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" clone-depth="1" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" groups="ddk" />
   <project path="prebuilts/rust" name="platform/prebuilts/rust" clone-depth="1" />
-  <project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts" revision="27423dae33734559ba117e07ba859bc5d7c63978" clone-depth="1" upstream="main" dest-branch="main" />
-  <project path="prebuilts/asuite" name="platform/prebuilts/asuite" revision="984089c634c79c969c0a5a3d4d0761dee53e40f4" clone-depth="1" upstream="main" dest-branch="main" />
+  <project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts" revision="main" clone-depth="1" upstream="main" dest-branch="main" />
+  <project path="prebuilts/asuite" name="platform/prebuilts/asuite" revision="main" clone-depth="1" upstream="main" dest-branch="main" />
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
 
   <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" clone-depth="1" />
