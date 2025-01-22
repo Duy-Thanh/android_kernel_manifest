@@ -12,10 +12,11 @@
     <linkfile src="config.sh" dest="build/config.sh" />
   </project>
   <project path="common" name="kernel/common" revision="android14-6.1-2025-01" upstream="android14-6.1-2025-01" dest-branch="android14-6.1-2025-01" />
-  <project path="kernel/configs" name="kernel/configs" revision="9347b87f675c6b94a98bf4a27b69bd57152da6f0" upstream="main" dest-branch="main" />
-  <project path="kernel/tests" name="kernel/tests" revision="9a1bad62574d0ab44f47d93ef182bf276f13241c" upstream="main" dest-branch="main">
+  <project path="kernel/configs" name="kernel/configs" revision="main" upstream="main" dest-branch="main" />
+  <project path="kernel/tests" name="kernel/tests" revision="main" upstream="main" dest-branch="main">
     <linkfile src="tools/run_test_only.sh" dest="run_test_only.sh" />
     <linkfile src="tools/launch_cvd.sh" dest="launch_cvd.sh" />
+    <linkfile src="tools/flash_device.sh" dest="flash_device.sh" />
   </project>
   <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="8a81b52125b929cc1c2b9a7ba1da70d338a7c3e7" upstream="android14-6.1" dest-branch="android14-6.1" />
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" />
@@ -23,8 +24,8 @@
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
   <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" clone-depth="1" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" />
-  <project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts" revision="23f728a2f26f239a9ae52f56fb1613f52c04d1bd" clone-depth="1" upstream="main" dest-branch="main" />
-  <project path="prebuilts/asuite" name="platform/prebuilts/asuite" revision="ce0da80f66cde39edc5bcb12819275c0f7231261" clone-depth="1" upstream="main" dest-branch="main" />
+  <project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts" revision="main" clone-depth="1" upstream="main" dest-branch="main" />
+  <project path="prebuilts/asuite" name="platform/prebuilts/asuite" revision="main" clone-depth="1" upstream="main" dest-branch="main" />
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
 
   <project path="prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" clone-depth="1" />
