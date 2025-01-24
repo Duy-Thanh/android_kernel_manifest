@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5dddb1d8_dddbd4bf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1625880
+      },
+      "writtenOn": "2025-01-24T11:23:17Z",
+      "side": 1,
+      "message": "Duplicate entries for prebuilts/asuite.\n\n  \u003cproject path\u003d\"prebuilts/asuite\" name\u003d\"platform/prebuilts/asuite\" revision\u003d\"ce0da80f66cde39edc5bcb12819275c0f7231261\" clone-depth\u003d\"1\" upstream\u003d\"main\" dest-branch\u003d\"main\" /\u003e",
+      "revId": "3e2cfa8c2c33fb5fb5a930bbc151f8571106dfe5",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
