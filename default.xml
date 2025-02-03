@@ -8,18 +8,14 @@
   <project path="build" name="kernel/build" />
   <project path="hikey-modules" name="kernel/hikey-modules" revision="6f0a2a72f849d8bb8e708587582c20019ef91a3c" upstream="android12-5.10" dest-branch="android12-5.10" />
   <project path="common" name="kernel/common" revision="android12-5.10-2025-02" upstream="android12-5.10-2025-02" dest-branch="android12-5.10-2025-02" />
-  <project path="kernel/configs" name="kernel/configs" revision="main" upstream="main" dest-branch="main" />
-  <project path="kernel/tests" name="kernel/tests" revision="main" upstream="main" dest-branch="main">
-    <linkfile src="tools/run_test_only.sh" dest="run_test_only.sh" />
-    <linkfile src="tools/launch_cvd.sh" dest="launch_cvd.sh" />
-    <linkfile src="tools/flash_device.sh" dest="flash_device.sh" />
-  </project>
-  <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="618d7f7c561026f31b4ce0be547446465313f331" upstream="android12-5.10" dest-branch="android12-5.10" />
+  <project path="kernel/tests" name="kernel/tests" revision="a4b85237540ed5799ee664628065df7fbb0282ee" upstream="main" dest-branch="main" />
+  <project path="kernel/configs" name="kernel/configs" />
+  <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="15e1fffae0854ef7189f6e8b1b9020dd91b4879d" upstream="android12-5.10" dest-branch="android12-5.10" />
   <project path="prebuilts-master/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" />
-  <project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts" revision="main" clone-depth="1" upstream="main" dest-branch="main" />
-  <project path="prebuilts/asuite" name="platform/prebuilts/asuite" revision="main" clone-depth="1" upstream="main" dest-branch="main" />
+  <project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts" revision="4eabbc69e1ed5f55060090b398dfca760a6c4e9f" clone-depth="1" upstream="main" dest-branch="main" />
+  <project path="prebuilts/asuite" name="platform/prebuilts/asuite" revision="b2f6ff8ec9e73ac537a7451b07f72cf83937a765" clone-depth="1" upstream="main" dest-branch="main" />
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
 </manifest>
