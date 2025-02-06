@@ -1,5 +1,23 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "725a8071_20e31a04",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3768893
+      },
+      "writtenOn": "2025-02-06T08:31:05Z",
+      "side": 1,
+      "message": "The associated submitted to https://android-review.googlesource.com/c/platform/prebuilts/clang/host/linux-x86/+/3453791 has been revoked, Currently, the U-Boot cannot pull code through the Repo.",
+      "revId": "0343d717e838d3a99668ff3e1b8c4f4ec868061f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ],
   "submitRequirementResults": [
     {
       "submitRequirement": {
