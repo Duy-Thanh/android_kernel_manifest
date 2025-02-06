@@ -34,6 +34,24 @@
       "parentUuid": "725a8071_20e31a04",
       "revId": "0343d717e838d3a99668ff3e1b8c4f4ec868061f",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f09d41eb_7a4e68eb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3768893
+      },
+      "writtenOn": "2025-02-06T14:32:31Z",
+      "side": 1,
+      "message": "GitCommandError: \u0027update-ref -m manifest set to e85ad676fe70094dce9991a1cb2cb483859c7c1d --no-deref refs/remotes/m/u-boot-mainline e85ad676fe70094dce9991a1cb2cb483859c7c1d^0\u0027 on platform/prebuilts/clang/host/linux-x86 failed\nstderr: 致 命 错 误 ： e85ad676fe70094dce9991a1cb2cb483859c7c1d^0: not a valid SHA1\nplatform/prebuilts/clang/host/linux-x86 checkout e85ad676fe70094dce9991a1cb2cb483859c7c1d",
+      "parentUuid": "27ae1d06_bc0bf827",
+      "revId": "0343d717e838d3a99668ff3e1b8c4f4ec868061f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ],
   "submitRequirementResults": [
