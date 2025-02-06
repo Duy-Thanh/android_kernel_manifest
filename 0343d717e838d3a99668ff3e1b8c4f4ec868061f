@@ -52,6 +52,24 @@
       "parentUuid": "27ae1d06_bc0bf827",
       "revId": "0343d717e838d3a99668ff3e1b8c4f4ec868061f",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "920d1679_af159339",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1466604
+      },
+      "writtenOn": "2025-02-06T15:42:09Z",
+      "side": 1,
+      "message": "Just to confirm - this is how you\u0027re checking out the repo once you\u0027ve followed the setup instructions here - https://source.android.com/docs/setup/start/requirements?\n\n1. repo init -u persistent-https://android.git.corp.google.com/kernel/manifest -b u-boot-mainline\n2. repo sync -c -j$(nproc)",
+      "parentUuid": "f09d41eb_7a4e68eb",
+      "revId": "0343d717e838d3a99668ff3e1b8c4f4ec868061f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ],
   "submitRequirementResults": [
