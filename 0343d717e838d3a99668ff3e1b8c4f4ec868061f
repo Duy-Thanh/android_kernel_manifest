@@ -16,6 +16,24 @@
       "message": "The associated submitted to https://android-review.googlesource.com/c/platform/prebuilts/clang/host/linux-x86/+/3453791 has been revoked, Currently, the U-Boot cannot pull code through the Repo.",
       "revId": "0343d717e838d3a99668ff3e1b8c4f4ec868061f",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "27ae1d06_bc0bf827",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1466604
+      },
+      "writtenOn": "2025-02-06T14:17:09Z",
+      "side": 1,
+      "message": "Xiang Liu, Can you paste the error you see when you try to sync the uboot manifest?",
+      "parentUuid": "725a8071_20e31a04",
+      "revId": "0343d717e838d3a99668ff3e1b8c4f4ec868061f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ],
   "submitRequirementResults": [
