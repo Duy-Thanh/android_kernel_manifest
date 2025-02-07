@@ -70,6 +70,24 @@
       "parentUuid": "f09d41eb_7a4e68eb",
       "revId": "0343d717e838d3a99668ff3e1b8c4f4ec868061f",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f673e7bd_3be54033",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3768893
+      },
+      "writtenOn": "2025-02-07T07:29:36Z",
+      "side": 1,
+      "message": "Thanks: The end result is a Git configuration that uses a mirror station that seems to be syncing the wrong content.",
+      "parentUuid": "920d1679_af159339",
+      "revId": "0343d717e838d3a99668ff3e1b8c4f4ec868061f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ],
   "submitRequirementResults": [
