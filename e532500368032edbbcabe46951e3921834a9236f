@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "746af437_f8deba67",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1078119
+      },
+      "writtenOn": "2025-03-07T15:59:47Z",
+      "side": 1,
+      "message": "This looks like a no-op change, did you forget to add the file?",
+      "revId": "e532500368032edbbcabe46951e3921834a9236f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
