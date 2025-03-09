@@ -16,6 +16,24 @@
       "message": "This looks like a no-op change, did you forget to add the file?",
       "revId": "e532500368032edbbcabe46951e3921834a9236f",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "43826f8a_3e1b2278",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 2029650
+      },
+      "writtenOn": "2025-03-09T23:06:47Z",
+      "side": 1,
+      "message": "What file?\nThis is just removing tinyjson repo. Switch to android-io was done here:\nhttps://android-review.git.corp.google.com/c/platform/bootable/libbootloader/+/3529770",
+      "parentUuid": "746af437_f8deba67",
+      "revId": "e532500368032edbbcabe46951e3921834a9236f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
