@@ -34,6 +34,24 @@
       "parentUuid": "746af437_f8deba67",
       "revId": "e532500368032edbbcabe46951e3921834a9236f",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "88d57d7e_2a1e788d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1078119
+      },
+      "writtenOn": "2025-03-10T14:55:45Z",
+      "side": 1,
+      "message": "The `default.xml` manifest file - is my Gerrit UI broken? This CL doesn\u0027t show any files being modified at all",
+      "parentUuid": "43826f8a_3e1b2278",
+      "revId": "e532500368032edbbcabe46951e3921834a9236f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
