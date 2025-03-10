@@ -52,6 +52,24 @@
       "parentUuid": "43826f8a_3e1b2278",
       "revId": "e532500368032edbbcabe46951e3921834a9236f",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0688cd6f_bef844c4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1078119
+      },
+      "writtenOn": "2025-03-10T23:59:26Z",
+      "side": 1,
+      "message": "Solved - patch was still in the \"edit\" state",
+      "parentUuid": "88d57d7e_2a1e788d",
+      "revId": "e532500368032edbbcabe46951e3921834a9236f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
