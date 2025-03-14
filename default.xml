@@ -45,7 +45,6 @@
   <project path="external/rust/crates/zune-inflate" name="platform/external/rust/crates/zune-inflate" />
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="hardware/interfaces" name="platform/hardware/interfaces" />
-  <project path="packages/modules/Virtualization" name="platform/packages/modules/Virtualization" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8"
     name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8"
     clone-depth="1" />
