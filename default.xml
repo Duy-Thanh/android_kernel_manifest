@@ -23,7 +23,6 @@
   <project path="external/arm-trusted-firmware" name="platform/external/arm-trusted-firmware" />
   <project path="external/bazel-contrib-bazel_features" name="platform/external/bazel-contrib-bazel_features"/>
   <project path="external/bazel-skylib" name="platform/external/bazel-skylib" />
-  <project path="external/bazelbuild-apple_support" name="platform/external/bazelbuild-apple_support" />
   <project path="external/bazelbuild-bazel-central-registry" name="platform/external/bazelbuild-bazel-central-registry" revision="main" />
   <project path="external/bazelbuild-rules_cc" name="platform/external/bazelbuild-rules_cc" />
   <project path="external/bazelbuild-rules_java" name="platform/external/bazelbuild-rules_java" />
@@ -33,7 +32,6 @@
   <project path="external/bazelbuild-rules_rust" name="platform/external/bazelbuild-rules_rust" />
   <project path="external/bazelbuild-rules_shell" name="platform/external/bazelbuild-rules_shell" />
   <project path="external/bazelbuild-platforms" name="platform/external/bazelbuild-platforms" />
-  <project path="external/boringssl" name="platform/external/boringssl" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" />
   <project path="external/dtc" name="platform/external/dtc" />
   <project path="external/lz4" name="platform/external/lz4" />
@@ -63,8 +61,5 @@
   <project path="prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" clone-depth="1" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" revision="e85ad676fe70094dce9991a1cb2cb483859c7c1d" />
-  <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" clone-depth="1" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" />
-  <project path="prebuilts/ndk-r26" name="toolchain/prebuilts/ndk/r26" clone-depth="1" />
-  <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
 </manifest>
