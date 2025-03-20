@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b33db18f_12af064b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1961395
+      },
+      "writtenOn": "2025-03-20T11:41:25Z",
+      "side": 1,
+      "message": "The finding from checkpatch seems to indicate the presubmit ran before CL:3550168, so maybe retry?",
+      "revId": "43386436b9a0368fea80f773a10470e3678bf38a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
