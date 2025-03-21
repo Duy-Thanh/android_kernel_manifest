@@ -15,7 +15,6 @@
   <project path="kernel/common-patches" name="kernel/common-patches" >
       <linkfile src="android-mainline" dest="common/patches" />
   </project>
-  <project path="kernel/configs" name="kernel/configs" revision="main" />
   <project path="kernel/tests" name="kernel/tests" revision="main" >
     <linkfile src="tools/run_test_only.sh" dest="run_test_only.sh" />
     <linkfile src="tools/launch_cvd.sh" dest="launch_cvd.sh" />
