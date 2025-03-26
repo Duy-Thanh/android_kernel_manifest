@@ -29,7 +29,6 @@
   <project path="prebuilts/ninja/linux-x86" name="platform/prebuilts/ninja/linux-x86" groups="linux" clone-depth="1" />
 
   <!-- dependencies -->
-  <project path="bionic" name="platform/bionic" />
   <project path="external/abseil-cpp" name="platform/external/abseil-cpp" />
   <project path="external/boringssl" name="platform/external/boringssl" />
   <project path="external/dwarves" name="platform/external/dwarves" />
