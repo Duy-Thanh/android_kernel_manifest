@@ -13,9 +13,6 @@
   </project>
   <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" groups="ddk" />
   <project path="common" name="kernel/common" revision="android15-6.6-2024-05-exp" upstream="android15-6.6-2024-05-exp" dest-branch="android15-6.6-2024-05-exp" />
-  <project path="kernel/common-patches" name="kernel/common-patches">
-      <linkfile src="android-mainline" dest="common/patches" />
-  </project>
   <project path="kernel/tests" name="kernel/tests" />
   <project path="kernel/configs" name="kernel/configs" revision="7de932a4b942d7e7677b0116a2e257e050163bb9" upstream="main" dest-branch="main" />
   <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="611e6e682bed8dc73bdc3d12b23224ee91c4a543" upstream="android15-6.6" dest-branch="android15-6.6" />
