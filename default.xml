@@ -2,7 +2,7 @@
 <manifest>
   <remote  name="aosp" fetch=".."
            review="https://android-review.googlesource.com/" />
-  <default revision="main" remote="aosp" sync-j="4" />
+  <default revision="main-kernel" remote="aosp" sync-j="4" />
 
   <superproject name="kernel/superproject" remote="aosp" revision="build-tools" />
 
