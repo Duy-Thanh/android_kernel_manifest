@@ -34,6 +34,24 @@
       "parentUuid": "d2091e8d_48d67b97",
       "revId": "55a9de1db898d83fef61578389ebecb16a818bc0",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2b5721fe_c00fb508",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1058860
+      },
+      "writtenOn": "2025-03-28T21:48:02Z",
+      "side": 1,
+      "message": "Wil there be a similar change for 6.6 as well?",
+      "parentUuid": "4d851a50_05b6d35c",
+      "revId": "55a9de1db898d83fef61578389ebecb16a818bc0",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ],
   "submitRequirementResults": [
