@@ -8,13 +8,12 @@
 -->
 
   <remote  name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
-  <default revision="main" remote="aosp" sync-j="4" />
+  <default revision="main-kernel" remote="aosp" sync-j="4" />
 
   <superproject name="kernel/superproject" remote="aosp" revision="u-boot-mainline"/>
   <contactinfo bugurl="go/repo-bug" />
 
-  <project path="bootable/libbootloader" name="platform/bootable/libbootloader" />
-  <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" />
+  <project path="bootable/libbootloader" name="platform/bootable/libbootloader" revision="gbl-mainline" />
   <project path="build/kernel" name="kernel/build" >
     <linkfile src="kleaf/bazel.sh" dest="tools/bazel" />
     <linkfile src="kleaf/bzlmod/bazel.MODULE.bazel" dest="MODULE.bazel" />
@@ -22,9 +21,8 @@
   </project>
   <project path="external/bazel-contrib-bazel_features" name="platform/external/bazel-contrib-bazel_features"/>
   <project path="external/bazel-skylib" name="platform/external/bazel-skylib" />
-  <project path="external/bazelbuild-bazel-central-registry" name="platform/external/bazelbuild-bazel-central-registry" revision="main" />
+  <project path="external/bazelbuild-bazel-central-registry" name="platform/external/bazelbuild-bazel-central-registry" />
   <project path="external/bazelbuild-rules_cc" name="platform/external/bazelbuild-rules_cc" />
-  <project path="external/bazelbuild-rules_java" name="platform/external/bazelbuild-rules_java" />
   <project path="external/bazelbuild-rules_license" name="platform/external/bazelbuild-rules_license" />
   <project path="external/bazelbuild-rules_pkg" name="platform/external/bazelbuild-rules_pkg" />
   <project path="external/bazelbuild-rules_python" name="platform/external/bazelbuild-rules_python" />
@@ -39,7 +37,7 @@
   <project path="external/toybox" name="platform/external/toybox" />
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/zopfli" name="platform/external/zopfli" />
-  <project path="u-boot" name="platform/external/u-boot">
+  <project path="u-boot" name="platform/external/u-boot" revision="u-boot-mainline">
     <linkfile src="build.config.constants" dest="common/build.config.constants" />
     <linkfile src="device.bazelrc" dest="device.bazelrc" />
   </project>
@@ -56,6 +54,11 @@
     name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9"
     clone-depth="1" revision="u-boot-mainline" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
-  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" revision="e85ad676fe70094dce9991a1cb2cb483859c7c1d" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" />
+
+  <!--TODO(369436075) Pinned SHA needs to be removed -->
+  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" revision="e85ad676fe70094dce9991a1cb2cb483859c7c1d" />
+  <!--TODO(369436075) Once Pinned SHA above is dropped - dep on these two can also be removed -->
+  <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" revision="main" />
+  <project path="external/bazelbuild-rules_java" name="platform/external/bazelbuild-rules_java" revision="main" />
 </manifest>
