@@ -9,12 +9,39 @@
     <linkfile src="kleaf/bazel.sh" dest="tools/bazel" />
     <linkfile src="kleaf/bazel.WORKSPACE" dest="WORKSPACE" />
   </project>
+<<<<<<< HEAD   (c4f464 DO NOT MERGE ANYWHERE - Update update_manifest to use main b)
   <project path="common" name="kernel/common" revision="android-mainline" />
   <project path="kernel/common-patches" name="kernel/common-patches" >
       <linkfile src="android-mainline" dest="common/patches" />
   </project>
   <project path="kernel/tests" name="kernel/tests" />
   <project path="kernel/configs" name="kernel/configs" revision="main" />
+||||||| BASE
+  <project path="common" name="kernel/common" revision="android-mainline" >
+      <linkfile src=".bazelignore" dest=".bazelignore" />
+  </project>
+  <project path="kernel/common-patches" name="kernel/common-patches" >
+      <linkfile src="android-mainline" dest="common/patches" />
+  </project>
+  <project path="kernel/tests" name="kernel/tests" revision="main" >
+    <linkfile src="tools/run_test_only.sh" dest="run_test_only.sh" />
+    <linkfile src="tools/launch_cvd.sh" dest="launch_cvd.sh" />
+    <linkfile src="tools/flash_device.sh" dest="flash_device.sh" />
+  </project>
+  <project path="common-modules/trusty" name="kernel/common-modules/trusty" />
+  <project path="common-modules/virtio-media" name="platform/external/virtio-media" />
+=======
+  <project path="common" name="kernel/common" revision="android-mainline" >
+      <linkfile src=".bazelignore" dest=".bazelignore" />
+  </project>
+  <project path="kernel/tests" name="kernel/tests" revision="main" >
+    <linkfile src="tools/run_test_only.sh" dest="run_test_only.sh" />
+    <linkfile src="tools/launch_cvd.sh" dest="launch_cvd.sh" />
+    <linkfile src="tools/flash_device.sh" dest="flash_device.sh" />
+  </project>
+  <project path="common-modules/trusty" name="kernel/common-modules/trusty" />
+  <project path="common-modules/virtio-media" name="platform/external/virtio-media" />
+>>>>>>> CHANGE (d69f8c android-mainline: remove kernel/common-patches)
   <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="android-mainline" />
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" />
