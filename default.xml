@@ -8,7 +8,7 @@
 -->
 
   <remote  name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
-  <default revision="main" remote="aosp" sync-j="4" />
+  <default revision="main-kernel" remote="aosp" sync-j="4" />
 
   <superproject name="kernel/superproject" remote="aosp" revision="uefi-gbl-mainline"/>
   <contactinfo bugurl="go/repo-bug" />
@@ -18,12 +18,12 @@
     <linkfile src="gbl/bazel.bazelrc" dest=".bazelrc" />
     <linkfile src="gbl/bazel.sh" dest="tools/bazel" />
   </project>
-  <project path="bootable/recovery" name="platform/bootable/recovery" />
-  <project path="external/arm-trusted-firmware" name="platform/external/arm-trusted-firmware" revision="main" />
+  <project path="bootable/recovery" name="platform/bootable/recovery" revision="gbl-mainline"/>
+  <project path="external/arm-trusted-firmware" name="platform/external/arm-trusted-firmware" />
   <project path="external/avb" name="platform/external/avb" />
   <project path="external/bazel-contrib-bazel_features" name="platform/external/bazel-contrib-bazel_features"/>
   <project path="external/bazel-skylib" name="platform/external/bazel-skylib" />
-  <project path="external/bazelbuild-bazel-central-registry" name="platform/external/bazelbuild-bazel-central-registry" revision="main" />
+  <project path="external/bazelbuild-bazel-central-registry" name="platform/external/bazelbuild-bazel-central-registry" />
   <project path="external/bazelbuild-rules_cc" name="platform/external/bazelbuild-rules_cc" />
   <project path="external/bazelbuild-rules_license" name="platform/external/bazelbuild-rules_license" />
   <project path="external/bazelbuild-rules_pkg" name="platform/external/bazelbuild-rules_pkg" />
@@ -31,8 +31,8 @@
   <project path="external/bazelbuild-rules_rust" name="platform/external/bazelbuild-rules_rust" />
   <project path="external/bazelbuild-rules_shell" name="platform/external/bazelbuild-rules_shell" />
   <project path="external/bazelbuild-platforms" name="platform/external/bazelbuild-platforms" />
-  <project path="external/compiler-rt" name="platform/external/compiler-rt" revision="main" />
-  <project path="external/dtc" name="platform/external/dtc" revision="main" />
+  <project path="external/compiler-rt" name="platform/external/compiler-rt" />
+  <project path="external/dtc" name="platform/external/dtc" />
   <project path="external/libufdt" name="platform/system/libufdt" />
   <project path="external/elfutils" name="platform/external/elfutils" />
   <project path="external/zopfli" name="platform/external/zopfli" />
@@ -48,7 +48,7 @@
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" />
   <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" clone-depth="1" />
-  <project path="prebuilts/fuchsia_sdk" name="platform/prebuilts/fuchsia_sdk" clone-depth="1" />
+  <project path="prebuilts/fuchsia_sdk" name="platform/prebuilts/fuchsia_sdk" clone-depth="1" revision="main" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" />
   <project path="prebuilts/rust" name="platform/prebuilts/rust" clone-depth="1" />
   <project path="system/core" name="platform/system/core" />
