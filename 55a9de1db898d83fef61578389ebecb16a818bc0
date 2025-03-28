@@ -16,6 +16,24 @@
       "message": "There will be a global switch on Monday/Tuesday: http://r.android.com/3565313 . Would you mind waiting for that to happen instead?",
       "revId": "55a9de1db898d83fef61578389ebecb16a818bc0",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4d851a50_05b6d35c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1056364
+      },
+      "writtenOn": "2025-03-28T20:32:36Z",
+      "side": 1,
+      "message": "Great! I can wait.",
+      "parentUuid": "d2091e8d_48d67b97",
+      "revId": "55a9de1db898d83fef61578389ebecb16a818bc0",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
