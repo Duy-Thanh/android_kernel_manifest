@@ -16,6 +16,29 @@
       "message": "do not submit",
       "revId": "a20a7a791ace59b71b246533d3246f75c325baf2",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7a1821e3_87bec3cd",
+        "filename": "default.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2025-03-28T19:01:55Z",
+      "side": 1,
+      "message": "need to go away; waiting on b/406977509",
+      "range": {
+        "startLine": 18,
+        "startChar": 51,
+        "endLine": 18,
+        "endChar": 66
+      },
+      "revId": "a20a7a791ace59b71b246533d3246f75c325baf2",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
