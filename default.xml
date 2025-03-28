@@ -11,6 +11,7 @@
     <linkfile src="kleaf/bzlmod/bazel.MODULE.bazel" dest="MODULE.bazel" />
     <linkfile src="kleaf/bzlmod/bazel.WORKSPACE.bzlmod" dest="WORKSPACE.bzlmod" />
   </project>
+<<<<<<< HEAD   (f2b906 Initial android15-6.6-2024-05-exp projects)
   <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" groups="ddk" />
   <project path="common" name="kernel/common" revision="android15-6.6-2024-05-exp" upstream="android15-6.6-2024-05-exp" dest-branch="android15-6.6-2024-05-exp" />
   <project path="kernel/common-patches" name="kernel/common-patches">
@@ -20,6 +21,36 @@
   <project path="kernel/configs" name="kernel/configs" revision="7de932a4b942d7e7677b0116a2e257e050163bb9" upstream="main" dest-branch="main" />
   <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="611e6e682bed8dc73bdc3d12b23224ee91c4a543" upstream="android15-6.6" dest-branch="android15-6.6" />
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" revision="09c7583143309378bfb91ee54174c87da496b6ab" clone-depth="1" groups="ddk" upstream="main-kernel" dest-branch="main-kernel" />
+||||||| BASE
+  <project path="common" name="kernel/common" revision="android-mainline" >
+      <linkfile src=".bazelignore" dest=".bazelignore" />
+  </project>
+  <project path="kernel/common-patches" name="kernel/common-patches" >
+      <linkfile src="android-mainline" dest="common/patches" />
+  </project>
+  <project path="kernel/tests" name="kernel/tests" revision="main" >
+    <linkfile src="tools/run_test_only.sh" dest="run_test_only.sh" />
+    <linkfile src="tools/launch_cvd.sh" dest="launch_cvd.sh" />
+    <linkfile src="tools/flash_device.sh" dest="flash_device.sh" />
+  </project>
+  <project path="common-modules/trusty" name="kernel/common-modules/trusty" />
+  <project path="common-modules/virtio-media" name="platform/external/virtio-media" />
+  <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="android-mainline" />
+  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" revision="main-kernel" clone-depth="1" groups="ddk" />
+=======
+  <project path="common" name="kernel/common" revision="android-mainline" >
+      <linkfile src=".bazelignore" dest=".bazelignore" />
+  </project>
+  <project path="kernel/tests" name="kernel/tests" revision="main" >
+    <linkfile src="tools/run_test_only.sh" dest="run_test_only.sh" />
+    <linkfile src="tools/launch_cvd.sh" dest="launch_cvd.sh" />
+    <linkfile src="tools/flash_device.sh" dest="flash_device.sh" />
+  </project>
+  <project path="common-modules/trusty" name="kernel/common-modules/trusty" />
+  <project path="common-modules/virtio-media" name="platform/external/virtio-media" />
+  <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="android-mainline" />
+  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" revision="main-kernel" clone-depth="1" groups="ddk" />
+>>>>>>> CHANGE (d69f8c android-mainline: remove kernel/common-patches)
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" groups="ddk" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" groups="ddk" />
   <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" clone-depth="1" />
