@@ -52,6 +52,24 @@
       "parentUuid": "4d851a50_05b6d35c",
       "revId": "55a9de1db898d83fef61578389ebecb16a818bc0",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "44530432_b6402299",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2025-03-29T03:57:26Z",
+      "side": 1,
+      "message": "No. android15-6.6 stays at `main-kernel-build-2024` and will not change. If you are planning to fork, I suggest that you use the same name.\n\nAlternatively, do you plan to use `main-kernel` for ALL branches, similar to trusty and kernel/common-patches?",
+      "parentUuid": "2b5721fe_c00fb508",
+      "revId": "55a9de1db898d83fef61578389ebecb16a818bc0",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ],
   "submitRequirementResults": [
