@@ -12,7 +12,7 @@
   <project path="common" name="kernel/common" revision="android-mainline" >
       <linkfile src=".bazelignore" dest=".bazelignore" />
   </project>
-  <project path="kernel/tests" name="kernel/tests" revision="main" >
+  <project path="kernel/tests" name="kernel/tests" revision="main-kernel" clone-depth="1" >
     <linkfile src="tools/run_test_only.sh" dest="run_test_only.sh" />
     <linkfile src="tools/launch_cvd.sh" dest="launch_cvd.sh" />
     <linkfile src="tools/flash_device.sh" dest="flash_device.sh" />
@@ -26,7 +26,7 @@
   <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" clone-depth="1" groups="ddk" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" groups="ddk" />
   <project path="prebuilts/rust" name="platform/prebuilts/rust" revision="main-kernel" clone-depth="1" groups="ddk" />
-  <project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts" revision="main" clone-depth="1" />
+  <project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts" revision="main-kernel" clone-depth="1" />
   <project path="prebuilts/asuite" name="platform/prebuilts/asuite" revision="main" clone-depth="1" />
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
 
