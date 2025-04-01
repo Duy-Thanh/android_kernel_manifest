@@ -16,6 +16,24 @@
       "message": "CL:3563987",
       "revId": "e75380bc9e07c8e0d362c09fe79790a63405c73b",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d1d920c9_44706299",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1123518
+      },
+      "writtenOn": "2025-04-01T23:01:02Z",
+      "side": 1,
+      "message": "Acknowledged. I will abort this one then.",
+      "parentUuid": "ce261aac_5d4088fe",
+      "revId": "e75380bc9e07c8e0d362c09fe79790a63405c73b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
