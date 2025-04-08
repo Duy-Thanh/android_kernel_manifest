@@ -55,6 +55,7 @@
   <project path="external/toybox" name="platform/external/toybox" groups="ddk"/>
   <project path="external/zlib" name="platform/external/zlib" groups="ddk"/>
   <project path="external/zopfli" name="platform/external/zopfli" groups="ddk"/>
+  <project path="tools/external_updater" name="platform/tools/external_updater"/>
 
   <project path="test/dittosuite" name="platform/test/dittosuite"/>
   <project path="test/ltp" name="platform/external/ltp"/>
