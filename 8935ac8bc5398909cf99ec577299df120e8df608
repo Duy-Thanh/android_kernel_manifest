@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ce864aba_b5649945",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1625880
+      },
+      "writtenOn": "2025-04-10T06:17:37Z",
+      "side": 1,
+      "message": "The git log shows this is fetching:\n\nplatform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9 6e0928fdce9 which is the old main where the project was wiped.\n\nI thought this might be an issue caused by the reference build (which is ab/13287532), but the git log literally says:\n\n```\nRevision for project prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9 changed (u-boot-mainline to main). New pinned SHA is 6e0928fdce95f1666f9d07191a71cc5bb79414ef\n```",
+      "revId": "8935ac8bc5398909cf99ec577299df120e8df608",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
