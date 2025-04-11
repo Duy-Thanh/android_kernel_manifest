@@ -50,6 +50,7 @@
   <project path="external/python/absl-py" name="platform/external/python/absl-py" groups="ddk-external" />
 
   <!-- dependencies used to build toolchain from sources -->
+  <project path="external/kmod" name="platform/external/kmod" groups="ddk"/>
   <project path="external/lz4" name="platform/external/lz4" groups="ddk"/>
   <project path="external/pigz" name="platform/external/pigz" groups="ddk"/>
   <project path="external/toybox" name="platform/external/toybox" groups="ddk"/>
