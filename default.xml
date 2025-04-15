@@ -6,6 +6,7 @@
   <superproject name="kernel/superproject" remote="aosp" revision="common-android-mainline" />
 
   <project path="build/kernel" name="kernel/build" groups="ddk" >
+    <linkfile src="change_info" dest="tools/change_info" />
     <linkfile src="kleaf/bazel.sh" dest="tools/bazel" />
     <linkfile src="kleaf/bzlmod/bazel.MODULE.bazel" dest="MODULE.bazel" />
   </project>
