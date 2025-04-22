@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "37341732_b984fdad",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1557540
+      },
+      "writtenOn": "2025-04-22T20:56:05Z",
+      "side": 0,
+      "message": "Do we need this one?",
+      "range": {
+        "startLine": 41,
+        "startChar": 0,
+        "endLine": 41,
+        "endChar": 102
+      },
+      "revId": "8a3ba5250a6ab629cd47ffbfc71310dc7025d872",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
