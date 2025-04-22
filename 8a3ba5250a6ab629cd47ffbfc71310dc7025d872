@@ -46,6 +46,30 @@
       },
       "revId": "8a3ba5250a6ab629cd47ffbfc71310dc7025d872",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fded30fa_02688aa9",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2025-04-22T23:26:11Z",
+      "side": 0,
+      "message": "We actually do:\n\nhttps://android-build.corp.google.com/build_explorer/artifact_viewer/P95242113/kernel_raviole/logs/build_error.log\n\nCould you please change it to pkg_install()? Or we can keep this entry on revision\u003dmain for a bit so I am unblocked.",
+      "parentUuid": "de6d72e7_3d0944ec",
+      "range": {
+        "startLine": 41,
+        "startChar": 0,
+        "endLine": 41,
+        "endChar": 102
+      },
+      "revId": "8a3ba5250a6ab629cd47ffbfc71310dc7025d872",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
