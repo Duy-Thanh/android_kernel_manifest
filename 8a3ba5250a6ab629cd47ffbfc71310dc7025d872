@@ -94,6 +94,30 @@
       },
       "revId": "8a3ba5250a6ab629cd47ffbfc71310dc7025d872",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7a785246_4f0f2daf",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2025-04-23T03:37:06Z",
+      "side": 0,
+      "message": "Please help prioritizing this; this is blocking https://android-review.git.corp.google.com/c/kernel/common/+/3593772 to go in for a partner bug. Thank you in advance!",
+      "parentUuid": "ab1e8a75_ee74b8ac",
+      "range": {
+        "startLine": 41,
+        "startChar": 0,
+        "endLine": 41,
+        "endChar": 102
+      },
+      "revId": "8a3ba5250a6ab629cd47ffbfc71310dc7025d872",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
