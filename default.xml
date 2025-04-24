@@ -61,7 +61,10 @@
   <project path="test/ltp" name="platform/external/ltp"/>
 
   <!-- dependencies for GBL -->
-  <project path="bootable/libbootloader" name="platform/bootable/libbootloader" revision="gbl-mainline" />
+  <project path="bootable/libbootloader" name="platform/bootable/libbootloader" revision="gbl-mainline">
+    <linkfile src="gbl/bazel.WORKSPACE" dest="WORKSPACE.bzlmod" />
+    <linkfile src="gbl/bazel.bazelrc" dest=".bazelrc" />
+  </project>
   <project path="bootable/recovery" name="platform/bootable/recovery" revision="gbl-mainline"/>
   <project path="external/arm-trusted-firmware" name="platform/external/arm-trusted-firmware" />
   <project path="external/avb" name="platform/external/avb" />
