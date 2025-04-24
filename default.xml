@@ -8,6 +8,7 @@
   <project path="build/kernel" name="kernel/build" groups="ddk" >
     <linkfile src="kleaf/bazel.sh" dest="tools/bazel" />
     <linkfile src="kleaf/bzlmod/bazel.MODULE.bazel" dest="MODULE.bazel" />
+    <linkfile src="kleaf/bzlmod/bazel.WORKSPACE.bzlmod" dest="WORKSPACE.bzlmod" />
   </project>
   <project path="common" name="kernel/common" revision="android-mainline" >
       <linkfile src=".bazelignore" dest=".bazelignore" />
