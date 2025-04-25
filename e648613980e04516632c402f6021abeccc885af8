@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "47f560fa_93f8e2b0",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2025-04-25T02:30:29Z",
+      "side": 1,
+      "message": "It is not actually a full revert, so I suggest changing it to e.g. `add back WORKSPACE.bzlmod`",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 35
+      },
+      "revId": "e648613980e04516632c402f6021abeccc885af8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
