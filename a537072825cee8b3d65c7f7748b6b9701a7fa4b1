@@ -40,6 +40,30 @@
       ],
       "revId": "a537072825cee8b3d65c7f7748b6b9701a7fa4b1",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6fddd7ce_e958c99e",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 2029640
+      },
+      "writtenOn": "2025-05-01T22:15:14Z",
+      "side": 1,
+      "message": "Sure we can try fake ones. Hopefully it\u0027s just a few constraint settings needed http://google3/third_party/bazel_rules/rules_rust/rust/platform/triple_mappings.bzl?rcl\u003d753744535\u0026l\u003d334-339",
+      "parentUuid": "25e775b9_df083041",
+      "range": {
+        "startLine": 26,
+        "startChar": 112,
+        "endLine": 26,
+        "endChar": 116
+      },
+      "revId": "a537072825cee8b3d65c7f7748b6b9701a7fa4b1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
