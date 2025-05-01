@@ -23,6 +23,7 @@
   <project path="external/avb" name="platform/external/avb" />
   <project path="external/bazel-contrib-bazel_features" name="platform/external/bazel-contrib-bazel_features"/>
   <project path="external/bazel-skylib" name="platform/external/bazel-skylib" />
+  <project path="external/bazelbuild-apple_support" name="platform/external/bazelbuild-apple_support" revision="main"/>
   <project path="external/bazelbuild-bazel-central-registry" name="platform/external/bazelbuild-bazel-central-registry" />
   <project path="external/bazelbuild-rules_cc" name="platform/external/bazelbuild-rules_cc" />
   <project path="external/bazelbuild-rules_license" name="platform/external/bazelbuild-rules_license" />
