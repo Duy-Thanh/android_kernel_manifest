@@ -1,0 +1,45 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "25e775b9_df083041",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2025-05-01T19:27:12Z",
+      "side": 1,
+      "message": "Is a real one needed, or does a fake one work?\n\nWe can create a fake one in https://cs.android.com/android/kernel/superproject/+/common-android-mainline:build/kernel/kleaf/bzlmod/fake_modules/. Alternatively, if you need a real one, please file a go/android-build-request to set up mirror \u0026 use main-kernel ( @rammuthiah@google.com to help on this)",
+      "range": {
+        "startLine": 26,
+        "startChar": 112,
+        "endLine": 26,
+        "endChar": 116
+      },
+      "fixSuggestions": [
+        {
+          "fixId": "b856e69a_25eeec6c",
+          "description": "prompt_to_edit API",
+          "replacements": [
+            {
+              "path": "default.xml",
+              "range": {
+                "startLine": 26,
+                "startChar": 0,
+                "endLine": 27,
+                "endChar": 0
+              },
+              "replacement": "  \u003cproject path\u003d\"external/bazelbuild-apple_support\" name\u003d\"platform/external/bazelbuild-apple_support\" revision\u003d\"fake-main\"/\u003e\n"
+            }
+          ]
+        }
+      ],
+      "revId": "a537072825cee8b3d65c7f7748b6b9701a7fa4b1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
