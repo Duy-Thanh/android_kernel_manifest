@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
-  <default revision="main-kernel" remote="aosp" sync-j="4" />
+  <default revision="main-kernel-2025" remote="aosp" sync-j="4" />
 
   <superproject name="kernel/superproject" remote="aosp" revision="common-android16-6.12" />
 
@@ -62,8 +62,8 @@
   <project path="test/ltp" name="platform/external/ltp"/>
 
   <!-- dependencies for GBL -->
-  <project path="bootable/libbootloader" name="platform/bootable/libbootloader" revision="gbl-mainline" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" revision="gbl-mainline"/>
+  <project path="bootable/libbootloader" name="platform/bootable/libbootloader" revision="gbl-android16" />
+  <project path="bootable/recovery" name="platform/bootable/recovery" revision="gbl-android16"/>
   <project path="external/arm-trusted-firmware" name="platform/external/arm-trusted-firmware" />
   <project path="external/avb" name="platform/external/avb" />
   <project path="external/boringssl" name="platform/external/boringssl" />
