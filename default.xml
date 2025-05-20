@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+<<<<<<< HEAD   (2d5a01 Initial android16-6.12-2025-06 projects)
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="main-kernel" remote="aosp" sync-j="4" />
+||||||| BASE
+  <remote  name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
+  <default revision="main-kernel" remote="aosp" sync-j="4" />
+=======
+  <remote  name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
+  <default revision="main-kernel-2025" remote="aosp" sync-j="4" />
+>>>>>>> CHANGE (b594cd Switch to main-kernel-2025 for all tooling projects.)
 
   <superproject name="kernel/superproject" remote="aosp" revision="common-android16-6.12-2025-06" />
 
@@ -62,8 +70,16 @@
   <project path="test/ltp" name="platform/external/ltp" />
 
   <!-- dependencies for GBL -->
+<<<<<<< HEAD   (2d5a01 Initial android16-6.12-2025-06 projects)
   <project path="bootable/libbootloader" name="platform/bootable/libbootloader" revision="fb567dd938be2bf5ac7ceb9fc578b9113fcdc56b" upstream="gbl-mainline" dest-branch="gbl-mainline" />
   <project path="bootable/recovery" name="platform/bootable/recovery" revision="9565b5ee790a4ae7acd0c6c04a2b3e0c7eeced3c" upstream="gbl-mainline" dest-branch="gbl-mainline" />
+||||||| BASE
+  <project path="bootable/libbootloader" name="platform/bootable/libbootloader" revision="gbl-mainline" />
+  <project path="bootable/recovery" name="platform/bootable/recovery" revision="gbl-mainline"/>
+=======
+  <project path="bootable/libbootloader" name="platform/bootable/libbootloader" revision="gbl-android16" />
+  <project path="bootable/recovery" name="platform/bootable/recovery" revision="gbl-android16"/>
+>>>>>>> CHANGE (b594cd Switch to main-kernel-2025 for all tooling projects.)
   <project path="external/arm-trusted-firmware" name="platform/external/arm-trusted-firmware" />
   <project path="external/avb" name="platform/external/avb" />
   <project path="external/boringssl" name="platform/external/boringssl" />
