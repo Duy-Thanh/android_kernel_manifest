@@ -16,6 +16,24 @@
       "message": "It doesn\u0027t look like the branch exist at all. @chinchengc@google.com please decide when to merge this.",
       "revId": "b72cfbdb55b60ed30b9e048b6271759302cf64b1",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9b7ba7bf_216680d8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1061057
+      },
+      "writtenOn": "2025-05-22T07:10:25Z",
+      "side": 1,
+      "message": "We will merge it now.",
+      "parentUuid": "fcae254b_e134268f",
+      "revId": "b72cfbdb55b60ed30b9e048b6271759302cf64b1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
