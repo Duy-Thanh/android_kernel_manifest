@@ -22,6 +22,30 @@
       },
       "revId": "37e5b37dcb384a82e1315a77c660dc6ef5d74454",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "97761aa7_b8b1af7b",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1961395
+      },
+      "writtenOn": "2025-05-27T11:22:04Z",
+      "side": 0,
+      "message": "Restored in CL:3642425",
+      "parentUuid": "f8cfddd2_901cce00",
+      "range": {
+        "startLine": 41,
+        "startChar": 2,
+        "endLine": 41,
+        "endChar": 102
+      },
+      "revId": "37e5b37dcb384a82e1315a77c660dc6ef5d74454",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
