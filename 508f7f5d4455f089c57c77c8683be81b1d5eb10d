@@ -1,5 +1,23 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9f0d3f39_5834b1b3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2025-05-29T02:10:04Z",
+      "side": 1,
+      "message": "let\u0027s actually delete copy_to_dist_dir() from this branch",
+      "revId": "508f7f5d4455f089c57c77c8683be81b1d5eb10d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ],
   "submitRequirementResults": [
     {
       "submitRequirement": {
