@@ -37,7 +37,6 @@
   <project name="platform/prebuilts/boot-artifacts" path="prebuilts/boot-artifacts" revision="android-gs-raviole-mainline" clone-depth="1"/>
 
   <project name="kernel/prebuilts/build-tools" path="prebuilts/kernel-build-tools" revision="main-kernel" clone-depth="1"/>
-  <project name="platform/build/bazel_common_rules" path="build/bazel_common_rules" revision="main" />
   <project path="external/bazel-contrib-bazel_features" name="platform/external/bazel-contrib-bazel_features" revision="main-kernel" clone-depth="1" />
   <project name="platform/external/bazel-skylib" path="external/bazel-skylib" revision="main-kernel" clone-depth="1"/>
   <project name="platform/external/bazelbuild-bazel-central-registry" path="external/bazelbuild-bazel-central-registry" revision="main-kernel" clone-depth="1"/>
