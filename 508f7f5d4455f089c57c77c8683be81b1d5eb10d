@@ -16,6 +16,24 @@
       "message": "let\u0027s actually delete copy_to_dist_dir() from this branch",
       "revId": "508f7f5d4455f089c57c77c8683be81b1d5eb10d",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0bd4bd35_8362b3e7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1961395
+      },
+      "writtenOn": "2025-05-29T11:34:08Z",
+      "side": 1,
+      "message": "Sure, I\u0027ve created http://r.android.com/3644564 for that, then we can submit the revert of this.",
+      "parentUuid": "9f0d3f39_5834b1b3",
+      "revId": "508f7f5d4455f089c57c77c8683be81b1d5eb10d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ],
   "submitRequirementResults": [
