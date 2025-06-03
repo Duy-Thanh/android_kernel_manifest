@@ -56,9 +56,5 @@
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" />
 
-  <!--TODO(369436075) Pinned SHA needs to be removed -->
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" />
-  <!--TODO(369436075) Once Pinned SHA above is dropped - dep on these two can also be removed -->
-  <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" revision="main" />
-  <project path="external/bazelbuild-rules_java" name="platform/external/bazelbuild-rules_java" revision="main" />
 </manifest>
