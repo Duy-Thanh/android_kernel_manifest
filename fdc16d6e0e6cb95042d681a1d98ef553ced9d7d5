@@ -36,6 +36,24 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "75e96821_2db657fa",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2025-06-03T17:49:20Z",
+      "side": 1,
+      "message": "CL:3651433, though it\u0027ll need some work in the u-boot project to get this going.",
+      "parentUuid": "5731f28e_b2bce6f4",
+      "revId": "fdc16d6e0e6cb95042d681a1d98ef553ced9d7d5",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "bdb5e094_3c597418",
