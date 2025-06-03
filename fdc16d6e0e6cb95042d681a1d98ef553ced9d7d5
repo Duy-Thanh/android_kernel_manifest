@@ -18,6 +18,24 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5731f28e_b2bce6f4",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2025-06-03T17:42:18Z",
+      "side": 1,
+      "message": "Sure, I\u0027ll do that in a follow up patch (and the projects below too)",
+      "parentUuid": "145122fe_4939a81b",
+      "revId": "fdc16d6e0e6cb95042d681a1d98ef553ced9d7d5",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "bdb5e094_3c597418",
@@ -31,6 +49,24 @@
       "writtenOn": "2025-06-03T13:28:26Z",
       "side": 1,
       "message": "Do we still need this repos to be included. As for TODO, we probably not?",
+      "revId": "fdc16d6e0e6cb95042d681a1d98ef553ced9d7d5",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "caa575f1_ba65971c",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2025-06-03T17:42:18Z",
+      "side": 1,
+      "message": "Sure, I\u0027ll do that in a follow up patch",
+      "parentUuid": "bdb5e094_3c597418",
       "revId": "fdc16d6e0e6cb95042d681a1d98ef553ced9d7d5",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
