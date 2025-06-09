@@ -73,7 +73,6 @@
   <!-- target projects -->
   <project path="external/avb" name="platform/external/avb" />
   <project path="external/dtc" name="platform/external/dtc" />
-  <project path="external/lz4" name="platform/external/lz4" />
   <project path="external/kmod" name="platform/external/kmod" />
   <project path="system/tools/mkbootimg" name="platform/system/tools/mkbootimg" />
   <project path="tools/external_updater" name="platform/tools/external_updater" />
