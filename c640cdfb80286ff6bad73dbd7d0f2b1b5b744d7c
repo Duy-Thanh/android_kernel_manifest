@@ -52,6 +52,24 @@
       "parentUuid": "c2a44789_abf157fb",
       "revId": "c640cdfb80286ff6bad73dbd7d0f2b1b5b744d7c",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dc00065b_a445214e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1466604
+      },
+      "writtenOn": "2025-06-23T16:50:53Z",
+      "side": 1,
+      "message": "I was going to update the internal manifest after this change landed and have the internal manifest use the AOSP reference for this new branch.\n\nDoes that work?",
+      "parentUuid": "58db3366_b4bebb41",
+      "revId": "c640cdfb80286ff6bad73dbd7d0f2b1b5b744d7c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
