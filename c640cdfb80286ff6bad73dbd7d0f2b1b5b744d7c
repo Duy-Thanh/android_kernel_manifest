@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "67634e49_dbf26c13",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1625880
+      },
+      "writtenOn": "2025-06-23T13:52:15Z",
+      "side": 1,
+      "message": "What does this mean for b/388786466#comment26?",
+      "revId": "c640cdfb80286ff6bad73dbd7d0f2b1b5b744d7c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
