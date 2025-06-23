@@ -16,6 +16,24 @@
       "message": "What does this mean for b/388786466#comment26?",
       "revId": "c640cdfb80286ff6bad73dbd7d0f2b1b5b744d7c",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c2a44789_abf157fb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1466604
+      },
+      "writtenOn": "2025-06-23T13:56:21Z",
+      "side": 1,
+      "message": "This change shouldn\u0027t have any implications on the linked bug. GBL is versioning the boot image formats for Fuchsia it can boot. gbl-android16 carries that particular format in this case.\n\nWhat\u0027s the concern re: the linked bug?",
+      "parentUuid": "67634e49_dbf26c13",
+      "revId": "c640cdfb80286ff6bad73dbd7d0f2b1b5b744d7c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
