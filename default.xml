@@ -62,6 +62,7 @@
   <!-- dependencies for GBL -->
   <project path="bootable/libbootloader" name="platform/bootable/libbootloader" revision="gbl-mainline" />
   <project path="bootable/recovery" name="platform/bootable/recovery" revision="gbl-mainline"/>
+<<<<<<< HEAD   (7c70e5a0dd1fa92c16a34b67742828ce10baed0c Migrate to kernel-main and sync to common-android-mainline)
   <project path="external/arm-trusted-firmware" name="platform/external/arm-trusted-firmware" />
   <project path="external/avb" name="platform/external/avb" />
   <project path="external/boringssl" name="platform/external/boringssl" />
@@ -76,4 +77,33 @@
   <project path="external/rust/crates/zune-inflate" name="platform/external/rust/crates/zune-inflate" />
   <project path="prebuilts/fuchsia_sdk" name="platform/prebuilts/fuchsia_sdk" clone-depth="1" />
   <project path="system/core" name="platform/system/core" />
+||||||| BASE   (1a42df947f2b1554b67d73f09e146dbe81e0fd18 formatting: remove excess whitespace)
+  <project path="external/arm-trusted-firmware" name="platform/external/arm-trusted-firmware"/>
+  <project path="external/avb" name="platform/external/avb"/>
+  <project path="external/boringssl" name="platform/external/boringssl"/>
+  <project path="external/compiler-rt" name="platform/external/compiler-rt"/>
+  <project path="external/libufdt" name="platform/system/libufdt"/>
+  <project path="external/open-dice" name="platform/external/open-dice"/>
+  <project path="external/elfutils" name="platform/external/elfutils"/>
+  <project path="external/googletest" name="platform/external/googletest"/>
+  <project path="external/rust/android-crates-io" name="platform/external/rust/android-crates-io"/>
+  <project path="external/rust/crates/smoltcp" name="platform/external/rust/crates/smoltcp"/>
+  <project path="external/rust/crates/zune-inflate" name="platform/external/rust/crates/zune-inflate"/>
+  <project path="prebuilts/fuchsia_sdk" name="platform/prebuilts/fuchsia_sdk" clone-depth="1"/>
+  <project path="system/core" name="platform/system/core"/>
+=======
+  <project path="external/arm-trusted-firmware" name="platform/external/arm-trusted-firmware"/>
+  <project path="external/avb" name="platform/external/avb"/>
+  <project path="external/boringssl" name="platform/external/boringssl"/>
+  <project path="external/compiler-rt" name="platform/external/compiler-rt"/>
+  <project path="external/libufdt" name="platform/system/libufdt"/>
+  <project path="external/open-dice" name="platform/external/open-dice"/>
+  <project path="external/elfutils" name="platform/external/elfutils"/>
+  <project path="external/googletest" name="platform/external/googletest"/>
+  <project path="external/rust/android-crates-io" name="platform/external/rust/android-crates-io"/>
+  <project path="external/rust/crates/smoltcp" name="platform/external/rust/crates/smoltcp"/>
+  <project path="external/rust/crates/zune-inflate" name="platform/external/rust/crates/zune-inflate"/>
+  <project path="prebuilts/fuchsia_sdk" name="platform/prebuilts/fuchsia_sdk" clone-depth="1" revision="gbl-mainline"/>
+  <project path="system/core" name="platform/system/core"/>
+>>>>>>> CHANGE (c640cdfb80286ff6bad73dbd7d0f2b1b5b744d7c Add versioned fuchsia prebuilt project)
 </manifest>
