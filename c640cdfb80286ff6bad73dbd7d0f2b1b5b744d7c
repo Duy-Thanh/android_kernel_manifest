@@ -88,6 +88,24 @@
       "parentUuid": "dc00065b_a445214e",
       "revId": "c640cdfb80286ff6bad73dbd7d0f2b1b5b744d7c",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4236442e_2e8b70f5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1625880
+      },
+      "writtenOn": "2025-06-24T08:37:48Z",
+      "side": 1,
+      "message": "That\u0027s fine, we\u0027ll need to update the manifest transformation \"script\" to preserve this as an AOSP only project.",
+      "parentUuid": "22063059_44f4f072",
+      "revId": "c640cdfb80286ff6bad73dbd7d0f2b1b5b744d7c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ],
   "submitRequirementResults": [
