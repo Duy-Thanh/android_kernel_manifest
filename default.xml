@@ -3,14 +3,14 @@
   <remote  name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="main-kernel-2025" remote="aosp" sync-j="4" />
 
-  <superproject name="kernel/superproject" remote="aosp" revision="common-android16-6.12" />
+  <superproject name="kernel/superproject" remote="aosp" revision="common-android16-6.12-kminext" />
 
   <project path="build/kernel" name="kernel/build" groups="ddk" >
     <linkfile src="kleaf/bazel.sh" dest="tools/bazel" />
     <linkfile src="kleaf/bzlmod/bazel.MODULE.bazel" dest="MODULE.bazel" />
     <linkfile src="kleaf/bzlmod/bazel.WORKSPACE.bzlmod" dest="WORKSPACE.bzlmod" />
   </project>
-  <project path="common" name="kernel/common" revision="android16-6.12" >
+  <project path="common" name="kernel/common" revision="android16-6.12-kminext" >
       <linkfile src=".bazelignore" dest=".bazelignore" />
   </project>
   <project path="kernel/tests" name="kernel/tests" >
