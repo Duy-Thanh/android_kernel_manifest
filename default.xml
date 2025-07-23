@@ -16,6 +16,7 @@
     <linkfile dest="build_gs101.sh" src="build_gs101.sh"/>
     <linkfile dest=".c1.bazelrc" src="device.bazelrc"/>
   </project>
+<<<<<<< HEAD   (03613e807e230b3f5ed5d41f12cc70109fe8b197 Manifest for android-gs-akita-6.1-android16)
   <project path="private/devices/google/raviole" name="kernel/devices/google/raviole" groups="partner,raviole">
     <linkfile dest="build_raviole.sh" src="build_raviole.sh"/>
     <linkfile dest=".d13.bazelrc" src="device.bazelrc"/>
@@ -149,4 +150,126 @@
   <project path="prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" groups="partner"/>
   <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" groups="partner"/>
   <project path="prebuilts/ndk-r23" name="toolchain/prebuilts/ndk/r23" groups="partner"/>
+||||||| BASE
+  <project path="common-modules/trusty" name="kernel/common-modules/trusty" />
+  <project path="common-modules/virtio-media" name="platform/external/virtio-media" />
+  <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="android16-6.12" />
+  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" groups="ddk" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" groups="ddk" />
+  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" groups="ddk" />
+  <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" clone-depth="1" groups="ddk" />
+  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" groups="ddk" />
+  <project path="prebuilts/rust" name="platform/prebuilts/rust" clone-depth="1" groups="ddk" />
+  <project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts" clone-depth="1" />
+  <project path="prebuilts/asuite" name="platform/prebuilts/asuite" clone-depth="1" />
+  <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
+
+  <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" clone-depth="1" />
+  <project path="prebuilts/ndk-r26" name="toolchain/prebuilts/ndk/r26" clone-depth="1" groups="ddk" />
+
+  <project path="external/libcap-ng" name="platform/external/libcap-ng"/>
+  <project path="external/libcap" name="platform/external/libcap"/>
+
+  <!-- deps for for bzlmod -->
+  <project path="external/bazel-contrib-bazel_features" name="platform/external/bazel-contrib-bazel_features" groups="ddk-external" />
+  <project path="external/bazel-skylib" name="platform/external/bazel-skylib" groups="ddk-external" />
+  <project path="external/bazelbuild-bazel-central-registry" name="platform/external/bazelbuild-bazel-central-registry" groups="ddk-external" />
+  <project path="external/bazelbuild-platforms" name="platform/external/bazelbuild-platforms" groups="ddk-external" />
+  <project path="external/bazelbuild-rules_cc" name="platform/external/bazelbuild-rules_cc" groups="ddk-external" />
+  <project path="external/bazelbuild-rules_license" name="platform/external/bazelbuild-rules_license" groups="ddk-external" />
+  <project path="external/bazelbuild-rules_pkg" name="platform/external/bazelbuild-rules_pkg" groups="ddk-external" />
+  <project path="external/bazelbuild-rules_python" name="platform/external/bazelbuild-rules_python" groups="ddk-external" />
+  <project path="external/bazelbuild-rules_rust" name="platform/external/bazelbuild-rules_rust" groups="ddk-external" />
+  <project path="external/bazelbuild-rules_shell" name="platform/external/bazelbuild-rules_shell" groups="ddk-external" />
+  <project path="external/python/absl-py" name="platform/external/python/absl-py" groups="ddk-external" />
+
+  <!-- dependencies used to build toolchain from sources -->
+  <project path="external/lz4" name="platform/external/lz4" groups="ddk"/>
+  <project path="external/pigz" name="platform/external/pigz" groups="ddk"/>
+  <project path="external/toybox" name="platform/external/toybox" groups="ddk"/>
+  <project path="external/zlib" name="platform/external/zlib" groups="ddk"/>
+  <project path="external/zopfli" name="platform/external/zopfli" groups="ddk"/>
+
+  <project path="test/dittosuite" name="platform/test/dittosuite"/>
+  <project path="test/ltp" name="platform/external/ltp"/>
+
+  <!-- dependencies for GBL -->
+  <project path="bootable/libbootloader" name="platform/bootable/libbootloader" revision="gbl-android16" />
+  <project path="bootable/recovery" name="platform/bootable/recovery" revision="gbl-android16"/>
+  <project path="external/arm-trusted-firmware" name="platform/external/arm-trusted-firmware" />
+  <project path="external/avb" name="platform/external/avb" />
+  <project path="external/boringssl" name="platform/external/boringssl" />
+  <project path="external/compiler-rt" name="platform/external/compiler-rt" />
+  <project path="external/dtc" name="platform/external/dtc" />
+  <project path="external/libufdt" name="platform/system/libufdt" />
+  <project path="external/open-dice" name="platform/external/open-dice" />
+  <project path="external/elfutils" name="platform/external/elfutils" />
+  <project path="external/googletest" name="platform/external/googletest" />
+  <project path="external/rust/android-crates-io" name="platform/external/rust/android-crates-io" />
+  <project path="external/rust/crates/smoltcp" name="platform/external/rust/crates/smoltcp" />
+  <project path="external/rust/crates/zune-inflate" name="platform/external/rust/crates/zune-inflate" />
+  <project path="prebuilts/fuchsia_sdk" name="platform/prebuilts/fuchsia_sdk" clone-depth="1" revision="gbl-android16"/>
+  <project path="system/core" name="platform/system/core" />
+=======
+  <project path="common-modules/trusty" name="kernel/common-modules/trusty" />
+  <project path="common-modules/virtio-media" name="platform/external/virtio-media" />
+  <project path="common-modules/virtio-msg" name="kernel/common-modules/virtio-msg" revision="main" />
+  <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="android16-6.12" />
+  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" groups="ddk" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" groups="ddk" />
+  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" groups="ddk" />
+  <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" clone-depth="1" groups="ddk" />
+  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" groups="ddk" />
+  <project path="prebuilts/rust" name="platform/prebuilts/rust" clone-depth="1" groups="ddk" />
+  <project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts" clone-depth="1" />
+  <project path="prebuilts/asuite" name="platform/prebuilts/asuite" clone-depth="1" />
+  <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
+
+  <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" clone-depth="1" />
+  <project path="prebuilts/ndk-r26" name="toolchain/prebuilts/ndk/r26" clone-depth="1" groups="ddk" />
+
+  <project path="external/libcap-ng" name="platform/external/libcap-ng"/>
+  <project path="external/libcap" name="platform/external/libcap"/>
+
+  <!-- deps for for bzlmod -->
+  <project path="external/bazel-contrib-bazel_features" name="platform/external/bazel-contrib-bazel_features" groups="ddk-external" />
+  <project path="external/bazel-skylib" name="platform/external/bazel-skylib" groups="ddk-external" />
+  <project path="external/bazelbuild-bazel-central-registry" name="platform/external/bazelbuild-bazel-central-registry" groups="ddk-external" />
+  <project path="external/bazelbuild-platforms" name="platform/external/bazelbuild-platforms" groups="ddk-external" />
+  <project path="external/bazelbuild-rules_cc" name="platform/external/bazelbuild-rules_cc" groups="ddk-external" />
+  <project path="external/bazelbuild-rules_license" name="platform/external/bazelbuild-rules_license" groups="ddk-external" />
+  <project path="external/bazelbuild-rules_pkg" name="platform/external/bazelbuild-rules_pkg" groups="ddk-external" />
+  <project path="external/bazelbuild-rules_python" name="platform/external/bazelbuild-rules_python" groups="ddk-external" />
+  <project path="external/bazelbuild-rules_rust" name="platform/external/bazelbuild-rules_rust" groups="ddk-external" />
+  <project path="external/bazelbuild-rules_shell" name="platform/external/bazelbuild-rules_shell" groups="ddk-external" />
+  <project path="external/python/absl-py" name="platform/external/python/absl-py" groups="ddk-external" />
+
+  <!-- dependencies used to build toolchain from sources -->
+  <project path="external/lz4" name="platform/external/lz4" groups="ddk"/>
+  <project path="external/pigz" name="platform/external/pigz" groups="ddk"/>
+  <project path="external/toybox" name="platform/external/toybox" groups="ddk"/>
+  <project path="external/zlib" name="platform/external/zlib" groups="ddk"/>
+  <project path="external/zopfli" name="platform/external/zopfli" groups="ddk"/>
+
+  <project path="test/dittosuite" name="platform/test/dittosuite"/>
+  <project path="test/ltp" name="platform/external/ltp"/>
+
+  <!-- dependencies for GBL -->
+  <project path="bootable/libbootloader" name="platform/bootable/libbootloader" revision="gbl-android16" />
+  <project path="bootable/recovery" name="platform/bootable/recovery" revision="gbl-android16"/>
+  <project path="external/arm-trusted-firmware" name="platform/external/arm-trusted-firmware" />
+  <project path="external/avb" name="platform/external/avb" />
+  <project path="external/boringssl" name="platform/external/boringssl" />
+  <project path="external/compiler-rt" name="platform/external/compiler-rt" />
+  <project path="external/dtc" name="platform/external/dtc" />
+  <project path="external/libufdt" name="platform/system/libufdt" />
+  <project path="external/open-dice" name="platform/external/open-dice" />
+  <project path="external/elfutils" name="platform/external/elfutils" />
+  <project path="external/googletest" name="platform/external/googletest" />
+  <project path="external/rust/android-crates-io" name="platform/external/rust/android-crates-io" />
+  <project path="external/rust/crates/smoltcp" name="platform/external/rust/crates/smoltcp" />
+  <project path="external/rust/crates/zune-inflate" name="platform/external/rust/crates/zune-inflate" />
+  <project path="prebuilts/fuchsia_sdk" name="platform/prebuilts/fuchsia_sdk" clone-depth="1" revision="gbl-android16"/>
+  <project path="system/core" name="platform/system/core" />
+>>>>>>> CHANGE (fd18f40bf9ccb3bc50703201d1c1f15df74a83aa default.xml: Add virtio-msg)
 </manifest>
