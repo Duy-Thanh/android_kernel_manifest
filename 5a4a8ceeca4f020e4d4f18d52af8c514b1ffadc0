@@ -16,6 +16,24 @@
       "message": "See comment from the other CL w.r.t placement.",
       "revId": "5a4a8ceeca4f020e4d4f18d52af8c514b1ffadc0",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "86766414_1be9db40",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1129709
+      },
+      "writtenOn": "2025-07-24T03:36:00Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "49a37a82_7e90f035",
+      "revId": "5a4a8ceeca4f020e4d4f18d52af8c514b1ffadc0",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
