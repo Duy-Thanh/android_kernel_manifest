@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3a2d3c3a_8fc3724e",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2025-07-25T17:29:01Z",
+      "side": 1,
+      "message": "Hello,\n\nThe `main` branch has been frozen on AOSP; you can no longer submit any patches to any projects to the `main` branch.\n\nLet us create a `main-kernel` branch for you for this project, similar to virtio-media.",
+      "range": {
+        "startLine": 23,
+        "startChar": 94,
+        "endLine": 23,
+        "endChar": 98
+      },
+      "revId": "92022ac1c99e2c115a982d3b66877ae9d8ff5c36",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
