@@ -36,6 +36,7 @@
   <project path="external/libcap" name="platform/external/libcap"/>
 
   <!-- deps for for bzlmod -->
+<<<<<<< HEAD   (7c70e5a0dd1fa92c16a34b67742828ce10baed0c Migrate to kernel-main and sync to common-android-mainline)
   <project path="external/bazel-contrib-bazel_features" name="platform/external/bazel-contrib-bazel_features" groups="ddk-external" />
   <project path="external/bazel-skylib" name="platform/external/bazel-skylib" groups="ddk-external" />
   <project path="external/bazelbuild-bazel-central-registry" name="platform/external/bazelbuild-bazel-central-registry" groups="ddk-external" />
@@ -47,6 +48,32 @@
   <project path="external/bazelbuild-rules_rust" name="platform/external/bazelbuild-rules_rust" groups="ddk-external" />
   <project path="external/bazelbuild-rules_shell" name="platform/external/bazelbuild-rules_shell" groups="ddk-external" />
   <project path="external/python/absl-py" name="platform/external/python/absl-py" groups="ddk-external" />
+||||||| BASE   (c640cdfb80286ff6bad73dbd7d0f2b1b5b744d7c Add versioned fuchsia prebuilt project)
+  <project path="external/bazel-contrib-bazel_features" name="platform/external/bazel-contrib-bazel_features" groups="ddk-external"/>
+  <project path="external/bazel-skylib" name="platform/external/bazel-skylib" groups="ddk-external"/>
+  <project path="external/bazelbuild-bazel-central-registry" name="platform/external/bazelbuild-bazel-central-registry" groups="ddk-external"/>
+  <project path="external/bazelbuild-platforms" name="platform/external/bazelbuild-platforms" groups="ddk-external"/>
+  <project path="external/bazelbuild-rules_cc" name="platform/external/bazelbuild-rules_cc" groups="ddk-external"/>
+  <project path="external/bazelbuild-rules_license" name="platform/external/bazelbuild-rules_license" groups="ddk-external"/>
+  <project path="external/bazelbuild-rules_pkg" name="platform/external/bazelbuild-rules_pkg" groups="ddk-external"/>
+  <project path="external/bazelbuild-rules_python" name="platform/external/bazelbuild-rules_python" groups="ddk-external"/>
+  <project path="external/bazelbuild-rules_rust" name="platform/external/bazelbuild-rules_rust" groups="ddk-external"/>
+  <project path="external/bazelbuild-rules_shell" name="platform/external/bazelbuild-rules_shell" groups="ddk-external"/>
+  <project path="external/python/absl-py" name="platform/external/python/absl-py" groups="ddk-external"/>
+=======
+  <project path="external/bazel-contrib-bazel_features" name="platform/external/bazel-contrib-bazel_features" groups="ddk-external"/>
+  <project path="external/bazel-contrib-rules_devicetree" name="platform/external/bazel-contrib-rules_devicetree" groups="ddk-external"/>
+  <project path="external/bazel-skylib" name="platform/external/bazel-skylib" groups="ddk-external"/>
+  <project path="external/bazelbuild-bazel-central-registry" name="platform/external/bazelbuild-bazel-central-registry" groups="ddk-external"/>
+  <project path="external/bazelbuild-platforms" name="platform/external/bazelbuild-platforms" groups="ddk-external"/>
+  <project path="external/bazelbuild-rules_cc" name="platform/external/bazelbuild-rules_cc" groups="ddk-external"/>
+  <project path="external/bazelbuild-rules_license" name="platform/external/bazelbuild-rules_license" groups="ddk-external"/>
+  <project path="external/bazelbuild-rules_pkg" name="platform/external/bazelbuild-rules_pkg" groups="ddk-external"/>
+  <project path="external/bazelbuild-rules_python" name="platform/external/bazelbuild-rules_python" groups="ddk-external"/>
+  <project path="external/bazelbuild-rules_rust" name="platform/external/bazelbuild-rules_rust" groups="ddk-external"/>
+  <project path="external/bazelbuild-rules_shell" name="platform/external/bazelbuild-rules_shell" groups="ddk-external"/>
+  <project path="external/python/absl-py" name="platform/external/python/absl-py" groups="ddk-external"/>
+>>>>>>> CHANGE (d61241e6d8de88ed5b0ba1854bcae01ca19dadb4 Add rules_devicetree.)
 
   <!-- dependencies used to build toolchain from sources -->
   <project path="external/kmod" name="platform/external/kmod" groups="ddk"/>
