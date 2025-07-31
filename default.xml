@@ -39,6 +39,7 @@
 
   <!-- deps for for bzlmod -->
   <project path="external/bazel-contrib-bazel_features" name="platform/external/bazel-contrib-bazel_features" groups="ddk-external"/>
+  <project path="external/bazel-contrib-rules_devicetree" name="platform/external/bazel-contrib-rules_devicetree" groups="ddk-external"/>
   <project path="external/bazel-skylib" name="platform/external/bazel-skylib" groups="ddk-external"/>
   <project path="external/bazelbuild-bazel-central-registry" name="platform/external/bazelbuild-bazel-central-registry" groups="ddk-external"/>
   <project path="external/bazelbuild-platforms" name="platform/external/bazelbuild-platforms" groups="ddk-external"/>
