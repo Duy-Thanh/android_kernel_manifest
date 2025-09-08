@@ -1,0 +1,185 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "57cb8d3f_ea5b9664",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1625880
+      },
+      "writtenOn": "2025-09-08T17:51:49Z",
+      "side": 1,
+      "message": "My first thought is that it is really sad that we cannot just specify main-kernel-2025. I have pinged b/418071979.\n\nValidating the SHAs against the few branches where we do have the fork, there are a few which show this build was not cut at the same time as the branches.\n\nThey are worth a few minutes of investigation.",
+      "revId": "f70b03787f86216a9b3c4bc06a20f74066defb6d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1fc828cc_69617af5",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1625880
+      },
+      "writtenOn": "2025-09-08T17:51:49Z",
+      "side": 1,
+      "message": "The branch currently points at 58d77882283e06807a1bfe419c9fb1bfe8353f36. Why not used that instead?",
+      "range": {
+        "startLine": 10,
+        "startChar": 109,
+        "endLine": 10,
+        "endChar": 149
+      },
+      "fixSuggestions": [
+        {
+          "fixId": "8f6b1898_3c8732c4",
+          "description": "prompt_to_edit API",
+          "replacements": [
+            {
+              "path": "default.xml",
+              "range": {
+                "startLine": 10,
+                "startChar": 0,
+                "endLine": 11,
+                "endChar": 0
+              },
+              "replacement": "  \u003cproject path\u003d\"prebuilts/kernel-build-tools\" name\u003d\"kernel/prebuilts/build-tools\" clone-depth\u003d\"1\" revision\u003d\"58d77882283e06807a1bfe419c9fb1bfe8353f36\" /\u003e\n"
+            }
+          ]
+        }
+      ],
+      "revId": "f70b03787f86216a9b3c4bc06a20f74066defb6d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "90605109_6e9ac9a9",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1625880
+      },
+      "writtenOn": "2025-09-08T17:51:49Z",
+      "side": 1,
+      "message": "main-kernel-2025 \u003d 9a98ca4072ec000f301bd3ece481ea2baca76ca5",
+      "range": {
+        "startLine": 28,
+        "startChar": 137,
+        "endLine": 28,
+        "endChar": 177
+      },
+      "fixSuggestions": [
+        {
+          "fixId": "8cbc918f_50e2dd6c",
+          "description": "prompt_to_edit API",
+          "replacements": [
+            {
+              "path": "default.xml",
+              "range": {
+                "startLine": 28,
+                "startChar": 0,
+                "endLine": 29,
+                "endChar": 0
+              },
+              "replacement": "  \u003cproject path\u003d\"prebuilts/clang/host/linux-x86\" name\u003d\"platform/prebuilts/clang/host/linux-x86\" groups\u003d\"linux\" clone-depth\u003d\"1\" revision\u003d\"main-kernel-b9a98ca4072ec000f301bd3ece481ea2baca76ca5\" /\u003e\n"
+            }
+          ]
+        }
+      ],
+      "revId": "f70b03787f86216a9b3c4bc06a20f74066defb6d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "312757a3_b12f276f",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1625880
+      },
+      "writtenOn": "2025-09-08T17:51:49Z",
+      "side": 1,
+      "message": "main-kernel-2025 \u003d e55d258ece08fee65442ec0a8a03021d439717b6",
+      "range": {
+        "startLine": 42,
+        "startChar": 82,
+        "endLine": 42,
+        "endChar": 122
+      },
+      "fixSuggestions": [
+        {
+          "fixId": "290bfc6a_083f4041",
+          "description": "prompt_to_edit API",
+          "replacements": [
+            {
+              "path": "default.xml",
+              "range": {
+                "startLine": 42,
+                "startChar": 0,
+                "endLine": 43,
+                "endChar": 0
+              },
+              "replacement": "  \u003cproject path\u003d\"external/boringssl\" name\u003d\"platform/external/boringssl\" revision\u003d\"main-kernel\" /\u003e\n"
+            }
+          ]
+        }
+      ],
+      "revId": "f70b03787f86216a9b3c4bc06a20f74066defb6d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "aaf272ed_a2bf0cb7",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 126,
+      "author": {
+        "id": 1625880
+      },
+      "writtenOn": "2025-09-08T17:51:49Z",
+      "side": 1,
+      "message": "main-kernel-2025 \u003d 167f905b0c2bf311fedb039e8b30840176750ae8",
+      "range": {
+        "startLine": 126,
+        "startChar": 90,
+        "endLine": 126,
+        "endChar": 130
+      },
+      "fixSuggestions": [
+        {
+          "fixId": "5f037979_fc1aa779",
+          "description": "prompt_to_edit API",
+          "replacements": [
+            {
+              "path": "default.xml",
+              "range": {
+                "startLine": 126,
+                "startChar": 0,
+                "endLine": 127,
+                "endChar": 0
+              },
+              "replacement": "  \u003cproject path\u003d\"system/tools/mkbootimg\" name\u003d\"platform/system/tools/mkbootimg\" revision\u003d\"main-kernel-2\" /\u003e\n"
+            }
+          ]
+        }
+      ],
+      "revId": "f70b03787f86216a9b3c4bc06a20f74066defb6d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
