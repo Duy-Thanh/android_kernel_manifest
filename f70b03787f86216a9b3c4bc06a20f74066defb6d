@@ -18,6 +18,24 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d19e6271_faec4b13",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1956160
+      },
+      "writtenOn": "2025-09-09T12:36:57Z",
+      "side": 1,
+      "message": "Changed manifest to use main-kernel-2025 branch by default, left pinned revision only for the projects that doesn\u0027t have main-kernel-2025 branch.",
+      "parentUuid": "57cb8d3f_ea5b9664",
+      "revId": "f70b03787f86216a9b3c4bc06a20f74066defb6d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1fc828cc_69617af5",
@@ -55,6 +73,30 @@
           ]
         }
       ],
+      "revId": "f70b03787f86216a9b3c4bc06a20f74066defb6d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4930632f_99a776a7",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1956160
+      },
+      "writtenOn": "2025-09-09T12:36:57Z",
+      "side": 1,
+      "message": "This is kernel build tools prebuilts themselves, so it doesn\u0027t really matters what revision to use. Switched to main-kernel-2025.",
+      "parentUuid": "1fc828cc_69617af5",
+      "range": {
+        "startLine": 10,
+        "startChar": 109,
+        "endLine": 10,
+        "endChar": 149
+      },
       "revId": "f70b03787f86216a9b3c4bc06a20f74066defb6d",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
@@ -100,6 +142,30 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "50434d25_26c50067",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1956160
+      },
+      "writtenOn": "2025-09-09T12:36:57Z",
+      "side": 1,
+      "message": "Respinned clang presubmits, it is ok to use the latest revision. Switched to main-kernel-2025.",
+      "parentUuid": "90605109_6e9ac9a9",
+      "range": {
+        "startLine": 28,
+        "startChar": 137,
+        "endLine": 28,
+        "endChar": 177
+      },
+      "revId": "f70b03787f86216a9b3c4bc06a20f74066defb6d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "312757a3_b12f276f",
@@ -141,6 +207,30 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b3809295_b7b78d79",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1956160
+      },
+      "writtenOn": "2025-09-09T12:36:57Z",
+      "side": 1,
+      "message": "Security fixes, it is ok to update. Switched to main-kernel-2025.",
+      "parentUuid": "312757a3_b12f276f",
+      "range": {
+        "startLine": 42,
+        "startChar": 82,
+        "endLine": 42,
+        "endChar": 122
+      },
+      "revId": "f70b03787f86216a9b3c4bc06a20f74066defb6d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "aaf272ed_a2bf0cb7",
@@ -178,6 +268,30 @@
           ]
         }
       ],
+      "revId": "f70b03787f86216a9b3c4bc06a20f74066defb6d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "881f252c_634bd090",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 126,
+      "author": {
+        "id": 1956160
+      },
+      "writtenOn": "2025-09-09T12:36:57Z",
+      "side": 1,
+      "message": "```\nkleaf: Add unpack_bootimg py_binary\n```\n\nDoesn\u0027t make difference to this project, so it is ok to use `main-kernel-2025`.",
+      "parentUuid": "aaf272ed_a2bf0cb7",
+      "range": {
+        "startLine": 126,
+        "startChar": 90,
+        "endLine": 126,
+        "endChar": 130
+      },
       "revId": "f70b03787f86216a9b3c4bc06a20f74066defb6d",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
