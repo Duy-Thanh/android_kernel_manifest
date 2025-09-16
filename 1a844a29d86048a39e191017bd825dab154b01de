@@ -51,6 +51,24 @@
       "parentUuid": "dfa8ff8f_36f7856e",
       "revId": "1a844a29d86048a39e191017bd825dab154b01de",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "253230b9_2e238314",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 2029635
+      },
+      "writtenOn": "2025-09-16T17:28:52Z",
+      "side": 1,
+      "message": "Going to abandon the CL until we really want it.",
+      "parentUuid": "5ce1910f_0a986dcc",
+      "revId": "1a844a29d86048a39e191017bd825dab154b01de",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
