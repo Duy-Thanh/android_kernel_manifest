@@ -16,6 +16,23 @@
       "message": "Seems OK, I\u0027m just not sure if there are any issues with depending on a `main` branch directly here, adding @rammuthiah@google.com to take a look (I also don\u0027t have +2 permissions here)",
       "revId": "1a844a29d86048a39e191017bd825dab154b01de",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dfa8ff8f_36f7856e",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1893074
+      },
+      "writtenOn": "2025-09-16T14:59:51Z",
+      "side": 1,
+      "message": "@rammuthiah@google.com should we use `main-kernel` her? Or `main` is fine?",
+      "revId": "1a844a29d86048a39e191017bd825dab154b01de",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
