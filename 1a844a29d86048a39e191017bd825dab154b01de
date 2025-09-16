@@ -33,6 +33,24 @@
       "message": "@rammuthiah@google.com should we use `main-kernel` her? Or `main` is fine?",
       "revId": "1a844a29d86048a39e191017bd825dab154b01de",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5ce1910f_0a986dcc",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1466604
+      },
+      "writtenOn": "2025-09-16T16:22:39Z",
+      "side": 1,
+      "message": "For the time being - this patch won\u0027t land. We\u0027re leaving all unwinding logic to be implemented by UEFI implementations under the protocol exposed in https://r.android.com/3762698\n\nOnce that\u0027s landed and solidified - I expect we\u0027ll revisit this. @dovs@google.com to confirm.",
+      "parentUuid": "dfa8ff8f_36f7856e",
+      "revId": "1a844a29d86048a39e191017bd825dab154b01de",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
