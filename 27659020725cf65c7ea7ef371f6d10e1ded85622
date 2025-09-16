@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "017bb131_b7446aae",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1466604
+      },
+      "writtenOn": "2025-09-16T20:11:44Z",
+      "side": 1,
+      "message": "Two notes.\n\n1. This change is needed on both this manifest and common-android-mainline for the desired effect.\n2. GBL is on a release trajectory for November - we can\u0027t handle this pin right now.\n\nKarthik, Jon - mind leaving the breakage with me? I\u0027ll sort it out and resolve with the system/libufdt owner.",
+      "revId": "27659020725cf65c7ea7ef371f6d10e1ded85622",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
