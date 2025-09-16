@@ -12,7 +12,7 @@
 
   <superproject name="kernel/superproject" remote="aosp" revision="uefi-gbl-mainline"/>
   <contactinfo bugurl="go/repo-bug" />
-  <project path="bootable/libbootloader" name="platform/bootable/libbootloader" revision="gbl-mainline">
+  <project path="bootable/libbootloader" name="platform/bootable/libbootloader" revision="16ce20ddef8dfdb07f1a16ae68b46c5b1dfbe0ae">
     <linkfile src="gbl/bazel.MODULE.bazel" dest="MODULE.bazel" />
     <linkfile src="gbl/bazel.WORKSPACE" dest="WORKSPACE.bzlmod" />
     <linkfile src="gbl/bazel.bazelrc" dest=".bazelrc" />
