@@ -25,7 +25,6 @@
   <project path="prebuilts/rust" name="platform/prebuilts/rust" clone-depth="1" groups="ddk"/>
   <project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts" clone-depth="1"/>
   <project path="prebuilts/asuite" name="platform/prebuilts/asuite" clone-depth="1"/>
-  <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg"/>
 
   <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" clone-depth="1"/>
   <project path="prebuilts/ndk-r27" name="toolchain/prebuilts/ndk/r27" clone-depth="1" groups="ddk"/>
