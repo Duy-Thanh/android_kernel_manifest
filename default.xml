@@ -5,7 +5,7 @@
 
   <superproject name="kernel/superproject" remote="aosp" revision="common-android-mainline-riscv64" />
 
-  <project path="build/kernel" name="kernel/build" groups="ddk">
+  <project path="build/kernel" name="kernel/build" groups="ddk" revision="android-mainline-riscv64">
     <linkfile src="kleaf/bazel.sh" dest="tools/bazel" />
     <linkfile src="kleaf/bzlmod/bazel.MODULE.bazel" dest="MODULE.bazel" />
     <linkfile src="kleaf/bzlmod/bazel.WORKSPACE.bzlmod" dest="WORKSPACE.bzlmod" />
