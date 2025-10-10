@@ -60,10 +60,12 @@
   <project path="test/dittosuite" name="platform/test/dittosuite"/>
   <project path="test/ltp" name="platform/external/ltp"/>
 
+  <!-- dependencies for Kernel Images -->
+  <project path="external/avb" name="platform/external/avb" groups="ddk"/>
+
   <!-- dependencies for GBL -->
   <project path="bootable/libbootloader" name="platform/bootable/libbootloader" revision="gbl-mainline"/>
   <project path="external/arm-trusted-firmware" name="platform/external/arm-trusted-firmware"/>
-  <project path="external/avb" name="platform/external/avb"/>
   <project path="external/boringssl" name="platform/external/boringssl"/>
   <project path="external/compiler-rt" name="platform/external/compiler-rt"/>
   <project path="external/libufdt" name="platform/system/libufdt"/>
