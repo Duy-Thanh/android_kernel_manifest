@@ -36,6 +36,24 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "481627ff_1309f259",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1961395
+      },
+      "writtenOn": "2025-10-13T14:32:43Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "8ffc00c4_ad739269",
+      "revId": "51bf8980d863990e475d078d6700e0754d1d21fa",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d9eba07d_bf7ae670",
@@ -97,6 +115,30 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c0016e85_9ee663f1",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1961395
+      },
+      "writtenOn": "2025-10-13T14:32:43Z",
+      "side": 1,
+      "message": "Acknowledged. I\u0027ll do it in a follow-up CL.",
+      "parentUuid": "d9eba07d_bf7ae670",
+      "range": {
+        "startLine": 32,
+        "startChar": 0,
+        "endLine": 34,
+        "endChar": 67
+      },
+      "revId": "51bf8980d863990e475d078d6700e0754d1d21fa",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3d5305f6_6ed70bad",
@@ -134,6 +176,30 @@
           ]
         }
       ],
+      "revId": "51bf8980d863990e475d078d6700e0754d1d21fa",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "286c1126_cdbe3d7d",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 1961395
+      },
+      "writtenOn": "2025-10-13T14:32:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3d5305f6_6ed70bad",
+      "range": {
+        "startLine": 63,
+        "startChar": 7,
+        "endLine": 63,
+        "endChar": 37
+      },
       "revId": "51bf8980d863990e475d078d6700e0754d1d21fa",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
