@@ -10,6 +10,7 @@
     <linkfile src="kleaf/bzlmod/bazel.MODULE.bazel" dest="MODULE.bazel" />
     <linkfile src="kleaf/bzlmod/bazel.WORKSPACE.bzlmod" dest="WORKSPACE.bzlmod" />
   </project>
+<<<<<<< HEAD   (8d96a333b5d9cafbd497a339b119b6ae598ccecd Add versioned fuchsia prebuilt project)
   <project path="common" name="kernel/common" revision="android16-6.12" >
       <linkfile src=".bazelignore" dest=".bazelignore" />
   </project>
@@ -30,6 +31,39 @@
   <project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts" clone-depth="1" />
   <project path="prebuilts/asuite" name="platform/prebuilts/asuite" clone-depth="1" />
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
+||||||| BASE   (a69cb58148c709087701bab289fe9ada007c8951 Remove GBL unused platform dependencies)
+  <project path="common" name="kernel/common" revision="android-mainline">
+    <linkfile src=".bazelignore" dest=".bazelignore"/>
+  </project>
+  <project path="kernel/tests" name="kernel/tests"/>
+  <project path="common-modules/trusty" name="kernel/common-modules/trusty"/>
+  <project path="common-modules/virtio-media" name="platform/external/virtio-media"/>
+  <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="android-mainline"/>
+  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" groups="ddk"/>
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" groups="ddk"/>
+  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" groups="ddk"/>
+  <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" clone-depth="1" groups="ddk"/>
+  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" groups="ddk"/>
+  <project path="prebuilts/rust" name="platform/prebuilts/rust" clone-depth="1" groups="ddk"/>
+  <project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts" clone-depth="1"/>
+  <project path="prebuilts/asuite" name="platform/prebuilts/asuite" clone-depth="1"/>
+  <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg"/>
+=======
+  <project path="common" name="kernel/common" revision="android-mainline"/>
+  <project path="kernel/tests" name="kernel/tests"/>
+  <project path="common-modules/trusty" name="kernel/common-modules/trusty"/>
+  <project path="common-modules/virtio-media" name="platform/external/virtio-media"/>
+  <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="android-mainline"/>
+  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" groups="ddk"/>
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" groups="ddk"/>
+  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" groups="ddk"/>
+  <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" clone-depth="1" groups="ddk"/>
+  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" groups="ddk"/>
+  <project path="prebuilts/rust" name="platform/prebuilts/rust" clone-depth="1" groups="ddk"/>
+  <project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts" clone-depth="1"/>
+  <project path="prebuilts/asuite" name="platform/prebuilts/asuite" clone-depth="1"/>
+  <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg"/>
+>>>>>>> CHANGE (22ec5c6338a272615fbd0eaab979badd6a26910e Revert "Add linkfile to common/.bazelignore")
 
   <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" clone-depth="1" />
   <project path="prebuilts/ndk-r26" name="toolchain/prebuilts/ndk/r26" clone-depth="1" groups="ddk" />
