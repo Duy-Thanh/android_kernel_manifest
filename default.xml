@@ -10,9 +10,7 @@
     <linkfile src="kleaf/bzlmod/bazel.MODULE.bazel" dest="MODULE.bazel"/>
     <linkfile src="kleaf/bzlmod/bazel.WORKSPACE.bzlmod" dest="WORKSPACE.bzlmod"/>
   </project>
-  <project path="common" name="kernel/common" revision="android-mainline">
-    <linkfile src=".bazelignore" dest=".bazelignore"/>
-  </project>
+  <project path="common" name="kernel/common" revision="android-mainline"/>
   <project path="kernel/tests" name="kernel/tests"/>
   <project path="common-modules/trusty" name="kernel/common-modules/trusty"/>
   <project path="common-modules/virtio-media" name="platform/external/virtio-media"/>
