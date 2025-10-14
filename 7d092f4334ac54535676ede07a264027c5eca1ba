@@ -22,6 +22,30 @@
       },
       "revId": "7d092f4334ac54535676ede07a264027c5eca1ba",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "20b50b5d_9e6f765c",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1961395
+      },
+      "writtenOn": "2025-10-14T11:41:51Z",
+      "side": 1,
+      "message": "LTP seems to be a different strategy for testing and I\u0027m not sure how (or if it) overlaps with kunit or kselftests. Nevertheless I have grouped them into a testing dependencies group (adding dittosuite as well).",
+      "parentUuid": "034da45b_865193dd",
+      "range": {
+        "startLine": 62,
+        "startChar": 0,
+        "endLine": 64,
+        "endChar": 0
+      },
+      "revId": "7d092f4334ac54535676ede07a264027c5eca1ba",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
