@@ -16,6 +16,47 @@
       "message": "I\u0027m happy for my change to be cherry-picked, but this change is clearly doing more than the original. The commit message is now misleading.\n\nThere are various ways of resolving this.\n\nWhat are you trying to achieve?",
       "revId": "c16f9d74867e17bb70f300a0c6e9a421e44cc63a",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f39f08b8_4494743c",
+        "filename": "default.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2025-10-14T18:30:31Z",
+      "side": 1,
+      "message": "This should be taken away. It is reverted on mainline manifest as well.",
+      "range": {
+        "startLine": 14,
+        "startChar": 0,
+        "endLine": 14,
+        "endChar": 54
+      },
+      "fixSuggestions": [
+        {
+          "fixId": "6e0ce1c6_3c369ddc",
+          "description": "prompt_to_edit API",
+          "replacements": [
+            {
+              "path": "default.xml",
+              "range": {
+                "startLine": 14,
+                "startChar": 0,
+                "endLine": 15,
+                "endChar": 0
+              },
+              "replacement": ""
+            }
+          ]
+        }
+      ],
+      "revId": "c16f9d74867e17bb70f300a0c6e9a421e44cc63a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
