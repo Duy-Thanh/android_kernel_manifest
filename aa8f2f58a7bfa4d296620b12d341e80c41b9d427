@@ -34,6 +34,24 @@
       "parentUuid": "b0828eef_ccbdd40b",
       "revId": "aa8f2f58a7bfa4d296620b12d341e80c41b9d427",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7270daa7_6fa4a47f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2025-10-14T20:44:53Z",
+      "side": 1,
+      "message": "I see. As long as you are not trying to add riscv specific patches in this branch and not uploading it to the main-kernel branch, I am happy.\n\nStill -- please consider using the main-kernel-riscv64 naming. The android-mainline-riscv64 naming is confusing.",
+      "parentUuid": "ea66933c_22091d88",
+      "revId": "aa8f2f58a7bfa4d296620b12d341e80c41b9d427",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
