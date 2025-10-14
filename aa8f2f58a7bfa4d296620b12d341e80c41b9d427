@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b0828eef_ccbdd40b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2025-10-14T04:42:43Z",
+      "side": 1,
+      "message": "I just want to make sure -- you are branching off because the riscv64 development might lag behind, so you can\u0027t bring kernel/build up-to-date, right? Not because you are going to do some extra patches on kernel/build?\n\nIn any case, I would rather just request you to make any riscv64-related changes on main-kernel directly, instead of on this riscv64 branch.\n\nAlso, it is not following the naming convention. We have `main-kernel` etc. names for kernel stuff, so I would expect a branch name like `main-kernel-riscv64`, not `android-mainline-riscv64`. The latter is tied to the kernel branch, not the kernel tooling branch.",
+      "revId": "aa8f2f58a7bfa4d296620b12d341e80c41b9d427",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
