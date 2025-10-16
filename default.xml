@@ -11,6 +11,7 @@
     <linkfile src="kleaf/bzlmod/bazel.WORKSPACE.bzlmod" dest="WORKSPACE.bzlmod"/>
   </project>
   <project path="common" name="kernel/common" revision="android-mainline"/>
+  <project path="kernel/tests" name="kernel/tests"/>
   <project path="common-modules/trusty" name="kernel/common-modules/trusty"/>
   <project path="common-modules/virtio-media" name="platform/external/virtio-media"/>
   <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="android-mainline"/>
@@ -20,19 +21,15 @@
   <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" clone-depth="1" groups="ddk"/>
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" groups="ddk"/>
   <project path="prebuilts/rust" name="platform/prebuilts/rust" clone-depth="1" groups="ddk"/>
-  <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg"/>
-
-  <project path="prebuilts/ndk-r27" name="toolchain/prebuilts/ndk/r27" clone-depth="1" groups="ddk"/>
-
-  <!-- Dependencies for testing (kunit, kselftests, ltp & dittosuite) -->
-  <project path="kernel/tests" name="kernel/tests"/>
   <project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts" clone-depth="1"/>
   <project path="prebuilts/asuite" name="platform/prebuilts/asuite" clone-depth="1"/>
+  <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg"/>
+
   <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" clone-depth="1"/>
+  <project path="prebuilts/ndk-r27" name="toolchain/prebuilts/ndk/r27" clone-depth="1" groups="ddk"/>
+
   <project path="external/libcap-ng" name="platform/external/libcap-ng"/>
   <project path="external/libcap" name="platform/external/libcap"/>
-  <project path="test/dittosuite" name="platform/test/dittosuite"/>
-  <project path="test/ltp" name="platform/external/ltp"/>
 
   <!-- deps for for bzlmod -->
   <project path="external/bazel-contrib-bazel_features" name="platform/external/bazel-contrib-bazel_features" groups="ddk-external"/>
@@ -58,6 +55,9 @@
   <project path="external/toybox" name="platform/external/toybox" groups="ddk"/>
   <project path="external/zlib" name="platform/external/zlib" groups="ddk"/>
   <project path="external/zopfli" name="platform/external/zopfli" groups="ddk"/>
+
+  <project path="test/dittosuite" name="platform/test/dittosuite"/>
+  <project path="test/ltp" name="platform/external/ltp"/>
 
   <!-- dependencies for GBL -->
   <project path="bootable/libbootloader" name="platform/bootable/libbootloader" revision="gbl-mainline"/>
