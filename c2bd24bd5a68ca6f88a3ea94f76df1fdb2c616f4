@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "84301c3e_1812e8f3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1625880
+      },
+      "writtenOn": "2025-10-30T15:22:57Z",
+      "side": 1,
+      "message": "Pending GKI newsletter.",
+      "revId": "c2bd24bd5a68ca6f88a3ea94f76df1fdb2c616f4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
