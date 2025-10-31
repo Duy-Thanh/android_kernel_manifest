@@ -1,0 +1,39 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7327f334_05e15ae1",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2025-10-31T17:24:59Z",
+      "side": 1,
+      "message": "Could you please file a bug on enabling transitions on raviole-upstream so we can drop this later?",
+      "fixSuggestions": [
+        {
+          "fixId": "c57d5424_199c2aa5",
+          "description": "prompt_to_edit API",
+          "replacements": [
+            {
+              "path": "default.xml",
+              "range": {
+                "startLine": 17,
+                "startChar": 0,
+                "endLine": 17,
+                "endChar": 0
+              },
+              "replacement": "    \u003c!-- TODO(b/323042289): Drop this once transitions are enabled on raviole-upstream. --\u003e\n"
+            }
+          ]
+        }
+      ],
+      "revId": "5b731b53d47af25e53bc300a6d7645d70ecbf213",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
