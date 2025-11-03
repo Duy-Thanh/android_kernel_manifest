@@ -16,6 +16,24 @@
       "message": "Pending GKI newsletter.",
       "revId": "c2bd24bd5a68ca6f88a3ea94f76df1fdb2c616f4",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "11d846b4_a852eb29",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1961395
+      },
+      "writtenOn": "2025-11-03T12:11:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "84301c3e_1812e8f3",
+      "revId": "c2bd24bd5a68ca6f88a3ea94f76df1fdb2c616f4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
