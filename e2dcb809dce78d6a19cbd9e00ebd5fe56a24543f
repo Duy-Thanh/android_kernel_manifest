@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6d3582c1_6ce33fb7",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1961395
+      },
+      "writtenOn": "2025-11-06T11:57:23Z",
+      "side": 1,
+      "message": "(Here and line 71) @rammuthiah@google.com will this be updated to `gbl-android17`? \n\nThough I don\u0027t think that branch exists yet: https://android.git.corp.google.com/platform/bootable/libbootloader/+refs",
+      "range": {
+        "startLine": 60,
+        "startChar": 90,
+        "endLine": 60,
+        "endChar": 102
+      },
+      "fixSuggestions": [
+        {
+          "fixId": "d2ec05f1_ec67f159",
+          "description": "prompt_to_edit API",
+          "replacements": [
+            {
+              "path": "default.xml",
+              "range": {
+                "startLine": 60,
+                "startChar": 0,
+                "endLine": 61,
+                "endChar": 0
+              },
+              "replacement": "  \u003cproject path\u003d\"bootable/libbootloader\" name\u003d\"platform/bootable/libbootloader\" revision\u003d\"gbl-android17\"/\u003e\n"
+            },
+            {
+              "path": "default.xml",
+              "range": {
+                "startLine": 71,
+                "startChar": 0,
+                "endLine": 72,
+                "endChar": 0
+              },
+              "replacement": "  \u003cproject path\u003d\"prebuilts/fuchsia_sdk\" name\u003d\"platform/prebuilts/fuchsia_sdk\" clone-depth\u003d\"1\" revision\u003d\"gbl-android17\"/\u003e\n"
+            }
+          ]
+        }
+      ],
+      "revId": "e2dcb809dce78d6a19cbd9e00ebd5fe56a24543f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
