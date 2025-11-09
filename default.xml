@@ -1,3 +1,4 @@
+https://source.android.com/docs/core/architecture/kernel/gki-dev?hl=fr#build-monitor-test
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
