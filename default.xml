@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="aosp" fetch="https://android.googlesource.com/" review="https://android-review.googlesource.com/"/>
-  <default remote="aosp" revision="android-gs-raviole-mainline" sync-j="4"/>
+  <default remote="aosp" revision="android17-6.18-gs101" sync-j="4"/>
 
-  <superproject name="kernel/superproject" revision="gs-android-gs-raviole-mainline"/>
+  <superproject name="kernel/superproject" revision="gs-android17-6.18-gs101"/>
 
-  <project name="kernel/build" path="build/kernel" revision="main-kernel" >
+  <project name="kernel/build" path="build/kernel" revision="main-kernel-2026" >
     <linkfile src="kleaf/bazel.sh" dest="tools/bazel"/>
     <linkfile src="kleaf/bzlmod/bazel.MODULE.bazel" dest="MODULE.bazel"/>
   </project>
-  <project name="kernel/common" path="common" revision="android-mainline" />
+  <project name="kernel/common" path="common" revision="android17-6.18" />
   <project name="kernel/google-modules/amplifiers" path="private/google-modules/amplifiers" />
   <project name="kernel/google-modules/aoc" path="private/google-modules/aoc" />
   <project name="kernel/google-modules/aoc-ipc" path="private/google-modules/aoc_ipc" />
@@ -34,38 +34,36 @@
   <project name="kernel/google-modules/video/gchips" path="private/google-modules/video/gchips" />
   <project name="kernel/google-modules/wlan/bcmdhd/bcm4389" path="private/google-modules/wlan/bcmdhd4389" />
 
-  <project name="platform/prebuilts/boot-artifacts" path="prebuilts/boot-artifacts" clone-depth="1"/>
-
-  <project name="kernel/prebuilts/build-tools" path="prebuilts/kernel-build-tools" revision="main-kernel" clone-depth="1"/>
-  <project path="external/avb" name="platform/external/avb" revision="main-kernel" clone-depth="1" />
-  <project path="external/bazel-contrib-bazel_features" name="platform/external/bazel-contrib-bazel_features" revision="main-kernel" clone-depth="1" />
-  <project path="external/bazel-contrib-rules_devicetree" name="platform/external/bazel-contrib-rules_devicetree" revision="main-kernel" clone-depth="1" />
-  <project path="external/bazel-contrib-supply-chain" name="platform/external/bazel-contrib-supply-chain" revision="main-kernel" clone-depth="1" />
-  <project name="platform/external/bazel-skylib" path="external/bazel-skylib" revision="main-kernel" clone-depth="1"/>
-  <project name="platform/external/bazelbuild-bazel-central-registry" path="external/bazelbuild-bazel-central-registry" revision="main-kernel" clone-depth="1"/>
-  <project name="platform/external/bazelbuild-platforms" path="external/bazelbuild-platforms" revision="main-kernel" clone-depth="1"/>
-  <project name="platform/external/bazelbuild-rules_cc" path="external/bazelbuild-rules_cc" revision="main-kernel" clone-depth="1"/>
-  <project name="platform/external/bazelbuild-rules_license" path="external/bazelbuild-rules_license" revision="main-kernel" clone-depth="1"/>
-  <project name="platform/external/bazelbuild-rules_pkg" path="external/bazelbuild-rules_pkg" revision="main-kernel" clone-depth="1"/>
-  <project name="platform/external/bazelbuild-rules_python" path="external/bazelbuild-rules_python" revision="main-kernel" clone-depth="1"/>
-  <project name="platform/external/bazelbuild-rules_rust" path="external/bazelbuild-rules_rust" revision="main-kernel" clone-depth="1"/>
-  <project name="platform/external/bazelbuild-rules_shell" path="external/bazelbuild-rules_shell" revision="main-kernel" clone-depth="1"/>
-  <project name="platform/external/dtc" path="external/dtc" revision="main-kernel" clone-depth="1" />
-  <project name="platform/external/kmod" path="external/kmod" revision="main-kernel" clone-depth="1" />
-  <project name="platform/external/libcap" path="external/libcap" revision="main-kernel" clone-depth="1"/>
-  <project name="platform/external/libcap-ng" path="external/libcap-ng" revision="main-kernel" clone-depth="1"/>
-  <project path="external/lz4" name="platform/external/lz4" revision="main-kernel" clone-depth="1" />
-  <project name="platform/external/pigz" path="external/pigz" revision="main-kernel" clone-depth="1"/>
-  <project name="platform/external/python/absl-py" path="external/python/absl-py" revision="main-kernel" clone-depth="1"/>
-  <project path="external/toybox" name="platform/external/toybox" revision="main-kernel" clone-depth="1" />
-  <project name="platform/external/zlib" path="external/zlib" revision="main-kernel" clone-depth="1"/>
-  <project name="platform/external/zopfli" path="external/zopfli" revision="main-kernel" clone-depth="1"/>
-  <project name="platform/prebuilts/build-tools" path="prebuilts/build-tools" revision="main-kernel" clone-depth="1"/>
-  <project name="platform/prebuilts/clang-tools" path="prebuilts/clang-tools" revision="main-kernel" clone-depth="1"/>
-  <project name="platform/prebuilts/clang/host/linux-x86" path="prebuilts/clang/host/linux-x86" revision="main-kernel" clone-depth="1"/>
-  <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" revision="main-kernel" clone-depth="1"/>
-  <project name="platform/prebuilts/jdk/jdk11" path="prebuilts/jdk/jdk11" revision="main-kernel" clone-depth="1"/>
-  <project name="platform/prebuilts/rust" path="prebuilts/rust" revision="main-kernel" clone-depth="1"/>
-  <project name="platform/system/tools/mkbootimg" path="tools/mkbootimg" revision="main-kernel" clone-depth="1"/>
-  <project name="toolchain/prebuilts/ndk/r26" path="prebuilts/ndk-r26" revision="main-kernel" clone-depth="1"/>
+  <project name="kernel/prebuilts/build-tools" path="prebuilts/kernel-build-tools" revision="main-kernel-2026" clone-depth="1"/>
+  <project path="external/avb" name="platform/external/avb" revision="main-kernel-2026" clone-depth="1" />
+  <project path="external/bazel-contrib-bazel_features" name="platform/external/bazel-contrib-bazel_features" revision="main-kernel-2026" clone-depth="1" />
+  <project path="external/bazel-contrib-rules_devicetree" name="platform/external/bazel-contrib-rules_devicetree" revision="main-kernel-2026" clone-depth="1" />
+  <project path="external/bazel-contrib-supply-chain" name="platform/external/bazel-contrib-supply-chain" revision="main-kernel-2026" clone-depth="1" />
+  <project name="platform/external/bazel-skylib" path="external/bazel-skylib" revision="main-kernel-2026" clone-depth="1"/>
+  <project name="platform/external/bazelbuild-bazel-central-registry" path="external/bazelbuild-bazel-central-registry" revision="main-kernel-2026" clone-depth="1"/>
+  <project name="platform/external/bazelbuild-platforms" path="external/bazelbuild-platforms" revision="main-kernel-2026" clone-depth="1"/>
+  <project name="platform/external/bazelbuild-rules_cc" path="external/bazelbuild-rules_cc" revision="main-kernel-2026" clone-depth="1"/>
+  <project name="platform/external/bazelbuild-rules_license" path="external/bazelbuild-rules_license" revision="main-kernel-2026" clone-depth="1"/>
+  <project name="platform/external/bazelbuild-rules_pkg" path="external/bazelbuild-rules_pkg" revision="main-kernel-2026" clone-depth="1"/>
+  <project name="platform/external/bazelbuild-rules_python" path="external/bazelbuild-rules_python" revision="main-kernel-2026" clone-depth="1"/>
+  <project name="platform/external/bazelbuild-rules_rust" path="external/bazelbuild-rules_rust" revision="main-kernel-2026" clone-depth="1"/>
+  <project name="platform/external/bazelbuild-rules_shell" path="external/bazelbuild-rules_shell" revision="main-kernel-2026" clone-depth="1"/>
+  <project name="platform/external/dtc" path="external/dtc" revision="main-kernel-2026" clone-depth="1" />
+  <project name="platform/external/kmod" path="external/kmod" revision="main-kernel-2026" clone-depth="1" />
+  <project name="platform/external/libcap" path="external/libcap" revision="main-kernel-2026" clone-depth="1"/>
+  <project name="platform/external/libcap-ng" path="external/libcap-ng" revision="main-kernel-2026" clone-depth="1"/>
+  <project path="external/lz4" name="platform/external/lz4" revision="main-kernel-2026" clone-depth="1" />
+  <project name="platform/external/pigz" path="external/pigz" revision="main-kernel-2026" clone-depth="1"/>
+  <project name="platform/external/python/absl-py" path="external/python/absl-py" revision="main-kernel-2026" clone-depth="1"/>
+  <project path="external/toybox" name="platform/external/toybox" revision="main-kernel-2026" clone-depth="1" />
+  <project name="platform/external/zlib" path="external/zlib" revision="main-kernel-2026" clone-depth="1"/>
+  <project name="platform/external/zopfli" path="external/zopfli" revision="main-kernel-2026" clone-depth="1"/>
+  <project name="platform/prebuilts/build-tools" path="prebuilts/build-tools" revision="main-kernel-2026" clone-depth="1"/>
+  <project name="platform/prebuilts/clang-tools" path="prebuilts/clang-tools" revision="main-kernel-2026" clone-depth="1"/>
+  <project name="platform/prebuilts/clang/host/linux-x86" path="prebuilts/clang/host/linux-x86" revision="main-kernel-2026" clone-depth="1"/>
+  <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" revision="main-kernel-2026" clone-depth="1"/>
+  <project name="platform/prebuilts/jdk/jdk11" path="prebuilts/jdk/jdk11" revision="main-kernel-2026" clone-depth="1"/>
+  <project name="platform/prebuilts/rust" path="prebuilts/rust" revision="main-kernel-2026" clone-depth="1"/>
+  <project name="platform/system/tools/mkbootimg" path="tools/mkbootimg" revision="main-kernel-2026" clone-depth="1"/>
+  <project name="toolchain/prebuilts/ndk/r26" path="prebuilts/ndk-r26" revision="main-kernel-2026" clone-depth="1"/>
 </manifest>
