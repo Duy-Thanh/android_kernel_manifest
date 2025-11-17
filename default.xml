@@ -22,7 +22,21 @@
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" groups="ddk"/>
   <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" clone-depth="1" groups="ddk"/>
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" groups="ddk"/>
+<<<<<<< HEAD   (9dec85baac72ac7d6a12c31512b5f599b55abef5 Merge branch 'common-android-mainline' into common-android-m)
   <project path="prebuilts/rust" name="platform/prebuilts/rust" clone-depth="1" groups="ddk"/>
+||||||| BASE   (050b74d6c58cb053f00b94ddf7128503122e2e78 Merge "Kleaf: Drop dependency on tools/mkbootimg" into commo)
+  <project path="prebuilts/rust" name="platform/prebuilts/rust" clone-depth="1" groups="ddk"/>
+  <project path="prebuilts/ndk-r27" name="toolchain/prebuilts/ndk/r27" clone-depth="1" groups="ddk"/>
+
+  <!-- Dependencies for testing (kunit, kselftests, ltp & dittosuite) -->
+  <project path="kernel/tests" name="kernel/tests"/>
+=======
+  <project path="prebuilts/rust-toolchain/linux-x86" name="platform/prebuilts/rust-toolchain/linux-x86" clone-depth="1" groups="ddk"/>
+  <project path="prebuilts/ndk-r27" name="toolchain/prebuilts/ndk/r27" clone-depth="1" groups="ddk"/>
+
+  <!-- Dependencies for testing (kunit, kselftests, ltp & dittosuite) -->
+  <project path="kernel/tests" name="kernel/tests"/>
+>>>>>>> CHANGE (0eb3a4327f3f1ce506e84102a1b303d94e781c74 Use rust-toolchain/linux-x86 not prebuilts/rust.)
   <project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts" clone-depth="1"/>
   <project path="prebuilts/asuite" name="platform/prebuilts/asuite" clone-depth="1"/>
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg"/>
