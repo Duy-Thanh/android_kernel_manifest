@@ -40,6 +40,7 @@
   <project path="external/toybox" name="platform/external/toybox" />
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/zopfli" name="platform/external/zopfli" />
+  <project path="external/zstd" name="platform/external/zstd"/>
   <project path="u-boot" name="platform/external/u-boot" revision="u-boot-mainline">
     <linkfile src="build.config.constants" dest="common/bazel/constants.scl" />
     <linkfile src="device.bazelrc" dest="device.bazelrc" />
@@ -58,6 +59,4 @@
     clone-depth="1" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" />
-
-  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" />
 </manifest>
