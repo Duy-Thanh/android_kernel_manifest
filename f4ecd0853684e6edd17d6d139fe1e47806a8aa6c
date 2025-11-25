@@ -63,6 +63,24 @@
       "message": "@gprocida@google.com to confirm this",
       "revId": "f4ecd0853684e6edd17d6d139fe1e47806a8aa6c",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "772e7aca_6d872161",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 2055842
+      },
+      "writtenOn": "2025-11-25T10:32:58Z",
+      "side": 1,
+      "message": "Is it expected that the presubmit fails as it can\u0027t obtain the zstd repo?",
+      "parentUuid": "1f843e61_f1e7f5b7",
+      "revId": "f4ecd0853684e6edd17d6d139fe1e47806a8aa6c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
