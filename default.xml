@@ -3,20 +3,50 @@
   <remote  name="aosp" fetch=".." review="https://android-review.googlesource.com/"/>
   <default revision="main-kernel" remote="aosp" sync-j="4"/>
 
+<<<<<<< HEAD   (aa8f2f58a7bfa4d296620b12d341e80c41b9d427 Branch kernel/build)
   <superproject name="kernel/superproject" remote="aosp" revision="common-android-mainline-riscv64"/>
+||||||| BASE   (4aa40f75ebe7b397ec7b75123bc9249436e14694 Drop apple_support/rules_java.)
+  <superproject name="kernel/superproject" remote="aosp" revision="common-android-mainline" />
+=======
+  <superproject name="kernel/superproject" remote="aosp" revision="common-android-mainline"/>
+>>>>>>> BRANCH (0ffa4ccb84afe18f2f97782139a7abf582a3fbf8 Add avb project to ddk group)
 
+<<<<<<< HEAD   (aa8f2f58a7bfa4d296620b12d341e80c41b9d427 Branch kernel/build)
   <project path="build/kernel" name="kernel/build" groups="ddk" revision="android-mainline-riscv64">
+||||||| BASE   (4aa40f75ebe7b397ec7b75123bc9249436e14694 Drop apple_support/rules_java.)
+=======
+  <project path="build/kernel" name="kernel/build" groups="ddk">
+>>>>>>> BRANCH (0ffa4ccb84afe18f2f97782139a7abf582a3fbf8 Add avb project to ddk group)
     <linkfile src="kleaf/bazel.sh" dest="tools/bazel"/>
     <linkfile src="kleaf/bzlmod/bazel.MODULE.bazel" dest="MODULE.bazel"/>
     <linkfile src="kleaf/bzlmod/bazel.WORKSPACE.bzlmod" dest="WORKSPACE.bzlmod"/>
   </project>
+<<<<<<< HEAD   (aa8f2f58a7bfa4d296620b12d341e80c41b9d427 Branch kernel/build)
   <project path="common" name="kernel/common" revision="android-mainline-riscv64">
+||||||| BASE   (4aa40f75ebe7b397ec7b75123bc9249436e14694 Drop apple_support/rules_java.)
+  <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" groups="ddk" />
+  <project path="common" name="kernel/common" revision="android-mainline" />
+  <project path="kernel/common-patches" name="kernel/common-patches" >
+=======
+  <project path="common" name="kernel/common" revision="android-mainline">
+>>>>>>> BRANCH (0ffa4ccb84afe18f2f97782139a7abf582a3fbf8 Add avb project to ddk group)
     <linkfile src=".bazelignore" dest=".bazelignore"/>
   </project>
   <project path="kernel/tests" name="kernel/tests"/>
   <project path="common-modules/trusty" name="kernel/common-modules/trusty"/>
   <project path="common-modules/virtio-media" name="platform/external/virtio-media"/>
+<<<<<<< HEAD   (aa8f2f58a7bfa4d296620b12d341e80c41b9d427 Branch kernel/build)
   <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="android-mainline-riscv64"/>
+||||||| BASE   (4aa40f75ebe7b397ec7b75123bc9249436e14694 Drop apple_support/rules_java.)
+    <linkfile src="tools/launch_cvd.sh" dest="launch_cvd.sh" />
+    <linkfile src="tools/flash_device.sh" dest="flash_device.sh" />
+  </project>
+  <project path="common-modules/trusty" name="kernel/common-modules/trusty" />
+  <project path="common-modules/virtio-media" name="platform/external/virtio-media" />
+  <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="android-mainline" />
+=======
+  <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="android-mainline"/>
+>>>>>>> BRANCH (0ffa4ccb84afe18f2f97782139a7abf582a3fbf8 Add avb project to ddk group)
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" groups="ddk"/>
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" groups="ddk"/>
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" groups="ddk"/>
@@ -28,7 +58,13 @@
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg"/>
 
   <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" clone-depth="1"/>
+<<<<<<< HEAD   (aa8f2f58a7bfa4d296620b12d341e80c41b9d427 Branch kernel/build)
   <project path="prebuilts/ndk-r26" name="toolchain/prebuilts/ndk/r26" clone-depth="1" groups="ddk"/>
+||||||| BASE   (4aa40f75ebe7b397ec7b75123bc9249436e14694 Drop apple_support/rules_java.)
+  <project path="prebuilts/ndk-r26" name="toolchain/prebuilts/ndk/r26" clone-depth="1" groups="ddk" />
+=======
+  <project path="prebuilts/ndk-r27" name="toolchain/prebuilts/ndk/r27" clone-depth="1" groups="ddk"/>
+>>>>>>> BRANCH (0ffa4ccb84afe18f2f97782139a7abf582a3fbf8 Add avb project to ddk group)
 
   <project path="external/libcap-ng" name="platform/external/libcap-ng"/>
   <project path="external/libcap" name="platform/external/libcap"/>
@@ -48,7 +84,14 @@
   <project path="external/bazelbuild-rules_shell" name="platform/external/bazelbuild-rules_shell" groups="ddk-external"/>
   <project path="external/python/absl-py" name="platform/external/python/absl-py" groups="ddk-external"/>
 
+<<<<<<< HEAD   (aa8f2f58a7bfa4d296620b12d341e80c41b9d427 Branch kernel/build)
   <!-- dependencies used to build toolchain from sources -->
+||||||| BASE   (4aa40f75ebe7b397ec7b75123bc9249436e14694 Drop apple_support/rules_java.)
+=======
+  <!-- local_repository()'s dependencies -->
+  <project path="external/avb" name="platform/external/avb" groups="ddk"/>
+  <project path="external/dtc" name="platform/external/dtc" groups="ddk"/>
+>>>>>>> BRANCH (0ffa4ccb84afe18f2f97782139a7abf582a3fbf8 Add avb project to ddk group)
   <project path="external/kmod" name="platform/external/kmod" groups="ddk"/>
   <project path="external/lz4" name="platform/external/lz4" groups="ddk"/>
   <project path="external/pigz" name="platform/external/pigz" groups="ddk"/>
@@ -61,6 +104,7 @@
 
   <!-- dependencies for GBL -->
   <project path="bootable/libbootloader" name="platform/bootable/libbootloader" revision="gbl-mainline"/>
+<<<<<<< HEAD   (aa8f2f58a7bfa4d296620b12d341e80c41b9d427 Branch kernel/build)
   <project path="bootable/recovery" name="platform/bootable/recovery" revision="gbl-mainline"/>
   <project path="external/arm-trusted-firmware" name="platform/external/arm-trusted-firmware"/>
   <project path="external/avb" name="platform/external/avb"/>
@@ -76,4 +120,18 @@
   <project path="external/rust/crates/zune-inflate" name="platform/external/rust/crates/zune-inflate"/>
   <project path="prebuilts/fuchsia_sdk" name="platform/prebuilts/fuchsia_sdk" clone-depth="1"/>
   <project path="system/core" name="platform/system/core"/>
+||||||| BASE   (4aa40f75ebe7b397ec7b75123bc9249436e14694 Drop apple_support/rules_java.)
+=======
+  <project path="external/arm-trusted-firmware" name="platform/external/arm-trusted-firmware"/>
+  <project path="external/boringssl" name="platform/external/boringssl"/>
+  <project path="external/compiler-rt" name="platform/external/compiler-rt"/>
+  <project path="external/libufdt" name="platform/system/libufdt"/>
+  <project path="external/open-dice" name="platform/external/open-dice"/>
+  <project path="external/elfutils" name="platform/external/elfutils"/>
+  <project path="external/googletest" name="platform/external/googletest"/>
+  <project path="external/rust/android-crates-io" name="platform/external/rust/android-crates-io"/>
+  <project path="external/rust/crates/smoltcp" name="platform/external/rust/crates/smoltcp"/>
+  <project path="external/rust/crates/zune-inflate" name="platform/external/rust/crates/zune-inflate"/>
+  <project path="prebuilts/fuchsia_sdk" name="platform/prebuilts/fuchsia_sdk" clone-depth="1" revision="gbl-mainline"/>
+>>>>>>> BRANCH (0ffa4ccb84afe18f2f97782139a7abf582a3fbf8 Add avb project to ddk group)
 </manifest>
