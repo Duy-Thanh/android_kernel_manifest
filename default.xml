@@ -1,15 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+<<<<<<< HEAD   (7c70e5a0dd1fa92c16a34b67742828ce10baed0c Migrate to kernel-main and sync to common-android-mainline)
   <remote  name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="main-kernel" remote="aosp" sync-j="4" />
+||||||| BASE   (4aa40f75ebe7b397ec7b75123bc9249436e14694 Drop apple_support/rules_java.)
+  <remote  name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
+  <default revision="main" remote="aosp" sync-j="4" />
+=======
+  <remote  name="aosp" fetch=".." review="https://android-review.googlesource.com/"/>
+  <default revision="main-kernel" remote="aosp" sync-j="4"/>
+>>>>>>> BRANCH (d5049e082732d0e2056f1a4f5fee46d540fd6aeb Merge "manifest: Add zstd repository to the manifest" into c)
 
+<<<<<<< HEAD   (7c70e5a0dd1fa92c16a34b67742828ce10baed0c Migrate to kernel-main and sync to common-android-mainline)
   <superproject name="kernel/superproject" remote="aosp" revision="common-android-mainline-riscv64" />
+||||||| BASE   (4aa40f75ebe7b397ec7b75123bc9249436e14694 Drop apple_support/rules_java.)
+  <superproject name="kernel/superproject" remote="aosp" revision="common-android-mainline" />
+=======
+  <superproject name="kernel/superproject" remote="aosp" revision="common-android-mainline"/>
+>>>>>>> BRANCH (d5049e082732d0e2056f1a4f5fee46d540fd6aeb Merge "manifest: Add zstd repository to the manifest" into c)
 
   <project path="build/kernel" name="kernel/build" groups="ddk">
+<<<<<<< HEAD   (7c70e5a0dd1fa92c16a34b67742828ce10baed0c Migrate to kernel-main and sync to common-android-mainline)
     <linkfile src="kleaf/bazel.sh" dest="tools/bazel" />
     <linkfile src="kleaf/bzlmod/bazel.MODULE.bazel" dest="MODULE.bazel" />
     <linkfile src="kleaf/bzlmod/bazel.WORKSPACE.bzlmod" dest="WORKSPACE.bzlmod" />
+||||||| BASE   (4aa40f75ebe7b397ec7b75123bc9249436e14694 Drop apple_support/rules_java.)
+    <linkfile src="kleaf/bazel.sh" dest="tools/bazel" />
+    <linkfile src="kleaf/bzlmod/bazel.MODULE.bazel" dest="MODULE.bazel" />
+=======
+    <linkfile src="kleaf/bazel.sh" dest="tools/bazel"/>
+    <linkfile src="kleaf/bzlmod/bazel.MODULE.bazel" dest="MODULE.bazel"/>
+>>>>>>> BRANCH (d5049e082732d0e2056f1a4f5fee46d540fd6aeb Merge "manifest: Add zstd repository to the manifest" into c)
   </project>
+<<<<<<< HEAD   (7c70e5a0dd1fa92c16a34b67742828ce10baed0c Migrate to kernel-main and sync to common-android-mainline)
   <project path="common" name="kernel/common" revision="android-mainline-riscv64" />
   <project path="kernel/tests" name="kernel/tests">
     <linkfile src="tools/run_test_only.sh" dest="run_test_only.sh" />
@@ -28,34 +51,100 @@
   <project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts" revision="main" clone-depth="1" />
   <project path="prebuilts/asuite" name="platform/prebuilts/asuite" revision="main" clone-depth="1" />
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
+||||||| BASE   (4aa40f75ebe7b397ec7b75123bc9249436e14694 Drop apple_support/rules_java.)
+  <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" groups="ddk" />
+  <project path="common" name="kernel/common" revision="android-mainline" />
+  <project path="kernel/common-patches" name="kernel/common-patches" >
+      <linkfile src="android-mainline" dest="common/patches" />
+  </project>
+  <project path="kernel/configs" name="kernel/configs" revision="main" />
+  <project path="kernel/tests" name="kernel/tests" revision="main" >
+    <linkfile src="tools/run_test_only.sh" dest="run_test_only.sh" />
+    <linkfile src="tools/launch_cvd.sh" dest="launch_cvd.sh" />
+    <linkfile src="tools/flash_device.sh" dest="flash_device.sh" />
+  </project>
+  <project path="common-modules/trusty" name="kernel/common-modules/trusty" />
+  <project path="common-modules/virtio-media" name="platform/external/virtio-media" />
+  <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="android-mainline" />
+  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" revision="main-kernel" clone-depth="1" groups="ddk" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" groups="ddk" />
+  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" groups="ddk" />
+  <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" clone-depth="1" groups="ddk" />
+  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" groups="ddk" />
+  <project path="prebuilts/rust" name="platform/prebuilts/rust" revision="main-kernel" clone-depth="1" groups="ddk" />
+  <project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts" revision="main" clone-depth="1" />
+  <project path="prebuilts/asuite" name="platform/prebuilts/asuite" revision="main" clone-depth="1" />
+  <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
+=======
+  <project path="common" name="kernel/common" revision="android-mainline"/>
+  <project path="common-modules/trusty" name="kernel/common-modules/trusty"/>
+  <project path="common-modules/virtio-media" name="platform/external/virtio-media"/>
+  <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="android-mainline"/>
+  <project path="devices/google/raviole" name="kernel/devices/google/raviole" revision="android-gs-raviole-mainline">
+    <!-- TODO(b/456781041): Enable transitions for raviole_upstream to drop this. -->
+    <linkfile src="device.bazelrc" dest="device.bazelrc"/>
+  </project>
+  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" groups="ddk"/>
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" groups="ddk"/>
+  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" groups="ddk"/>
+  <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" clone-depth="1" groups="ddk"/>
+  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" groups="ddk"/>
+  <project path="prebuilts/rust-toolchain/linux-x86" name="platform/prebuilts/rust-toolchain/linux-x86" clone-depth="1" groups="ddk"/>
+  <project path="prebuilts/ndk-r27" name="toolchain/prebuilts/ndk/r27" clone-depth="1" groups="ddk"/>
+>>>>>>> BRANCH (d5049e082732d0e2056f1a4f5fee46d540fd6aeb Merge "manifest: Add zstd repository to the manifest" into c)
 
+<<<<<<< HEAD   (7c70e5a0dd1fa92c16a34b67742828ce10baed0c Migrate to kernel-main and sync to common-android-mainline)
   <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" clone-depth="1" />
   <project path="prebuilts/ndk-r26" name="toolchain/prebuilts/ndk/r26" clone-depth="1" groups="ddk" />
 
+||||||| BASE   (4aa40f75ebe7b397ec7b75123bc9249436e14694 Drop apple_support/rules_java.)
+  <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" revision="main-kernel" clone-depth="1" />
+  <project path="prebuilts/ndk-r26" name="toolchain/prebuilts/ndk/r26" clone-depth="1" groups="ddk" />
+
+=======
+  <!-- Dependencies for testing (kunit, kselftests, ltp & dittosuite) -->
+  <project path="kernel/tests" name="kernel/tests"/>
+  <project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts" clone-depth="1"/>
+  <project path="prebuilts/asuite" name="platform/prebuilts/asuite" clone-depth="1"/>
+  <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" clone-depth="1"/>
+>>>>>>> BRANCH (d5049e082732d0e2056f1a4f5fee46d540fd6aeb Merge "manifest: Add zstd repository to the manifest" into c)
   <project path="external/libcap-ng" name="platform/external/libcap-ng"/>
   <project path="external/libcap" name="platform/external/libcap"/>
+  <project path="test/dittosuite" name="platform/test/dittosuite"/>
+  <project path="test/ltp" name="platform/external/ltp"/>
 
   <!-- deps for for bzlmod -->
-  <project path="external/bazel-contrib-bazel_features" name="platform/external/bazel-contrib-bazel_features" groups="ddk-external" />
-  <project path="external/bazel-skylib" name="platform/external/bazel-skylib" groups="ddk-external" />
-  <project path="external/bazelbuild-bazel-central-registry" name="platform/external/bazelbuild-bazel-central-registry" groups="ddk-external" />
-  <project path="external/bazelbuild-platforms" name="platform/external/bazelbuild-platforms" groups="ddk-external" />
-  <project path="external/bazelbuild-rules_cc" name="platform/external/bazelbuild-rules_cc" groups="ddk-external" />
-  <project path="external/bazelbuild-rules_license" name="platform/external/bazelbuild-rules_license" groups="ddk-external" />
-  <project path="external/bazelbuild-rules_pkg" name="platform/external/bazelbuild-rules_pkg" groups="ddk-external" />
-  <project path="external/bazelbuild-rules_python" name="platform/external/bazelbuild-rules_python" groups="ddk-external" />
-  <project path="external/bazelbuild-rules_rust" name="platform/external/bazelbuild-rules_rust" groups="ddk-external" />
-  <project path="external/bazelbuild-rules_shell" name="platform/external/bazelbuild-rules_shell" groups="ddk-external" />
-  <project path="external/python/absl-py" name="platform/external/python/absl-py" groups="ddk-external" />
+  <project path="external/bazel-contrib-bazel_features" name="platform/external/bazel-contrib-bazel_features" groups="ddk-external"/>
+  <project path="external/bazel-contrib-rules_devicetree" name="platform/external/bazel-contrib-rules_devicetree" groups="ddk-external"/>
+  <project path="external/bazel-contrib-supply-chain" name="platform/external/bazel-contrib-supply-chain" groups="ddk-external"/>
+  <project path="external/bazel-skylib" name="platform/external/bazel-skylib" groups="ddk-external"/>
+  <project path="external/bazelbuild-bazel-central-registry" name="platform/external/bazelbuild-bazel-central-registry" groups="ddk-external"/>
+  <project path="external/bazelbuild-platforms" name="platform/external/bazelbuild-platforms" groups="ddk-external"/>
+  <project path="external/bazelbuild-rules_cc" name="platform/external/bazelbuild-rules_cc" groups="ddk-external"/>
+  <project path="external/bazelbuild-rules_license" name="platform/external/bazelbuild-rules_license" groups="ddk-external"/>
+  <project path="external/bazelbuild-rules_pkg" name="platform/external/bazelbuild-rules_pkg" groups="ddk-external"/>
+  <project path="external/bazelbuild-rules_python" name="platform/external/bazelbuild-rules_python" groups="ddk-external"/>
+  <project path="external/bazelbuild-rules_rust" name="platform/external/bazelbuild-rules_rust" groups="ddk-external"/>
+  <project path="external/bazelbuild-rules_shell" name="platform/external/bazelbuild-rules_shell" groups="ddk-external"/>
+  <project path="external/python/absl-py" name="platform/external/python/absl-py" groups="ddk-external"/>
 
+<<<<<<< HEAD   (7c70e5a0dd1fa92c16a34b67742828ce10baed0c Migrate to kernel-main and sync to common-android-mainline)
   <!-- dependencies used to build toolchain from sources -->
+||||||| BASE   (4aa40f75ebe7b397ec7b75123bc9249436e14694 Drop apple_support/rules_java.)
+=======
+  <!-- local_repository()'s dependencies -->
+  <project path="external/avb" name="platform/external/avb" groups="ddk"/>
+  <project path="external/dtc" name="platform/external/dtc" groups="ddk"/>
+>>>>>>> BRANCH (d5049e082732d0e2056f1a4f5fee46d540fd6aeb Merge "manifest: Add zstd repository to the manifest" into c)
   <project path="external/kmod" name="platform/external/kmod" groups="ddk"/>
   <project path="external/lz4" name="platform/external/lz4" groups="ddk"/>
   <project path="external/pigz" name="platform/external/pigz" groups="ddk"/>
   <project path="external/toybox" name="platform/external/toybox" groups="ddk"/>
   <project path="external/zlib" name="platform/external/zlib" groups="ddk"/>
   <project path="external/zopfli" name="platform/external/zopfli" groups="ddk"/>
+  <project path="external/zstd" name="platform/external/zstd" groups="ddk"/>
 
+<<<<<<< HEAD   (7c70e5a0dd1fa92c16a34b67742828ce10baed0c Migrate to kernel-main and sync to common-android-mainline)
   <project path="test/dittosuite" name="platform/test/dittosuite"/>
   <project path="test/ltp" name="platform/external/ltp"/>
 
@@ -76,4 +165,22 @@
   <project path="external/rust/crates/zune-inflate" name="platform/external/rust/crates/zune-inflate" />
   <project path="prebuilts/fuchsia_sdk" name="platform/prebuilts/fuchsia_sdk" clone-depth="1" />
   <project path="system/core" name="platform/system/core" />
+||||||| BASE   (4aa40f75ebe7b397ec7b75123bc9249436e14694 Drop apple_support/rules_java.)
+  <project path="test/dittosuite" name="platform/test/dittosuite"/>
+  <project path="test/ltp" name="platform/external/ltp"/>
+=======
+  <!-- dependencies for GBL -->
+  <project path="bootable/libbootloader" name="platform/bootable/libbootloader" revision="gbl-mainline"/>
+  <project path="external/arm-trusted-firmware" name="platform/external/arm-trusted-firmware"/>
+  <project path="external/boringssl" name="platform/external/boringssl"/>
+  <project path="external/compiler-rt" name="platform/external/compiler-rt"/>
+  <project path="external/libufdt" name="platform/system/libufdt"/>
+  <project path="external/open-dice" name="platform/external/open-dice"/>
+  <project path="external/elfutils" name="platform/external/elfutils"/>
+  <project path="external/googletest" name="platform/external/googletest"/>
+  <project path="external/rust/android-crates-io" name="platform/external/rust/android-crates-io"/>
+  <project path="external/rust/crates/smoltcp" name="platform/external/rust/crates/smoltcp"/>
+  <project path="external/rust/crates/zune-inflate" name="platform/external/rust/crates/zune-inflate"/>
+  <project path="prebuilts/fuchsia_sdk" name="platform/prebuilts/fuchsia_sdk" clone-depth="1" revision="gbl-mainline"/>
+>>>>>>> BRANCH (d5049e082732d0e2056f1a4f5fee46d540fd6aeb Merge "manifest: Add zstd repository to the manifest" into c)
 </manifest>
