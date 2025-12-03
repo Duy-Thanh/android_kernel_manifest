@@ -18,6 +18,24 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "69226c42_61b5a3f6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1279898
+      },
+      "writtenOn": "2025-12-03T05:45:27Z",
+      "side": 1,
+      "message": "Abandoning in favor of aosp/3874420. This branch is not presubmit blocking and gets out of sync really frequently, so every cherry-pick requires some amount of editing. I\u0027ll drop this in favor of a merge commit that includes any necessary changes.",
+      "parentUuid": "efe56f37_9deac9e3",
+      "revId": "c16f9d74867e17bb70f300a0c6e9a421e44cc63a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f39f08b8_4494743c",
@@ -55,6 +73,30 @@
           ]
         }
       ],
+      "revId": "c16f9d74867e17bb70f300a0c6e9a421e44cc63a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f0cef7d2_d173f80a",
+        "filename": "default.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1279898
+      },
+      "writtenOn": "2025-12-03T05:45:27Z",
+      "side": 1,
+      "message": "Abandoning in favor of aosp/3874420.",
+      "parentUuid": "f39f08b8_4494743c",
+      "range": {
+        "startLine": 14,
+        "startChar": 0,
+        "endLine": 14,
+        "endChar": 54
+      },
       "revId": "c16f9d74867e17bb70f300a0c6e9a421e44cc63a",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
