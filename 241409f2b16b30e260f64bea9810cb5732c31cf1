@@ -1,0 +1,79 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c258a1bb_14c41394",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 3522211
+      },
+      "writtenOn": "2025-12-05T17:23:09Z",
+      "side": 1,
+      "message": "can you please add some context about why this change?",
+      "revId": "241409f2b16b30e260f64bea9810cb5732c31cf1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f2984c72_3807605d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3522211
+      },
+      "writtenOn": "2025-12-05T17:23:09Z",
+      "side": 1,
+      "message": "Over to Raul, the current L\u0026T PDEIO LLP Oncall primary. http://go/lt-pdeio-llp-oncall\n\n(@raul: Ram DM\u0027d me to say this is expected to fix presubmits on the desktop kernel branch.)",
+      "revId": "241409f2b16b30e260f64bea9810cb5732c31cf1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "68e2a1a3_3935127a",
+        "filename": "default.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 3522211
+      },
+      "writtenOn": "2025-12-05T17:23:09Z",
+      "side": 1,
+      "message": "Is this going to work for arm builds?",
+      "range": {
+        "startLine": 25,
+        "startChar": 48,
+        "endLine": 25,
+        "endChar": 51
+      },
+      "fixSuggestions": [
+        {
+          "fixId": "4b898fe9_7c34dd9d",
+          "description": "prompt_to_edit API",
+          "replacements": [
+            {
+              "path": "default.xml",
+              "range": {
+                "startLine": 25,
+                "startChar": 0,
+                "endLine": 26,
+                "endChar": 0
+              },
+              "replacement": "  \u003cproject path\u003d\"prebuilts/rust-toolchain/linux-aarch64\" name\u003d\"platform/prebuilts/rust-toolchain/linux-aarch64\" clone-depth\u003d\"1\" groups\u003d\"ddk\"/\u003e\n"
+            }
+          ]
+        }
+      ],
+      "revId": "241409f2b16b30e260f64bea9810cb5732c31cf1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
