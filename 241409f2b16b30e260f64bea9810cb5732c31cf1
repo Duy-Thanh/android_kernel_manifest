@@ -20,6 +20,24 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "e73595bd_ede35d53",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2025-12-06T05:23:57Z",
+      "side": 1,
+      "message": "This is a cherry-pick of CL:3855917. Context is ag/37052782. It is internal, but tl;dr is that the rust team is deleting all prebuilts in prebuilts/rust. I don\u0027t think it is a good idea to put an internal CL number in this commit message though.",
+      "parentUuid": "c258a1bb_14c41394",
+      "revId": "241409f2b16b30e260f64bea9810cb5732c31cf1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "f2984c72_3807605d",
         "filename": "/PATCHSET_LEVEL",
         "patchSetId": 3
@@ -72,6 +90,30 @@
           ]
         }
       ],
+      "revId": "241409f2b16b30e260f64bea9810cb5732c31cf1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e2dba1a9_e5317978",
+        "filename": "default.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2025-12-06T05:23:57Z",
+      "side": 1,
+      "message": "Yes. linux-x86 refers to the host platform, not the platform you are building.",
+      "parentUuid": "68e2a1a3_3935127a",
+      "range": {
+        "startLine": 25,
+        "startChar": 48,
+        "endLine": 25,
+        "endChar": 51
+      },
       "revId": "241409f2b16b30e260f64bea9810cb5732c31cf1",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
