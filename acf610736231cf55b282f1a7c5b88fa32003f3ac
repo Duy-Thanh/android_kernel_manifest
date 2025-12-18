@@ -22,6 +22,30 @@
       },
       "revId": "acf610736231cf55b282f1a7c5b88fa32003f3ac",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b09840d3_8be032f2",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 2055842
+      },
+      "writtenOn": "2025-12-18T15:01:52Z",
+      "side": 0,
+      "message": "No, I made a mistake. I submitted the second patchset fixing this. Thanks for spotting it.",
+      "parentUuid": "a1d3a5a3_7582f2e7",
+      "range": {
+        "startLine": 60,
+        "startChar": 100,
+        "endLine": 62,
+        "endChar": 114
+      },
+      "revId": "acf610736231cf55b282f1a7c5b88fa32003f3ac",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
