@@ -8,30 +8,48 @@
   <project path="build/kernel" name="kernel/build" groups="ddk">
     <linkfile src="kleaf/bazel.sh" dest="tools/bazel"/>
     <linkfile src="kleaf/bzlmod/bazel.MODULE.bazel" dest="MODULE.bazel"/>
-    <linkfile src="kleaf/bzlmod/bazel.WORKSPACE.bzlmod" dest="WORKSPACE.bzlmod"/>
   </project>
+<<<<<<< HEAD   (241409f2b16b30e260f64bea9810cb5732c31cf1 Use rust-toolchain/linux-x86 not prebuilts/rust.)
   <project path="common" name="kernel/common" revision="android-mainline-desktop" >
       <linkfile src=".bazelignore" dest=".bazelignore" />
   </project>
   <project path="kernel/tests" name="kernel/tests"/>
+||||||| BASE   (89b2c3de4de4a915f8a393c40be3816e847ef26a Add new bazel dependency supply-chain)
+  <project path="common" name="kernel/common" revision="android-mainline">
+    <linkfile src=".bazelignore" dest=".bazelignore"/>
+  </project>
+  <project path="kernel/tests" name="kernel/tests"/>
+=======
+  <project path="common" name="kernel/common" revision="android-mainline"/>
+>>>>>>> BRANCH (d5049e082732d0e2056f1a4f5fee46d540fd6aeb Merge "manifest: Add zstd repository to the manifest" into c)
   <project path="common-modules/trusty" name="kernel/common-modules/trusty"/>
   <project path="common-modules/virtio-media" name="platform/external/virtio-media"/>
   <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="android-mainline"/>
+  <project path="devices/google/raviole" name="kernel/devices/google/raviole" revision="android-gs-raviole-mainline">
+    <!-- TODO(b/456781041): Enable transitions for raviole_upstream to drop this. -->
+    <linkfile src="device.bazelrc" dest="device.bazelrc"/>
+  </project>
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" groups="ddk"/>
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" groups="ddk"/>
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" groups="ddk"/>
   <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" clone-depth="1" groups="ddk"/>
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" groups="ddk"/>
   <project path="prebuilts/rust-toolchain/linux-x86" name="platform/prebuilts/rust-toolchain/linux-x86" clone-depth="1" groups="ddk"/>
+<<<<<<< HEAD   (241409f2b16b30e260f64bea9810cb5732c31cf1 Use rust-toolchain/linux-x86 not prebuilts/rust.)
+||||||| BASE   (89b2c3de4de4a915f8a393c40be3816e847ef26a Add new bazel dependency supply-chain)
+=======
+  <project path="prebuilts/ndk-r27" name="toolchain/prebuilts/ndk/r27" clone-depth="1" groups="ddk"/>
+
+  <!-- Dependencies for testing (kunit, kselftests, ltp & dittosuite) -->
+  <project path="kernel/tests" name="kernel/tests"/>
+>>>>>>> BRANCH (d5049e082732d0e2056f1a4f5fee46d540fd6aeb Merge "manifest: Add zstd repository to the manifest" into c)
   <project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts" clone-depth="1"/>
   <project path="prebuilts/asuite" name="platform/prebuilts/asuite" clone-depth="1"/>
-  <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg"/>
-
   <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" clone-depth="1"/>
-  <project path="prebuilts/ndk-r26" name="toolchain/prebuilts/ndk/r26" clone-depth="1" groups="ddk"/>
-
   <project path="external/libcap-ng" name="platform/external/libcap-ng"/>
   <project path="external/libcap" name="platform/external/libcap"/>
+  <project path="test/dittosuite" name="platform/test/dittosuite"/>
+  <project path="test/ltp" name="platform/external/ltp"/>
 
   <!-- deps for for bzlmod -->
   <project path="external/bazel-contrib-bazel_features" name="platform/external/bazel-contrib-bazel_features" groups="ddk-external"/>
@@ -48,7 +66,8 @@
   <project path="external/bazelbuild-rules_shell" name="platform/external/bazelbuild-rules_shell" groups="ddk-external"/>
   <project path="external/python/absl-py" name="platform/external/python/absl-py" groups="ddk-external"/>
 
-  <!-- dependencies used to build toolchain from sources -->
+  <!-- local_repository()'s dependencies -->
+  <project path="external/avb" name="platform/external/avb" groups="ddk"/>
   <project path="external/dtc" name="platform/external/dtc" groups="ddk"/>
   <project path="external/kmod" name="platform/external/kmod" groups="ddk"/>
   <project path="external/lz4" name="platform/external/lz4" groups="ddk"/>
@@ -56,15 +75,11 @@
   <project path="external/toybox" name="platform/external/toybox" groups="ddk"/>
   <project path="external/zlib" name="platform/external/zlib" groups="ddk"/>
   <project path="external/zopfli" name="platform/external/zopfli" groups="ddk"/>
-
-  <project path="test/dittosuite" name="platform/test/dittosuite"/>
-  <project path="test/ltp" name="platform/external/ltp"/>
+  <project path="external/zstd" name="platform/external/zstd" groups="ddk"/>
 
   <!-- dependencies for GBL -->
   <project path="bootable/libbootloader" name="platform/bootable/libbootloader" revision="gbl-mainline"/>
-  <project path="bootable/recovery" name="platform/bootable/recovery" revision="gbl-mainline"/>
   <project path="external/arm-trusted-firmware" name="platform/external/arm-trusted-firmware"/>
-  <project path="external/avb" name="platform/external/avb"/>
   <project path="external/boringssl" name="platform/external/boringssl"/>
   <project path="external/compiler-rt" name="platform/external/compiler-rt"/>
   <project path="external/libufdt" name="platform/system/libufdt"/>
@@ -75,5 +90,4 @@
   <project path="external/rust/crates/smoltcp" name="platform/external/rust/crates/smoltcp"/>
   <project path="external/rust/crates/zune-inflate" name="platform/external/rust/crates/zune-inflate"/>
   <project path="prebuilts/fuchsia_sdk" name="platform/prebuilts/fuchsia_sdk" clone-depth="1" revision="gbl-mainline"/>
-  <project path="system/core" name="platform/system/core"/>
 </manifest>
