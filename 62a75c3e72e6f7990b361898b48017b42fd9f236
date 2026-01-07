@@ -16,6 +16,24 @@
       "message": "Placeholder comment to block submitting.",
       "revId": "62a75c3e72e6f7990b361898b48017b42fd9f236",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "78f79e2b_1be5ff88",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 2055842
+      },
+      "writtenOn": "2026-01-07T07:27:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f1f71a6e_5c8ae333",
+      "revId": "62a75c3e72e6f7990b361898b48017b42fd9f236",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
