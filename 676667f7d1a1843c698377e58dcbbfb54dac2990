@@ -16,6 +16,57 @@
       "message": "Placeholder comment to block submitting.",
       "revId": "676667f7d1a1843c698377e58dcbbfb54dac2990",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fc1744f4_b4a9355a",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1961395
+      },
+      "writtenOn": "2026-01-19T18:43:41Z",
+      "side": 1,
+      "message": "nit: It seems the convention in this file is to have `name\u003d` then `path\u003d`. Also it\u0027d good to put this close the other external projects (around line 60).",
+      "range": {
+        "startLine": 69,
+        "startChar": 2,
+        "endLine": 69,
+        "endChar": 107
+      },
+      "fixSuggestions": [
+        {
+          "fixId": "849bdb87_7a4d75de",
+          "description": "prompt_to_edit API",
+          "replacements": [
+            {
+              "path": "default.xml",
+              "range": {
+                "startLine": 60,
+                "startChar": 0,
+                "endLine": 60,
+                "endChar": 0
+              },
+              "replacement": "  \u003cproject name\u003d\"platform/external/zstd\" path\u003d\"external/zstd\" revision\u003d\"main-kernel-2026\" clone-depth\u003d\"1\"/\u003e\n"
+            },
+            {
+              "path": "default.xml",
+              "range": {
+                "startLine": 69,
+                "startChar": 0,
+                "endLine": 70,
+                "endChar": 0
+              },
+              "replacement": ""
+            }
+          ]
+        }
+      ],
+      "revId": "676667f7d1a1843c698377e58dcbbfb54dac2990",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
