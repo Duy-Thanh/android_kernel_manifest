@@ -16,6 +16,23 @@
       "message": "Elimine la licencia con: cscript ospp.vbs /unpkey",
       "revId": "49e06a48e163670d5a8c583e2ccbfe3b0c4f7dea",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "822a99b9_a177d6ba",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4568137
+      },
+      "writtenOn": "2026-01-24T21:40:22Z",
+      "side": 1,
+      "message": "review.example.com:22",
+      "revId": "49e06a48e163670d5a8c583e2ccbfe3b0c4f7dea",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
