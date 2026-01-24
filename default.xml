@@ -67,6 +67,7 @@
   <project path="external/open-dice" name="platform/external/open-dice"/>
   <project path="external/elfutils" name="platform/external/elfutils"/>
   <project path="external/googletest" name="platform/external/googletest"/>
+  <project path="external/mtools" name="platform/external/mtools"/>
   <project path="external/rust/android-crates-io" name="platform/external/rust/android-crates-io"/>
   <project path="external/rust/crates/smoltcp" name="platform/external/rust/crates/smoltcp"/>
   <project path="external/rust/crates/zune-inflate" name="platform/external/rust/crates/zune-inflate"/>
