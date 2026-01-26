@@ -16,6 +16,24 @@
       "message": "Are you introducing any dependencies on this project? If so, please add an entry in the GKI newsletter to communicate it. Thank you.",
       "revId": "45ae96361730c5109bb82228c059ceaa47a619e6",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "685c8f0b_8ead9f01",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1466604
+      },
+      "writtenOn": "2026-01-26T16:54:55Z",
+      "side": 1,
+      "message": "Ack. How about this comment here https://docs.google.com/document/d/1yaamWr82CoKb4bNriClHRsycmHJS5oepax9G3fA2ty8/edit?disco\u003d56bc84zge2xn ?",
+      "parentUuid": "b6a5bb4a_bef06a4f",
+      "revId": "45ae96361730c5109bb82228c059ceaa47a619e6",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
