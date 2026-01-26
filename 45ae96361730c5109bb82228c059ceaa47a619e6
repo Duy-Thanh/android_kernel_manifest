@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b6a5bb4a_bef06a4f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1961395
+      },
+      "writtenOn": "2026-01-26T13:22:47Z",
+      "side": 1,
+      "message": "Are you introducing any dependencies on this project? If so, please add an entry in the GKI newsletter to communicate it. Thank you.",
+      "revId": "45ae96361730c5109bb82228c059ceaa47a619e6",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
