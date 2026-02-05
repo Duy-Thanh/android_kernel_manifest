@@ -53,6 +53,4 @@
   <!-- dependencies used to build toolchain from sources -->
   <project path="external/pigz" name="platform/external/pigz" groups="ddk"/>
   <project path="external/zopfli" name="platform/external/zopfli" groups="ddk"/>
-
-  <project path="test/dittosuite" name="platform/test/dittosuite"/>
 </manifest>
