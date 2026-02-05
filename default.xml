@@ -29,11 +29,32 @@
   <project path="prebuilts/asuite" name="platform/prebuilts/asuite" clone-depth="1" />
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
 
+<<<<<<< HEAD   (f92f02f3c995adbe3c2c6982f18adc9c17c67af5 Revert "Add linkfile to common/.bazelignore")
   <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" clone-depth="1" />
   <project path="prebuilts/ndk-r26" name="toolchain/prebuilts/ndk/r26" clone-depth="1" groups="ddk" />
 
+||||||| BASE   (116df3dd7fa925bb0652508bbfb15a5bf1ed7ccd GBL: Add mtools to manifest)
+  <!-- Dependencies for testing (kunit, kselftests, ltp & dittosuite) -->
+  <project path="kernel/tests" name="kernel/tests"/>
+  <project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts" clone-depth="1"/>
+  <project path="prebuilts/asuite" name="platform/prebuilts/asuite" clone-depth="1"/>
+  <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" clone-depth="1"/>
+=======
+  <!-- Dependencies for testing (kunit, kselftests, ltp) -->
+  <project path="kernel/tests" name="kernel/tests"/>
+  <project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts" clone-depth="1"/>
+  <project path="prebuilts/asuite" name="platform/prebuilts/asuite" clone-depth="1"/>
+  <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" clone-depth="1"/>
+>>>>>>> CHANGE (33bf0a37a1b2a662948e4ff5b4236ffd1b90971f Revert "Introduce Dittosuite repo")
   <project path="external/libcap-ng" name="platform/external/libcap-ng"/>
   <project path="external/libcap" name="platform/external/libcap"/>
+<<<<<<< HEAD   (f92f02f3c995adbe3c2c6982f18adc9c17c67af5 Revert "Add linkfile to common/.bazelignore")
+||||||| BASE   (116df3dd7fa925bb0652508bbfb15a5bf1ed7ccd GBL: Add mtools to manifest)
+  <project path="test/dittosuite" name="platform/test/dittosuite"/>
+  <project path="test/ltp" name="platform/external/ltp"/>
+=======
+  <project path="test/ltp" name="platform/external/ltp"/>
+>>>>>>> CHANGE (33bf0a37a1b2a662948e4ff5b4236ffd1b90971f Revert "Introduce Dittosuite repo")
 
   <!-- deps for for bzlmod -->
   <project path="external/bazel-contrib-bazel_features" name="platform/external/bazel-contrib-bazel_features" groups="ddk-external" />
