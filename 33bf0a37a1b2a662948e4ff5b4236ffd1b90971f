@@ -1,5 +1,23 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "30601118_68afdf13",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4615854
+      },
+      "writtenOn": "2026-02-07T10:53:21Z",
+      "side": 1,
+      "message": "android-latest-release",
+      "revId": "33bf0a37a1b2a662948e4ff5b4236ffd1b90971f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ],
   "submitRequirementResults": [
     {
       "submitRequirement": {
