@@ -11,6 +11,7 @@
     <linkfile src="build_test.sh" dest="build/build_test.sh" />
     <linkfile src="config.sh" dest="build/config.sh" />
   </project>
+<<<<<<< HEAD   (c27fe612fe0933e058b74b18c2d8b546f43b5c68 Snap projects from 13143119)
   <project path="common" name="kernel/common" revision="android14-6.1-2025-03" upstream="android14-6.1-2025-03" dest-branch="android14-6.1-2025-03" />
   <project path="kernel/configs" name="kernel/configs" revision="362ec334a8da083a36cec9349651ed7b7bb3dd9a" upstream="main" dest-branch="main" />
   <project path="kernel/tests" name="kernel/tests" revision="ca8ef9155837d6f383f02d45239df6542a7f6f57" upstream="main" dest-branch="main">
@@ -18,17 +19,45 @@
     <linkfile src="tools/launch_cvd.sh" dest="launch_cvd.sh" />
   </project>
   <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="d507a9b5ce9903dd3bd91ffd4b784271e5284e13" upstream="android14-6.1" dest-branch="android14-6.1" />
+||||||| BASE   (0c18946e7ba2ca29481e165f1612fa7c91ef68bf Snap projects from 13293183)
+  <project path="common" name="kernel/common" revision="android14-6.1-2025-04" upstream="android14-6.1-2025-04" dest-branch="android14-6.1-2025-04" />
+  <project path="kernel/configs" name="kernel/configs" revision="bd79f38685cf939ab836dd8ddd2e01506ccff47a" upstream="main" dest-branch="main" />
+  <project path="kernel/tests" name="kernel/tests" revision="7b2005bacbf91c5c494abded85b3c7fea88862a8" upstream="main" dest-branch="main">
+    <linkfile src="tools/run_test_only.sh" dest="run_test_only.sh" />
+    <linkfile src="tools/launch_cvd.sh" dest="launch_cvd.sh" />
+  </project>
+  <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="cef7c7c7cc8a66b7c3c693d42e081426be0d34b6" upstream="android14-6.1" dest-branch="android14-6.1" />
+=======
+  <project path="common" name="kernel/common" revision="android14-6.1-2025-04" upstream="android14-6.1-2025-04" dest-branch="android14-6.1-2025-04" />
+  <project path="kernel/configs" name="kernel/configs" revision="bd79f38685cf939ab836dd8ddd2e01506ccff47a" upstream="main" dest-branch="main" />
+  <!-- Uncomment for local testing only -->
+  <!-- project path="kernel/tests" name="kernel/tests" revision="main-kernel" clone-depth="1" -->
+    <!-- linkfile src="tools/run_test_only.sh" dest="run_test_only.sh" / -->
+    <!-- linkfile src="tools/launch_cvd.sh" dest="launch_cvd.sh" / -->
+    <!-- linkfile src="tools/flash_device.sh" dest="flash_device.sh" /  -->
+  <!-- /project -->
+  <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="cef7c7c7cc8a66b7c3c693d42e081426be0d34b6" upstream="android14-6.1" dest-branch="android14-6.1" />
+>>>>>>> CHANGE (8f0ef2be5b2d6e36887b274a0e2f2ef12f84028e Comment out projects used for local testing only.)
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
   <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" clone-depth="1" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" />
+<<<<<<< HEAD   (c27fe612fe0933e058b74b18c2d8b546f43b5c68 Snap projects from 13143119)
   <project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts" revision="0958e3531c487e598165d44d474db143627d906d" clone-depth="1" upstream="main" dest-branch="main" />
   <project path="prebuilts/asuite" name="platform/prebuilts/asuite" revision="60f100f24738f68c051ea0a218ecd5e1a0c5185a" clone-depth="1" upstream="main" dest-branch="main" />
+||||||| BASE   (0c18946e7ba2ca29481e165f1612fa7c91ef68bf Snap projects from 13293183)
+  <project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts" revision="52121d9a4653ff92b9bd225bd417b6a288c36b58" clone-depth="1" upstream="main" dest-branch="main" />
+  <project path="prebuilts/asuite" name="platform/prebuilts/asuite" revision="d90d0060aedfd80f2119c1db5339a093f2758926" clone-depth="1" upstream="main" dest-branch="main" />
+=======
+  <!-- Uncomment for local testing only -->
+  <!-- project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts" revision="main-kernel" clone-depth="1" / -->
+  <!-- project path="prebuilts/asuite" name="platform/prebuilts/asuite" revision="main-kernel" clone-depth="1" / -->
+>>>>>>> CHANGE (8f0ef2be5b2d6e36887b274a0e2f2ef12f84028e Comment out projects used for local testing only.)
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
 
   <project path="prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" clone-depth="1" />
-  <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" clone-depth="1" />
+  <!-- project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" revision="main-kernel" clone-depth="1" / -->
   <project path="prebuilts/ndk-r23" name="toolchain/prebuilts/ndk/r23" clone-depth="1" />
 
   <project path="external/bazel-skylib" name="platform/external/bazel-skylib" />
