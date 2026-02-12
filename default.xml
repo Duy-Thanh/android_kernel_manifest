@@ -15,12 +15,9 @@
   <project path="common" name="kernel/common" revision="android15-6.6-2025-05" upstream="android15-6.6-2025-05" dest-branch="android15-6.6-2025-05">
       <linkfile src=".bazelignore" dest=".bazelignore" />
   </project>
+  <!-- Uncomment for local testing only -->
+  <!-- project path="kernel/tests" name="kernel/tests" revision="main-kernel" clone-depth="1" / -->
   <project path="kernel/configs" name="kernel/configs" revision="bd79f38685cf939ab836dd8ddd2e01506ccff47a" upstream="main" dest-branch="main" />
-  <project path="kernel/tests" name="kernel/tests" revision="7b2005bacbf91c5c494abded85b3c7fea88862a8" upstream="main" dest-branch="main">
-    <linkfile src="tools/run_test_only.sh" dest="run_test_only.sh" />
-    <linkfile src="tools/launch_cvd.sh" dest="launch_cvd.sh" />
-    <linkfile src="tools/flash_device.sh" dest="flash_device.sh" />
-  </project>
   <project path="common-modules/trusty" name="kernel/common-modules/trusty" />
   <project path="common-modules/virtio-media" name="platform/external/virtio-media" />
   <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="211d96f861e1d6061ecb6bbe6e289ce8bf144290" upstream="android15-6.6" dest-branch="android15-6.6" />
@@ -30,8 +27,6 @@
   <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" clone-depth="1" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" groups="ddk" />
   <project path="prebuilts/rust" name="platform/prebuilts/rust" clone-depth="1" />
-  <project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts" revision="52121d9a4653ff92b9bd225bd417b6a288c36b58" clone-depth="1" upstream="main" dest-branch="main" />
-  <project path="prebuilts/asuite" name="platform/prebuilts/asuite" revision="d90d0060aedfd80f2119c1db5339a093f2758926" clone-depth="1" upstream="main" dest-branch="main" />
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
 
   <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" clone-depth="1" />
