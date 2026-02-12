@@ -10,12 +10,33 @@
     <linkfile src="kleaf/bzlmod/bazel.MODULE.bazel" dest="MODULE.bazel" />
     <linkfile src="kleaf/bzlmod/bazel.WORKSPACE.bzlmod" dest="WORKSPACE.bzlmod" />
   </project>
+<<<<<<< HEAD   (545b9c9e530ba702cc5f951e6005eb99ce537119 Revert "Introduce Dittosuite repo")
   <project path="common" name="kernel/common" revision="android16-6.12" />
   <project path="kernel/tests" name="kernel/tests" >
     <linkfile src="tools/run_test_only.sh" dest="run_test_only.sh" />
     <linkfile src="tools/launch_cvd.sh" dest="launch_cvd.sh" />
     <linkfile src="tools/flash_device.sh" dest="flash_device.sh" />
   </project>
+||||||| BASE   (06f84232015cb2c696b7538e6735154adc8193c3 Revert "Add linkfile to common/.bazelignore")
+  <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" groups="ddk" />
+  <project path="common" name="kernel/common" revision="android15-6.6" />
+  <project path="kernel/configs" name="kernel/configs" revision="main"/>
+  <project path="kernel/tests" name="kernel/tests" revision="main" >
+    <linkfile src="tools/run_test_only.sh" dest="run_test_only.sh" />
+    <linkfile src="tools/launch_cvd.sh" dest="launch_cvd.sh" />
+    <linkfile src="tools/flash_device.sh" dest="flash_device.sh" />
+  </project>
+=======
+  <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" groups="ddk" />
+  <project path="common" name="kernel/common" revision="android15-6.6" />
+  <project path="kernel/configs" name="kernel/configs" revision="main"/>
+  <!-- Uncomment for local testing only -->
+  <!-- project path="kernel/tests" name="kernel/tests" revision="main-kernel" clone-depth="1" -->
+    <!-- linkfile src="tools/run_test_only.sh" dest="run_test_only.sh" / -->
+    <!-- linkfile src="tools/launch_cvd.sh" dest="launch_cvd.sh" / -->
+    <!-- linkfile src="tools/flash_device.sh" dest="flash_device.sh" /  -->
+  <!-- /project -->
+>>>>>>> CHANGE (cfaffb175694ee64d0e627a0d8e9b51fdeaec758 Comment out projects used for local testing only.)
   <project path="common-modules/trusty" name="kernel/common-modules/trusty" />
   <project path="common-modules/virtio-media" name="platform/external/virtio-media" />
   <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="android16-6.12" />
@@ -24,12 +45,23 @@
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" groups="ddk" />
   <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" clone-depth="1" groups="ddk" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" groups="ddk" />
+<<<<<<< HEAD   (545b9c9e530ba702cc5f951e6005eb99ce537119 Revert "Introduce Dittosuite repo")
   <project path="prebuilts/rust" name="platform/prebuilts/rust" clone-depth="1" groups="ddk" />
   <project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts" clone-depth="1" />
   <project path="prebuilts/asuite" name="platform/prebuilts/asuite" clone-depth="1" />
+||||||| BASE   (06f84232015cb2c696b7538e6735154adc8193c3 Revert "Add linkfile to common/.bazelignore")
+  <project path="prebuilts/rust" name="platform/prebuilts/rust" clone-depth="1" />
+  <project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts" revision="main" clone-depth="1" />
+  <project path="prebuilts/asuite" name="platform/prebuilts/asuite" revision="main" clone-depth="1" />
+=======
+  <project path="prebuilts/rust" name="platform/prebuilts/rust" clone-depth="1" />
+  <!-- Uncomment for local testing only -->
+  <!-- project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts" revision="main-kernel" clone-depth="1" / -->
+  <!-- project path="prebuilts/asuite" name="platform/prebuilts/asuite" revision="main-kernel" clone-depth="1" / -->
+>>>>>>> CHANGE (cfaffb175694ee64d0e627a0d8e9b51fdeaec758 Comment out projects used for local testing only.)
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
 
-  <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" clone-depth="1" />
+  <!-- project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" revision="main-kernel" clone-depth="1" / -->
   <project path="prebuilts/ndk-r26" name="toolchain/prebuilts/ndk/r26" clone-depth="1" groups="ddk" />
 
   <project path="external/libcap-ng" name="platform/external/libcap-ng"/>
