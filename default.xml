@@ -21,12 +21,8 @@
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" groups="ddk"/>
   <project path="prebuilts/rust-toolchain/linux-x86" name="platform/prebuilts/rust-toolchain/linux-x86" clone-depth="1" groups="ddk"/>
   <project path="prebuilts/ndk-r27" name="toolchain/prebuilts/ndk/r27" clone-depth="1" groups="ddk"/>
-
   <!-- Dependencies for testing (kunit, kselftests, ltp) -->
   <project path="kernel/tests" name="kernel/tests"/>
-  <project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts" clone-depth="1"/>
-  <project path="prebuilts/asuite" name="platform/prebuilts/asuite" clone-depth="1"/>
-  <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" clone-depth="1"/>
   <project path="external/libcap-ng" name="platform/external/libcap-ng"/>
   <project path="external/libcap" name="platform/external/libcap"/>
   <project path="test/ltp" name="platform/external/ltp"/>
