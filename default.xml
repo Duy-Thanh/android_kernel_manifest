@@ -12,6 +12,7 @@
     <linkfile src="kleaf/bzlmod/bazel.WORKSPACE.bzlmod" dest="WORKSPACE.bzlmod" />
   </project>
   <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" groups="ddk" />
+<<<<<<< HEAD   (0470f3d93f8fc8640cd49473ae000fe26643a532 Snap projects from 13292979)
   <project path="common" name="kernel/common" revision="android15-6.6-2025-04" upstream="android15-6.6-2025-04" dest-branch="android15-6.6-2025-04">
       <linkfile src=".bazelignore" dest=".bazelignore" />
   </project>
@@ -21,6 +22,24 @@
     <linkfile src="tools/launch_cvd.sh" dest="launch_cvd.sh" />
     <linkfile src="tools/flash_device.sh" dest="flash_device.sh" />
   </project>
+||||||| BASE   (2055ce65ece06712b187a117173e2c0e7f6f43c9 Initial android15-6.6-2026-01 projects)
+  <project path="common" name="kernel/common" revision="android15-6.6-2026-01" upstream="android15-6.6-2026-01" dest-branch="android15-6.6-2026-01" />
+  <project path="kernel/configs" name="kernel/configs" revision="main" upstream="main" dest-branch="main" />
+  <project path="kernel/tests" name="kernel/tests" revision="main" upstream="main" dest-branch="main">
+    <linkfile src="tools/run_test_only.sh" dest="run_test_only.sh" />
+    <linkfile src="tools/launch_cvd.sh" dest="launch_cvd.sh" />
+    <linkfile src="tools/flash_device.sh" dest="flash_device.sh" />
+  </project>
+=======
+  <project path="common" name="kernel/common" revision="android15-6.6-2026-01" upstream="android15-6.6-2026-01" dest-branch="android15-6.6-2026-01" />
+  <project path="kernel/configs" name="kernel/configs" revision="main" upstream="main" dest-branch="main" />
+  <!-- Uncomment for local testing only -->
+  <!-- project path="kernel/tests" name="kernel/tests" revision="main-kernel" clone-depth="1" -->
+    <!-- linkfile src="tools/run_test_only.sh" dest="run_test_only.sh" / -->
+    <!-- linkfile src="tools/launch_cvd.sh" dest="launch_cvd.sh" / -->
+    <!-- linkfile src="tools/flash_device.sh" dest="flash_device.sh" /  -->
+  <!-- /project -->
+>>>>>>> CHANGE (87f5ba6c42e332cd6be28837fe3c29fb8bcdcba0 Comment out projects used for local testing only.)
   <project path="common-modules/trusty" name="kernel/common-modules/trusty" />
   <project path="common-modules/virtio-media" name="platform/external/virtio-media" />
   <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="211d96f861e1d6061ecb6bbe6e289ce8bf144290" upstream="android15-6.6" dest-branch="android15-6.6" />
@@ -30,12 +49,21 @@
   <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" clone-depth="1" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" groups="ddk" />
   <project path="prebuilts/rust" name="platform/prebuilts/rust" clone-depth="1" />
+<<<<<<< HEAD   (0470f3d93f8fc8640cd49473ae000fe26643a532 Snap projects from 13292979)
   <project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts" revision="52121d9a4653ff92b9bd225bd417b6a288c36b58" clone-depth="1" upstream="main" dest-branch="main" />
   <project path="prebuilts/asuite" name="platform/prebuilts/asuite" revision="d90d0060aedfd80f2119c1db5339a093f2758926" clone-depth="1" upstream="main" dest-branch="main" />
   <project path="toolchain/pgo-profiles" name="toolchain/pgo-profiles" revision="e9f2453456ef50dc9c670d5e582883de494760d5" clone-depth="1" upstream="main" dest-branch="main" />
+||||||| BASE   (2055ce65ece06712b187a117173e2c0e7f6f43c9 Initial android15-6.6-2026-01 projects)
+  <project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts" revision="main" clone-depth="1" upstream="main" dest-branch="main" />
+  <project path="prebuilts/asuite" name="platform/prebuilts/asuite" revision="main" clone-depth="1" upstream="main" dest-branch="main" />
+=======
+  <!-- Uncomment for local testing only -->
+  <!-- project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts" revision="main-kernel" clone-depth="1" / -->
+  <!-- project path="prebuilts/asuite" name="platform/prebuilts/asuite" revision="main-kernel" clone-depth="1" / -->
+>>>>>>> CHANGE (87f5ba6c42e332cd6be28837fe3c29fb8bcdcba0 Comment out projects used for local testing only.)
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
 
-  <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" clone-depth="1" />
+  <!-- project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" revision="main-kernel" clone-depth="1" / -->
   <project path="prebuilts/ndk-r26" name="toolchain/prebuilts/ndk/r26" clone-depth="1" groups="ddk" />
 
   <project path="external/libcap-ng" name="platform/external/libcap-ng" />
