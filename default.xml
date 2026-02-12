@@ -23,23 +23,45 @@
   <project path="common" name="kernel/common" revision="android13-5.10-2025-01" upstream="android13-5.10-2025-01" dest-branch="android13-5.10-2025-01">
     <linkfile src="." dest=".source_date_epoch_dir" />
   </project>
+<<<<<<< HEAD   (1d6bfc5de2fdae0fbcf2c518b0d286228322dfcf Unpin repos from platform main)
   <project path="kernel/configs" name="kernel/configs" revision="main" upstream="main" dest-branch="main" />
   <project path="kernel/tests" name="kernel/tests" revision="main" upstream="main" dest-branch="main">
     <linkfile src="tools/run_test_only.sh" dest="run_test_only.sh" />
     <linkfile src="tools/launch_cvd.sh" dest="launch_cvd.sh" />
     <linkfile src="tools/flash_device.sh" dest="flash_device.sh" />
   </project>
+||||||| BASE   (53b26a15020524e4b132fca738c1cf23b1bc8284 Snap projects from 13189463)
+  <project path="kernel/tests" name="kernel/tests" revision="945946db4f6f56e036288fa33026d4a921fb891c" upstream="main" dest-branch="main" />
+  <project path="kernel/configs" name="kernel/configs" />
+=======
+  <project path="kernel/configs" name="kernel/configs" />
+>>>>>>> CHANGE (72cab67dfc9fe191730ac0a8bd6a4104c24e5209 Comment out projects used for local testing only.)
   <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="423eb1c11b3ec94ab40900529c0bf7aca94cf4fa" upstream="android13-5.10" dest-branch="android13-5.10" />
+  <!-- Uncomment for local testing only -->
+  <!-- project path="kernel/tests" name="kernel/tests" revision="main-kernel" clone-depth="1" -->
+    <!-- linkfile src="tools/run_test_only.sh" dest="run_test_only.sh" / -->
+    <!-- linkfile src="tools/launch_cvd.sh" dest="launch_cvd.sh" / -->
+    <!-- linkfile src="tools/flash_device.sh" dest="flash_device.sh" /  -->
+  <!-- /project -->
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" />
+<<<<<<< HEAD   (1d6bfc5de2fdae0fbcf2c518b0d286228322dfcf Unpin repos from platform main)
   <project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts" revision="main" clone-depth="1" upstream="main" dest-branch="main" />
   <project path="prebuilts/asuite" name="platform/prebuilts/asuite" revision="main" clone-depth="1" upstream="main" dest-branch="main" />
+||||||| BASE   (53b26a15020524e4b132fca738c1cf23b1bc8284 Snap projects from 13189463)
+  <project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts" revision="178b78025b8fdf20cecf406861a1fb0ce6d6d460" clone-depth="1" upstream="main" dest-branch="main" />
+  <project path="prebuilts/asuite" name="platform/prebuilts/asuite" revision="c4e47e077334ac9acd48f340f2d25a7e9461e511" clone-depth="1" upstream="main" dest-branch="main" />
+=======
+  <!-- Uncomment for local testing only -->
+  <!-- project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts" revision="main-kernel" clone-depth="1" / -->
+  <!-- project path="prebuilts/asuite" name="platform/prebuilts/asuite" revision="main-kernel" clone-depth="1" / -->
+>>>>>>> CHANGE (72cab67dfc9fe191730ac0a8bd6a4104c24e5209 Comment out projects used for local testing only.)
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
 
   <project path="prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" clone-depth="1" />
-  <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" clone-depth="1" />
+  <!-- project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" revision="main-kernel" clone-depth="1" / -->
   <project path="prebuilts/ndk-r23" name="toolchain/prebuilts/ndk/r23" clone-depth="1" />
 
   <project path="external/bazel-skylib" name="platform/external/bazel-skylib" />
