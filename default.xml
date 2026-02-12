@@ -15,12 +15,9 @@
   <project path="common" name="kernel/common" revision="android15-6.6-2025-03" upstream="android15-6.6-2025-03" dest-branch="android15-6.6-2025-03">
       <linkfile src=".bazelignore" dest=".bazelignore" />
   </project>
+  <!-- Uncomment for local testing only -->
+  <!-- project path="kernel/tests" name="kernel/tests" revision="main-kernel" clone-depth="1" / -->
   <project path="kernel/configs" name="kernel/configs" revision="362ec334a8da083a36cec9349651ed7b7bb3dd9a" upstream="main" dest-branch="main" />
-  <project path="kernel/tests" name="kernel/tests" revision="ca8ef9155837d6f383f02d45239df6542a7f6f57" upstream="main" dest-branch="main">
-    <linkfile src="tools/run_test_only.sh" dest="run_test_only.sh" />
-    <linkfile src="tools/launch_cvd.sh" dest="launch_cvd.sh" />
-    <linkfile src="tools/flash_device.sh" dest="flash_device.sh" />
-  </project>
   <project path="common-modules/trusty" name="kernel/common-modules/trusty" />
   <project path="common-modules/virtio-media" name="platform/external/virtio-media" />
   <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="211d96f861e1d6061ecb6bbe6e289ce8bf144290" upstream="android15-6.6" dest-branch="android15-6.6" />
@@ -30,12 +27,8 @@
   <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" clone-depth="1" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" groups="ddk" />
   <project path="prebuilts/rust" name="platform/prebuilts/rust" clone-depth="1" />
-  <project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts" revision="0958e3531c487e598165d44d474db143627d906d" clone-depth="1" upstream="main" dest-branch="main" />
-  <project path="prebuilts/asuite" name="platform/prebuilts/asuite" revision="49a40d2f4240a57beb5429c4ad86f291f3faa37e" clone-depth="1" upstream="main" dest-branch="main" />
-  <project path="toolchain/pgo-profiles" name="toolchain/pgo-profiles" revision="62dba697fb63ed319053647136901827ce9dcb99" clone-depth="1" upstream="main" dest-branch="main" />
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
 
-  <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" clone-depth="1" />
   <project path="prebuilts/ndk-r26" name="toolchain/prebuilts/ndk/r26" clone-depth="1" groups="ddk" />
 
   <project path="external/libcap-ng" name="platform/external/libcap-ng" />
