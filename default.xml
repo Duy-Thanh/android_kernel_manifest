@@ -12,20 +12,15 @@
     <linkfile src="config.sh" dest="build/config.sh" />
   </project>
   <project path="common" name="kernel/common" revision="android14-5.15-2025-01" upstream="android14-5.15-2025-01" dest-branch="android14-5.15-2025-01" />
+  <!-- Uncomment for local testing only -->
+  <!-- project path="kernel/tests" name="kernel/tests" revision="main-kernel" clone-depth="1" / -->
   <project path="kernel/configs" name="kernel/configs" revision="main" upstream="main" dest-branch="main" />
-  <project path="kernel/tests" name="kernel/tests" revision="main" upstream="main" dest-branch="main">
-    <linkfile src="tools/run_test_only.sh" dest="run_test_only.sh" />
-    <linkfile src="tools/launch_cvd.sh" dest="launch_cvd.sh" />
-    <linkfile src="tools/flash_device.sh" dest="flash_device.sh" />
-  </project>
   <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="3bd713568a58641e2c44c41c796836d0f5454f46" upstream="android14-5.15" dest-branch="android14-5.15" />
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
   <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" clone-depth="1" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" />
-  <project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts" revision="main" clone-depth="1" upstream="main" dest-branch="main" />
-  <project path="prebuilts/asuite" name="platform/prebuilts/asuite" revision="main" clone-depth="1" upstream="main" dest-branch="main" />
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
 
   <project path="prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" clone-depth="1" />
