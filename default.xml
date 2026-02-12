@@ -11,6 +11,7 @@
     <linkfile src="build_test.sh" dest="build/build_test.sh" />
     <linkfile src="config.sh" dest="build/config.sh" />
   </project>
+<<<<<<< HEAD   (7d14de99bfcd2977e8bf3f89d87e4d21fe1f516e Initial android14-6.1-2026-03 projects)
   <project path="common" name="kernel/common" revision="android14-6.1-2026-03" upstream="android14-6.1-2026-03" dest-branch="android14-6.1-2026-03" />
   <project path="kernel/configs" name="kernel/configs" revision="main" upstream="main" dest-branch="main" />
   <project path="kernel/tests" name="kernel/tests" revision="main" upstream="main" dest-branch="main">
@@ -18,17 +19,45 @@
     <linkfile src="tools/launch_cvd.sh" dest="launch_cvd.sh" />
   </project>
   <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="529e4edbd01fb9d7c8ace1d006e0976145dcd728" upstream="android14-6.1" dest-branch="android14-6.1" />
+||||||| BASE   (7288f603732b706f9c6214196f6b24aafcbc35d1 Add revision "main" in tradefed & asuite projects)
+  <project path="common" name="kernel/common" revision="android14-6.1" />
+  <project path="kernel/configs" name="kernel/configs" revision="main" />
+  <project path="kernel/tests" name="kernel/tests" revision="main" >
+    <linkfile src="tools/run_test_only.sh" dest="run_test_only.sh" />
+    <linkfile src="tools/launch_cvd.sh" dest="launch_cvd.sh" />
+  </project>
+  <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="android14-6.1" />
+=======
+  <project path="common" name="kernel/common" revision="android14-6.1" />
+  <project path="kernel/configs" name="kernel/configs" revision="main" />
+  <!-- Uncomment for local testing only -->
+  <!-- project path="kernel/tests" name="kernel/tests" revision="main-kernel" clone-depth="1" -->
+    <!-- linkfile src="tools/run_test_only.sh" dest="run_test_only.sh" / -->
+    <!-- linkfile src="tools/launch_cvd.sh" dest="launch_cvd.sh" / -->
+    <!-- linkfile src="tools/flash_device.sh" dest="flash_device.sh" /  -->
+  <!-- /project -->
+  <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="android14-6.1" />
+>>>>>>> CHANGE (f8da3cde24d5c434e264e86271bf16096675df36 Comment out projects used for local testing only.)
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
   <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" clone-depth="1" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" />
+<<<<<<< HEAD   (7d14de99bfcd2977e8bf3f89d87e4d21fe1f516e Initial android14-6.1-2026-03 projects)
   <project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts" revision="main" clone-depth="1" upstream="main" dest-branch="main" />
   <project path="prebuilts/asuite" name="platform/prebuilts/asuite" revision="main" clone-depth="1" upstream="main" dest-branch="main" />
+||||||| BASE   (7288f603732b706f9c6214196f6b24aafcbc35d1 Add revision "main" in tradefed & asuite projects)
+  <project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts" revision="main" clone-depth="1" />
+  <project path="prebuilts/asuite" name="platform/prebuilts/asuite" revision="main" clone-depth="1" />
+=======
+  <!-- Uncomment for local testing only -->
+  <!-- project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts" revision="main-kernel" clone-depth="1" / -->
+  <!-- project path="prebuilts/asuite" name="platform/prebuilts/asuite" revision="main-kernel" clone-depth="1" / -->
+>>>>>>> CHANGE (f8da3cde24d5c434e264e86271bf16096675df36 Comment out projects used for local testing only.)
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
 
   <project path="prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" clone-depth="1" />
-  <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" clone-depth="1" />
+  <!-- project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" revision="main-kernel" clone-depth="1" / -->
   <project path="prebuilts/ndk-r23" name="toolchain/prebuilts/ndk/r23" clone-depth="1" />
 
   <project path="external/bazel-skylib" name="platform/external/bazel-skylib" />
