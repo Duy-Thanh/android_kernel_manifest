@@ -12,9 +12,30 @@
     <linkfile src="kleaf/bzlmod/bazel.WORKSPACE.bzlmod" dest="WORKSPACE.bzlmod" />
   </project>
   <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" groups="ddk" />
+<<<<<<< HEAD   (2ad3bddb6a962f6f30121d942042d0d2225230de Revert "common-android15-6.6-lts: Pin kernel/common-modules/)
   <project path="common" name="kernel/common" revision="android15-6.6-lts" />
   <project path="kernel/tests" name="kernel/tests" revision="main" />
   <project path="kernel/configs" name="kernel/configs"/>
+||||||| BASE   (06f84232015cb2c696b7538e6735154adc8193c3 Revert "Add linkfile to common/.bazelignore")
+  <project path="common" name="kernel/common" revision="android15-6.6" />
+  <project path="kernel/configs" name="kernel/configs" revision="main"/>
+  <project path="kernel/tests" name="kernel/tests" revision="main" >
+    <linkfile src="tools/run_test_only.sh" dest="run_test_only.sh" />
+    <linkfile src="tools/launch_cvd.sh" dest="launch_cvd.sh" />
+    <linkfile src="tools/flash_device.sh" dest="flash_device.sh" />
+  </project>
+  <project path="common-modules/trusty" name="kernel/common-modules/trusty" />
+=======
+  <project path="common" name="kernel/common" revision="android15-6.6" />
+  <project path="kernel/configs" name="kernel/configs" revision="main"/>
+  <!-- Uncomment for local testing only -->
+  <!-- project path="kernel/tests" name="kernel/tests" revision="main-kernel" clone-depth="1" -->
+    <!-- linkfile src="tools/run_test_only.sh" dest="run_test_only.sh" / -->
+    <!-- linkfile src="tools/launch_cvd.sh" dest="launch_cvd.sh" / -->
+    <!-- linkfile src="tools/flash_device.sh" dest="flash_device.sh" /  -->
+  <!-- /project -->
+  <project path="common-modules/trusty" name="kernel/common-modules/trusty" />
+>>>>>>> CHANGE (cfaffb175694ee64d0e627a0d8e9b51fdeaec758 Comment out projects used for local testing only.)
   <project path="common-modules/virtio-media" name="platform/external/virtio-media" />
   <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="android15-6.6" />
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" groups="ddk" />
@@ -23,11 +44,18 @@
   <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" clone-depth="1" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" groups="ddk" />
   <project path="prebuilts/rust" name="platform/prebuilts/rust" clone-depth="1" />
-  <project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts" revision="main" clone-depth="1" />
-  <project path="prebuilts/asuite" name="platform/prebuilts/asuite" revision="main" clone-depth="1" />
+  <!-- Uncomment for local testing only -->
+  <!-- project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts" revision="main-kernel" clone-depth="1" / -->
+  <!-- project path="prebuilts/asuite" name="platform/prebuilts/asuite" revision="main-kernel" clone-depth="1" / -->
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
 
+<<<<<<< HEAD   (2ad3bddb6a962f6f30121d942042d0d2225230de Revert "common-android15-6.6-lts: Pin kernel/common-modules/)
   <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" clone-depth="1" groups="ddk" />
+||||||| BASE   (06f84232015cb2c696b7538e6735154adc8193c3 Revert "Add linkfile to common/.bazelignore")
+  <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" clone-depth="1" />
+=======
+  <!-- project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" revision="main-kernel" clone-depth="1" / -->
+>>>>>>> CHANGE (cfaffb175694ee64d0e627a0d8e9b51fdeaec758 Comment out projects used for local testing only.)
   <project path="prebuilts/ndk-r26" name="toolchain/prebuilts/ndk/r26" clone-depth="1" groups="ddk" />
 
   <project path="external/libcap-ng" name="platform/external/libcap-ng"/>
