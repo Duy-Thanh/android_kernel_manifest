@@ -11,21 +11,43 @@
     <linkfile src="build_test.sh" dest="build/build_test.sh" />
     <linkfile src="config.sh" dest="build/config.sh" />
   </project>
+<<<<<<< HEAD   (e10c353e7c3c4c250f1e779946e388fb58f27aed Snap projects from 13215698)
   <project path="common" name="kernel/common" revision="android14-5.15-2025-03" upstream="android14-5.15-2025-03" dest-branch="android14-5.15-2025-03" />
   <project path="kernel/tests" name="kernel/tests" revision="945946db4f6f56e036288fa33026d4a921fb891c" upstream="main" dest-branch="main" />
+||||||| BASE   (54def8151327ac24670874f4f0a7de7afb8e37dd Initial android14-5.15-2025-05 projects)
+  <project path="common" name="kernel/common" revision="android14-5.15-2025-05" upstream="android14-5.15-2025-05" dest-branch="android14-5.15-2025-05" />
+  <project path="kernel/tests" name="kernel/tests" revision="main" upstream="main" dest-branch="main" />
+=======
+  <project path="common" name="kernel/common" revision="android14-5.15-2025-05" upstream="android14-5.15-2025-05" dest-branch="android14-5.15-2025-05" />
+>>>>>>> CHANGE (90041fb18f76d4d1739d04c8dddfcc6672fa5528 Comment out projects used for local testing only.)
   <project path="kernel/configs" name="kernel/configs" />
   <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="3bd713568a58641e2c44c41c796836d0f5454f46" upstream="android14-5.15" dest-branch="android14-5.15" />
+  <!-- Uncomment for local testing only -->
+  <!-- project path="kernel/tests" name="kernel/tests" revision="main-kernel" clone-depth="1" -->
+    <!-- linkfile src="tools/run_test_only.sh" dest="run_test_only.sh" / -->
+    <!-- linkfile src="tools/launch_cvd.sh" dest="launch_cvd.sh" / -->
+    <!-- linkfile src="tools/flash_device.sh" dest="flash_device.sh" /  -->
+  <!-- /project -->
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
   <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" clone-depth="1" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" />
+<<<<<<< HEAD   (e10c353e7c3c4c250f1e779946e388fb58f27aed Snap projects from 13215698)
   <project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts" revision="380f78f5d9b9ffb60974cbc75e2aa236266b5922" clone-depth="1" upstream="main" dest-branch="main" />
   <project path="prebuilts/asuite" name="platform/prebuilts/asuite" revision="d90d0060aedfd80f2119c1db5339a093f2758926" clone-depth="1" upstream="main" dest-branch="main" />
+||||||| BASE   (54def8151327ac24670874f4f0a7de7afb8e37dd Initial android14-5.15-2025-05 projects)
+  <project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts" revision="main" clone-depth="1" upstream="main" dest-branch="main" />
+  <project path="prebuilts/asuite" name="platform/prebuilts/asuite" revision="main" clone-depth="1" upstream="main" dest-branch="main" />
+=======
+  <!-- Uncomment for local testing only -->
+  <!-- project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts" revision="main-kernel" clone-depth="1" / -->
+  <!-- project path="prebuilts/asuite" name="platform/prebuilts/asuite" revision="main-kernel" clone-depth="1" / -->
+>>>>>>> CHANGE (90041fb18f76d4d1739d04c8dddfcc6672fa5528 Comment out projects used for local testing only.)
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
 
   <project path="prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" clone-depth="1" />
-  <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" clone-depth="1" />
+  <!-- project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" revision="main-kernel" clone-depth="1" / -->
   <project path="prebuilts/ndk-r23" name="toolchain/prebuilts/ndk/r23" clone-depth="1" />
 
   <project path="external/bazel-skylib" name="platform/external/bazel-skylib" />
