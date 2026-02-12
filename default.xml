@@ -14,21 +14,40 @@
     <linkfile src="abi" dest="build/abi" />
     <linkfile src="static_analysis" dest="build/static_analysis" />
   </project>
+<<<<<<< HEAD   (e494df65d819a35054260ed147b27b1bf3fbf7b0 Add revision "main" in kernel/tests project)
   <project path="common" name="kernel/common" revision="android14-6.1-lts" />
   <project path="kernel/tests" name="kernel/tests" revision="main" />
   <project path="kernel/configs" name="kernel/configs" />
+||||||| BASE   (7288f603732b706f9c6214196f6b24aafcbc35d1 Add revision "main" in tradefed & asuite projects)
+  <project path="common" name="kernel/common" revision="android14-6.1" />
+  <project path="kernel/configs" name="kernel/configs" revision="main" />
+  <project path="kernel/tests" name="kernel/tests" revision="main" >
+    <linkfile src="tools/run_test_only.sh" dest="run_test_only.sh" />
+    <linkfile src="tools/launch_cvd.sh" dest="launch_cvd.sh" />
+  </project>
+=======
+  <project path="common" name="kernel/common" revision="android14-6.1" />
+  <project path="kernel/configs" name="kernel/configs" revision="main" />
+  <!-- Uncomment for local testing only -->
+  <!-- project path="kernel/tests" name="kernel/tests" revision="main-kernel" clone-depth="1" -->
+    <!-- linkfile src="tools/run_test_only.sh" dest="run_test_only.sh" / -->
+    <!-- linkfile src="tools/launch_cvd.sh" dest="launch_cvd.sh" / -->
+    <!-- linkfile src="tools/flash_device.sh" dest="flash_device.sh" /  -->
+  <!-- /project -->
+>>>>>>> CHANGE (f8da3cde24d5c434e264e86271bf16096675df36 Comment out projects used for local testing only.)
   <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="android14-6.1" />
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
   <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" clone-depth="1" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" />
-  <project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts" revision="main" clone-depth="1" />
-  <project path="prebuilts/asuite" name="platform/prebuilts/asuite" revision="main" clone-depth="1" />
+  <!-- Uncomment for local testing only -->
+  <!-- project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts" revision="main-kernel" clone-depth="1" / -->
+  <!-- project path="prebuilts/asuite" name="platform/prebuilts/asuite" revision="main-kernel" clone-depth="1" / -->
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
 
   <project path="prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" clone-depth="1" />
-  <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" clone-depth="1" />
+  <!-- project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" revision="main-kernel" clone-depth="1" / -->
   <project path="prebuilts/ndk-r23" name="toolchain/prebuilts/ndk/r23" clone-depth="1" />
 
   <project path="external/bazel-skylib" name="platform/external/bazel-skylib" />
