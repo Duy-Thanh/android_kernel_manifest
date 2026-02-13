@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f2489f4f_af47a2c6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1123518
+      },
+      "writtenOn": "2026-02-13T17:11:44Z",
+      "side": 1,
+      "message": "Hi Guilano, is there any particular reason you gave -1? This change is a big win towards lab resource and build resource. There is no real tradeoff. When someone want to run test on their local host with the local workflow, they can either uncomment the manifest config, or use the tool in android platform tree.",
+      "revId": "e202b2abd386b2eb4a6852917df8e5691ceb84d2",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
