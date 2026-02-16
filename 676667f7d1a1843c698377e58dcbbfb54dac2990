@@ -18,6 +18,24 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ea1f357d_6d5bbb77",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 2055842
+      },
+      "writtenOn": "2026-02-16T18:46:21Z",
+      "side": 1,
+      "message": "The newsletter update was over 3 weeks ago. This change can be unblocked now. CC: @elsk@google.com @umendez@google.com",
+      "parentUuid": "0f8105a0_d2261084",
+      "revId": "676667f7d1a1843c698377e58dcbbfb54dac2990",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "fc1744f4_b4a9355a",
