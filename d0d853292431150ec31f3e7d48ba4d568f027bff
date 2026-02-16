@@ -16,6 +16,24 @@
       "message": "Placeholder comment to block submitting.",
       "revId": "d0d853292431150ec31f3e7d48ba4d568f027bff",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7f7962e0_3e232c74",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 2055842
+      },
+      "writtenOn": "2026-02-16T18:45:17Z",
+      "side": 1,
+      "message": "The newsletter update was over 3 weeks ago. This can be unblocked. cc: @elsk@google.com @umendez@google.com",
+      "parentUuid": "be225b97_fe3fa6c4",
+      "revId": "d0d853292431150ec31f3e7d48ba4d568f027bff",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
