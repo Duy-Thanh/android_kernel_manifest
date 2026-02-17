@@ -13,8 +13,11 @@
   <project path="common" name="kernel/common" revision="android16-6.12-2025-08" upstream="android16-6.12-2025-08" dest-branch="android16-6.12-2025-08">
       <linkfile src=".bazelignore" dest=".bazelignore" />
   </project>
-  <!-- Uncomment for local testing only -->
-  <!-- project path="kernel/tests" name="kernel/tests" revision="main-kernel" clone-depth="1" / -->
+  <project path="kernel/tests" name="kernel/tests">
+    <linkfile src="tools/run_test_only.sh" dest="run_test_only.sh" />
+    <linkfile src="tools/launch_cvd.sh" dest="launch_cvd.sh" />
+    <linkfile src="tools/flash_device.sh" dest="flash_device.sh" />
+  </project>
   <project path="common-modules/trusty" name="kernel/common-modules/trusty" />
   <project path="common-modules/virtio-media" name="platform/external/virtio-media" />
   <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="8e14a621f981cbea4c8532aecb4f9bef5db9adea" upstream="android16-6.12" dest-branch="android16-6.12" />
@@ -24,6 +27,8 @@
   <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" clone-depth="1" groups="ddk" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" groups="ddk" />
   <project path="prebuilts/rust" name="platform/prebuilts/rust" clone-depth="1" groups="ddk" />
+  <project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts" clone-depth="1" />
+  <project path="prebuilts/asuite" name="platform/prebuilts/asuite" clone-depth="1" />
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
 
   <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" clone-depth="1" />
