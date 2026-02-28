@@ -1,5 +1,29 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "060e9044_4b1aa9d7",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 6
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2026-02-28T00:22:46Z",
+      "side": 1,
+      "message": "Nice!\n\nLooks like we are still keeping jdk11. Is there any reason we need to keep it?\n\n@gprocida@google.com FYI",
+      "range": {
+        "startLine": 9,
+        "startChar": 57,
+        "endLine": 9,
+        "endChar": 76
+      },
+      "revId": "e0d21263dc21d7d9f81a1cd8a9cdb23634c3bcbd",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ],
   "submitRequirementResults": [
     {
       "submitRequirement": {
