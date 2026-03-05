@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c9d42e4e_95d5b7b8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1069543
+      },
+      "writtenOn": "2026-03-05T01:32:15Z",
+      "side": 1,
+      "message": "@gprocida@google.com, is this project addition going to be a problem for QCOM?",
+      "revId": "044de8a1852fcf7cba788c633baf538e440f4f82",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
