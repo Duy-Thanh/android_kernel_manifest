@@ -33,7 +33,7 @@
   <project name="kernel/google-modules/uwb" path="private/google-modules/uwb" />
   <project name="kernel/google-modules/video/gchips" path="private/google-modules/video/gchips" />
   <project name="kernel/google-modules/wlan/bcmdhd/bcm4389" path="private/google-modules/wlan/bcmdhd4389" />
-
+  
   <project name="kernel/prebuilts/build-tools" path="prebuilts/kernel-build-tools" revision="main-kernel-2026" clone-depth="1"/>
   <project path="external/avb" name="platform/external/avb" revision="main-kernel-2026" clone-depth="1" />
   <project path="external/bazel-contrib-bazel_features" name="platform/external/bazel-contrib-bazel_features" revision="main-kernel-2026" clone-depth="1" />
@@ -48,11 +48,14 @@
   <project name="platform/external/bazelbuild-rules_python" path="external/bazelbuild-rules_python" revision="main-kernel-2026" clone-depth="1"/>
   <project name="platform/external/bazelbuild-rules_rust" path="external/bazelbuild-rules_rust" revision="main-kernel-2026" clone-depth="1"/>
   <project name="platform/external/bazelbuild-rules_shell" path="external/bazelbuild-rules_shell" revision="main-kernel-2026" clone-depth="1"/>
+  <project name="platform/external/argp-standalone" path="external/argp-standalone" revision="main-kernel-2026" clone-depth="1" />
   <project name="platform/external/dtc" path="external/dtc" revision="main-kernel-2026" clone-depth="1" />
+  <project name="platform/external/dwarves" path="external/dwarves" revision="main-kernel-2026" clone-depth="1" />
   <project name="platform/external/kmod" path="external/kmod" revision="main-kernel-2026" clone-depth="1" />
   <project name="platform/external/libcap" path="external/libcap" revision="main-kernel-2026" clone-depth="1"/>
   <project name="platform/external/libcap-ng" path="external/libcap-ng" revision="main-kernel-2026" clone-depth="1"/>
   <project path="external/lz4" name="platform/external/lz4" revision="main-kernel-2026" clone-depth="1" />
+  <project name="platform/external/obstack" path="external/obstack" revision="main-kernel-2026" clone-depth="1"/>
   <project name="platform/external/pigz" path="external/pigz" revision="main-kernel-2026" clone-depth="1"/>
   <project name="platform/external/python/absl-py" path="external/python/absl-py" revision="main-kernel-2026" clone-depth="1"/>
   <project path="external/toybox" name="platform/external/toybox" revision="main-kernel-2026" clone-depth="1" />
