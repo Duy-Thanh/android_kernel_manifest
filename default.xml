@@ -50,11 +50,14 @@
   <project name="platform/external/bazelbuild-rules_python" path="external/bazelbuild-rules_python" revision="main-kernel" clone-depth="1"/>
   <project name="platform/external/bazelbuild-rules_rust" path="external/bazelbuild-rules_rust" revision="main-kernel" clone-depth="1"/>
   <project name="platform/external/bazelbuild-rules_shell" path="external/bazelbuild-rules_shell" revision="main-kernel" clone-depth="1"/>
+  <project name="platform/external/argp-standalone" path="external/argp-standalone" revision="main-kernel" clone-depth="1" />
   <project name="platform/external/dtc" path="external/dtc" revision="main-kernel" clone-depth="1" />
+  <project name="platform/external/dwarves" path="external/dwarves" revision="main-kernel" clone-depth="1" />
   <project name="platform/external/kmod" path="external/kmod" revision="main-kernel" clone-depth="1" />
   <project name="platform/external/libcap" path="external/libcap" revision="main-kernel" clone-depth="1"/>
   <project name="platform/external/libcap-ng" path="external/libcap-ng" revision="main-kernel" clone-depth="1"/>
   <project path="external/lz4" name="platform/external/lz4" revision="main-kernel" clone-depth="1" />
+  <project name="platform/external/obstack" path="external/obstack" revision="main-kernel" clone-depth="1" />
   <project name="platform/external/pigz" path="external/pigz" revision="main-kernel" clone-depth="1"/>
   <project name="platform/external/python/absl-py" path="external/python/absl-py" revision="main-kernel" clone-depth="1"/>
   <project path="external/toybox" name="platform/external/toybox" revision="main-kernel" clone-depth="1" />
