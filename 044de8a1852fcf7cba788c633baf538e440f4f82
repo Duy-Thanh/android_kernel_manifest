@@ -34,6 +34,24 @@
       "parentUuid": "c9d42e4e_95d5b7b8",
       "revId": "044de8a1852fcf7cba788c633baf538e440f4f82",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "86b04cba_797a01ea",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1625880
+      },
+      "writtenOn": "2026-03-09T16:50:02Z",
+      "side": 1,
+      "message": "No. They only need 2 weeks notice, once.\n\nThe timer started on Feb 18 when this was merge to android-mainline.",
+      "parentUuid": "c9d42e4e_95d5b7b8",
+      "revId": "044de8a1852fcf7cba788c633baf538e440f4f82",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
