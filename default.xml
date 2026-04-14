@@ -16,6 +16,10 @@
     <linkfile src="gbl/bazel.MODULE.bazel" dest="MODULE.bazel" />
     <linkfile src="gbl/bazel.bazelrc" dest=".bazelrc" />
     <linkfile src="gbl/bazel.sh" dest="tools/bazel" />
+    <!-- Note: Do not include these links in other project manifests to avoid polluting the GEMINI context -->
+    <linkfile src="gbl/gemini/root_gemini.md" dest=".gemini/GEMINI.md" />
+    <linkfile src="gbl/gemini/gbl_gemini.md" dest="bootable/libbootloader/gbl/.gemini/GEMINI.md" />
+    <linkfile src="gbl/gemini/skills" dest=".agents/skills" />
   </project>
   <project path="external/arm-trusted-firmware" name="platform/external/arm-trusted-firmware" />
   <project path="external/avb" name="platform/external/avb" />
