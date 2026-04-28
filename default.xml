@@ -62,6 +62,7 @@
 
   <!-- dependencies for GBL -->
   <project path="bootable/libbootloader" name="platform/bootable/libbootloader" revision="gbl-mainline"/>
+  <project path="external/device/google/cuttlefish_vmm" name="device/google/cuttlefish_vmm" />
   <project path="external/arm-trusted-firmware" name="platform/external/arm-trusted-firmware"/>
   <project path="external/boringssl" name="platform/external/boringssl"/>
   <project path="external/compiler-rt" name="platform/external/compiler-rt"/>
