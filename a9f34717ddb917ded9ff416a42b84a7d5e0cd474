@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "87266d7e_bbd4e610",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1466604
+      },
+      "writtenOn": "2026-05-07T03:15:05Z",
+      "side": 1,
+      "message": "@gprocida@google.com - I added a note to the newsletter as well.",
+      "revId": "a9f34717ddb917ded9ff416a42b84a7d5e0cd474",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
