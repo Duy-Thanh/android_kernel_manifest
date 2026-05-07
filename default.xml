@@ -73,4 +73,9 @@
   <project path="external/rust/android-crates-io" name="platform/external/rust/android-crates-io"/>
   <project path="external/rust/crates/smoltcp" name="platform/external/rust/crates/smoltcp"/>
   <project path="prebuilts/fuchsia_sdk" name="platform/prebuilts/fuchsia_sdk" clone-depth="1" revision="gbl-mainline"/>
+
+  <!-- dependencies for u-boot -->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" clone-depth="1" />
+  <project path="u-boot" name="platform/external/u-boot" revision="u-boot-mainline" />
 </manifest>
