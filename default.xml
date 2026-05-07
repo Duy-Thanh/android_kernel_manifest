@@ -73,4 +73,15 @@
   <project path="external/rust/android-crates-io" name="platform/external/rust/android-crates-io"/>
   <project path="external/rust/crates/smoltcp" name="platform/external/rust/crates/smoltcp"/>
   <project path="prebuilts/fuchsia_sdk" name="platform/prebuilts/fuchsia_sdk" clone-depth="1" revision="gbl-mainline"/>
+<<<<<<< HEAD   (2edd8cd0b2246d1b2ae5915cc4bc16e6992ab573 Remove zune-inflate crate, now it's in the monorepo.)
+||||||| BASE   (e6b2ea6581ae11806ed71f4104a1d624c184449d Add cuttlefish_vmm to checkout)
+  <project path="prebuilts/vmm" name="device/google/cuttlefish_vmm" clone-depth="1" />
+=======
+  <project path="prebuilts/vmm" name="device/google/cuttlefish_vmm" clone-depth="1" />
+
+  <!-- dependencies for u-boot -->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" clone-depth="1" />
+  <project path="u-boot" name="platform/external/u-boot" revision="u-boot-mainline" />
+>>>>>>> CHANGE (a9f34717ddb917ded9ff416a42b84a7d5e0cd474 Add u-boot dependencies)
 </manifest>
