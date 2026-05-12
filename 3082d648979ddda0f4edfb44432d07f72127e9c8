@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1f0128f3_e409d773",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 4677650
+      },
+      "writtenOn": "2026-05-12T15:53:07Z",
+      "side": 1,
+      "message": "```suggestion\nRemove zune-inflate crate, now it\u0027s in the monorepo.\n```",
+      "revId": "3082d648979ddda0f4edfb44432d07f72127e9c8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
