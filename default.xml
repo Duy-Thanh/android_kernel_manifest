@@ -61,7 +61,7 @@
   <project path="external/zstd" name="platform/external/zstd" groups="ddk"/>
 
   <!-- dependencies for GBL -->
-  <project path="bootable/libbootloader" name="platform/bootable/libbootloader" revision="gbl-mainline"/>
+  <project path="bootable/libbootloader" name="platform/bootable/libbootloader" revision="gbl-android17"/>
   <project path="external/arm-trusted-firmware" name="platform/external/arm-trusted-firmware"/>
   <project path="external/boringssl" name="platform/external/boringssl"/>
   <project path="external/compiler-rt" name="platform/external/compiler-rt"/>
@@ -72,5 +72,11 @@
   <project path="external/mtools" name="platform/external/mtools"/>
   <project path="external/rust/android-crates-io" name="platform/external/rust/android-crates-io"/>
   <project path="external/rust/crates/smoltcp" name="platform/external/rust/crates/smoltcp"/>
-  <project path="prebuilts/fuchsia_sdk" name="platform/prebuilts/fuchsia_sdk" clone-depth="1" revision="gbl-mainline"/>
+  <project path="prebuilts/fuchsia_sdk" name="platform/prebuilts/fuchsia_sdk" clone-depth="1" revision="gbl-android17"/>
+  <project path="prebuilts/vmm" name="device/google/cuttlefish_vmm" clone-depth="1" />
+
+  <!-- dependencies for u-boot -->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" clone-depth="1" />
+  <project path="u-boot" name="platform/external/u-boot" revision="u-boot-android17" />
 </manifest>
