@@ -16,6 +16,23 @@
       "message": "LGTM on `gbl-android17` part, but not sure why `u-boot` addition is needed?\n\nI see similar addition in common-android-mainline (aosp/4063620) and I understand that it will be used some day in mainline and future kernel/GBL releases, but why do we need to add it to the frozen branch? Do you plan to merge more changes to gbl-android17 that would require u-boot in the manifest?",
       "revId": "bb03c2339aeedae2b4a91765be76d6b79ce254f2",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "acd43e8f_f7a658ba",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1625880
+      },
+      "writtenOn": "2026-05-19T14:55:44Z",
+      "side": 1,
+      "message": "A little more in the commit message would be nice.\n\nThe \"new projects\" are all previously announced and have been in `common-android-mainline` for a while.\n\nThis may still deserve a newsletter announcement for people building GBL if you don\u0027t have one already.",
+      "revId": "bb03c2339aeedae2b4a91765be76d6b79ce254f2",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
