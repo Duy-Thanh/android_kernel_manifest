@@ -33,6 +33,42 @@
       "message": "A little more in the commit message would be nice.\n\nThe \"new projects\" are all previously announced and have been in `common-android-mainline` for a while.\n\nThis may still deserve a newsletter announcement for people building GBL if you don\u0027t have one already.",
       "revId": "bb03c2339aeedae2b4a91765be76d6b79ce254f2",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ffcf7ca6_5d718119",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1466604
+      },
+      "writtenOn": "2026-05-19T21:11:03Z",
+      "side": 1,
+      "message": "Exactly - we plan to test versioned bootloaders against this release of GBL.",
+      "parentUuid": "1146b169_35db1730",
+      "revId": "bb03c2339aeedae2b4a91765be76d6b79ce254f2",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "385f8231_fdd2d4c3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1466604
+      },
+      "writtenOn": "2026-05-19T21:11:03Z",
+      "side": 1,
+      "message": "Done. And included a note in go/gki-newsletter.",
+      "parentUuid": "acd43e8f_f7a658ba",
+      "revId": "bb03c2339aeedae2b4a91765be76d6b79ce254f2",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
