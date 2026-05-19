@@ -61,6 +61,7 @@
   <project path="external/zstd" name="platform/external/zstd" groups="ddk" />
 
   <!-- dependencies for GBL -->
+<<<<<<< HEAD   (7d0a49698ca941570074ac4f5f9f7cc3fe6b3515 Initial android17-6.18-2026-04 projects)
   <project path="bootable/libbootloader" name="platform/bootable/libbootloader" revision="24f6c8faf62f427ab278ed642488db98dba03a1d" upstream="gbl-mainline" dest-branch="gbl-mainline" />
   <project path="external/arm-trusted-firmware" name="platform/external/arm-trusted-firmware" />
   <project path="external/boringssl" name="platform/external/boringssl" />
@@ -74,4 +75,37 @@
   <project path="external/rust/crates/smoltcp" name="platform/external/rust/crates/smoltcp" />
   <project path="external/rust/crates/zune-inflate" name="platform/external/rust/crates/zune-inflate" />
   <project path="prebuilts/fuchsia_sdk" name="platform/prebuilts/fuchsia_sdk" clone-depth="1" revision="35c2e878b0c3af33eb7bf769c9f8ecebc54e26ef" upstream="gbl-mainline" dest-branch="gbl-mainline" />
+||||||| BASE   (2edd8cd0b2246d1b2ae5915cc4bc16e6992ab573 Remove zune-inflate crate, now it's in the monorepo.)
+  <project path="bootable/libbootloader" name="platform/bootable/libbootloader" revision="gbl-mainline"/>
+  <project path="external/arm-trusted-firmware" name="platform/external/arm-trusted-firmware"/>
+  <project path="external/boringssl" name="platform/external/boringssl"/>
+  <project path="external/compiler-rt" name="platform/external/compiler-rt"/>
+  <project path="external/libufdt" name="platform/system/libufdt"/>
+  <project path="external/open-dice" name="platform/external/open-dice"/>
+  <project path="external/elfutils" name="platform/external/elfutils"/>
+  <project path="external/googletest" name="platform/external/googletest"/>
+  <project path="external/mtools" name="platform/external/mtools"/>
+  <project path="external/rust/android-crates-io" name="platform/external/rust/android-crates-io"/>
+  <project path="external/rust/crates/smoltcp" name="platform/external/rust/crates/smoltcp"/>
+  <project path="prebuilts/fuchsia_sdk" name="platform/prebuilts/fuchsia_sdk" clone-depth="1" revision="gbl-mainline"/>
+=======
+  <project path="bootable/libbootloader" name="platform/bootable/libbootloader" revision="gbl-android17"/>
+  <project path="external/arm-trusted-firmware" name="platform/external/arm-trusted-firmware"/>
+  <project path="external/boringssl" name="platform/external/boringssl"/>
+  <project path="external/compiler-rt" name="platform/external/compiler-rt"/>
+  <project path="external/libufdt" name="platform/system/libufdt"/>
+  <project path="external/open-dice" name="platform/external/open-dice"/>
+  <project path="external/elfutils" name="platform/external/elfutils"/>
+  <project path="external/googletest" name="platform/external/googletest"/>
+  <project path="external/mtools" name="platform/external/mtools"/>
+  <project path="external/rust/android-crates-io" name="platform/external/rust/android-crates-io"/>
+  <project path="external/rust/crates/smoltcp" name="platform/external/rust/crates/smoltcp"/>
+  <project path="prebuilts/fuchsia_sdk" name="platform/prebuilts/fuchsia_sdk" clone-depth="1" revision="gbl-android17"/>
+  <project path="prebuilts/vmm" name="device/google/cuttlefish_vmm" clone-depth="1" />
+
+  <!-- dependencies for u-boot -->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" clone-depth="1" />
+  <project path="u-boot" name="platform/external/u-boot" revision="u-boot-android17" />
+>>>>>>> CHANGE (ec3a49f3e819e848b622b41cff37896349ebc643 Align GBL and U-Boot dependencies for Android 17)
 </manifest>
