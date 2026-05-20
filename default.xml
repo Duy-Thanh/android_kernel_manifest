@@ -71,6 +71,11 @@
   <project path="external/googletest" name="platform/external/googletest"/>
   <project path="external/mtools" name="platform/external/mtools"/>
   <project path="external/rust/android-crates-io" name="platform/external/rust/android-crates-io"/>
+<<<<<<< HEAD   (13de4cad8cf9f372def55e8c64618744a6dd46c8 Remove zune-inflate crate, now it's in the monorepo.)
+  <project path="external/rust/crates/smoltcp" name="platform/external/rust/crates/smoltcp"/>
+<<<<<<< PATCH SET (e1c4b0cdef8b176fedc1e00cdd24ca1b557a313c Remove smoltcp crate, now it's in the monorepo.)
+  <project path="prebuilts/fuchsia_sdk" name="platform/prebuilts/fuchsia_sdk" clone-depth="1" revision="gbl-mainline"/>
+||||||| BASE   (ec3a49f3e819e848b622b41cff37896349ebc643 Align GBL and U-Boot dependencies for Android 17)
   <project path="external/rust/crates/smoltcp" name="platform/external/rust/crates/smoltcp"/>
   <project path="prebuilts/fuchsia_sdk" name="platform/prebuilts/fuchsia_sdk" clone-depth="1" revision="gbl-android17"/>
   <project path="prebuilts/vmm" name="device/google/cuttlefish_vmm" clone-depth="1" />
@@ -79,4 +84,24 @@
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" clone-depth="1" />
   <project path="u-boot" name="platform/external/u-boot" revision="u-boot-android17" />
+=======
+  <project path="prebuilts/fuchsia_sdk" name="platform/prebuilts/fuchsia_sdk" clone-depth="1" revision="gbl-android17"/>
+  <project path="prebuilts/vmm" name="device/google/cuttlefish_vmm" clone-depth="1" />
+
+  <!-- dependencies for u-boot -->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" clone-depth="1" />
+  <project path="u-boot" name="platform/external/u-boot" revision="u-boot-android17" />
+>>>>>>> CHANGE (46a1a5274ff0b40419952c861a8958bba5f28cfc Remove smoltcp crate, now it's in the monorepo.)
+||||||| BASE      (13de4cad8cf9f372def55e8c64618744a6dd46c8 Remove zune-inflate crate, now it's in the monorepo.)
+  <project path="prebuilts/fuchsia_sdk" name="platform/prebuilts/fuchsia_sdk" clone-depth="1" revision="gbl-mainline"/>
+=======
+  <project path="prebuilts/fuchsia_sdk" name="platform/prebuilts/fuchsia_sdk" clone-depth="1" revision="gbl-android17"/>
+  <project path="prebuilts/vmm" name="device/google/cuttlefish_vmm" clone-depth="1" />
+
+  <!-- dependencies for u-boot -->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" clone-depth="1" />
+  <project path="u-boot" name="platform/external/u-boot" revision="u-boot-android17" />
+>>>>>>> BASE      (4dacb5e4ebdb5339b87a8e2fbe626ad3185d2f8b Align GBL and U-Boot dependencies for Android 17)
 </manifest>
