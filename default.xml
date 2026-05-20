@@ -71,8 +71,15 @@
   <project path="external/googletest" name="platform/external/googletest"/>
   <project path="external/mtools" name="platform/external/mtools"/>
   <project path="external/rust/android-crates-io" name="platform/external/rust/android-crates-io"/>
+<<<<<<< HEAD   (ec3a49f3e819e848b622b41cff37896349ebc643 Align GBL and U-Boot dependencies for Android 17)
   <project path="external/rust/crates/smoltcp" name="platform/external/rust/crates/smoltcp"/>
   <project path="prebuilts/fuchsia_sdk" name="platform/prebuilts/fuchsia_sdk" clone-depth="1" revision="gbl-android17"/>
+||||||| BASE   (094787f55a4a4653da52a4f782987e470f37863e Remove zune-inflate crate, now it's in the monorepo.)
+  <project path="external/rust/crates/smoltcp" name="platform/external/rust/crates/smoltcp"/>
+  <project path="prebuilts/fuchsia_sdk" name="platform/prebuilts/fuchsia_sdk" clone-depth="1" revision="gbl-mainline"/>
+=======
+  <project path="prebuilts/fuchsia_sdk" name="platform/prebuilts/fuchsia_sdk" clone-depth="1" revision="gbl-mainline"/>
+>>>>>>> CHANGE (96442b8731e5ce7d7d2594ba12c778584e22e76a Remove smoltcp crate, now it's in the monorepo.)
   <project path="prebuilts/vmm" name="device/google/cuttlefish_vmm" clone-depth="1" />
 
   <!-- dependencies for u-boot -->
