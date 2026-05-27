@@ -7,14 +7,32 @@
     <linkfile src="kleaf/bazel.sh" dest="tools/bazel"/>
     <linkfile src="kleaf/bzlmod/bazel.MODULE.bazel" dest="MODULE.bazel"/>
   </project>
+<<<<<<< HEAD   (e6dd8caff7db4cbf337e1a27a8cf2489502f6dd7 Merge remote-tracking branch 'origin' into HEAD)
   <project path="common" name="kernel/common" revision="android-mainline-riscv64"/>
+||||||| BASE   (d5049e082732d0e2056f1a4f5fee46d540fd6aeb Merge "manifest: Add zstd repository to the manifest" into c)
+  <project path="common" name="kernel/common" revision="android-mainline"/>
+=======
+  <project path="common" name="kernel/common" revision="android-mainline"/>
+  <project path="common-modules/wonder" name="kernel/common-modules/wonder" revision="android-mainline"/>
+>>>>>>> BRANCH (96442b8731e5ce7d7d2594ba12c778584e22e76a Remove smoltcp crate, now it's in the monorepo.)
   <project path="common-modules/trusty" name="kernel/common-modules/trusty"/>
   <project path="common-modules/virtio-media" name="platform/external/virtio-media"/>
+<<<<<<< HEAD   (e6dd8caff7db4cbf337e1a27a8cf2489502f6dd7 Merge remote-tracking branch 'origin' into HEAD)
   <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="android-mainline-riscv64"/>
   <project path="devices/google/raviole" name="kernel/devices/google/raviole" revision="android-gs-raviole-mainline">
     <!-- TODO(b/456781041): Enable transitions for raviole_upstream to drop this. -->
     <linkfile src="device.bazelrc" dest="device.bazelrc"/>
   </project>
+||||||| BASE   (d5049e082732d0e2056f1a4f5fee46d540fd6aeb Merge "manifest: Add zstd repository to the manifest" into c)
+  <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="android-mainline"/>
+  <project path="devices/google/raviole" name="kernel/devices/google/raviole" revision="android-gs-raviole-mainline">
+    <!-- TODO(b/456781041): Enable transitions for raviole_upstream to drop this. -->
+    <linkfile src="device.bazelrc" dest="device.bazelrc"/>
+  </project>
+=======
+  <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="android-mainline"/>
+  <project path="devices/google/raviole" name="kernel/devices/google/raviole" revision="android-gs-raviole-mainline"/>
+>>>>>>> BRANCH (96442b8731e5ce7d7d2594ba12c778584e22e76a Remove smoltcp crate, now it's in the monorepo.)
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" groups="ddk"/>
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" groups="ddk"/>
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" groups="ddk"/>
@@ -22,14 +40,26 @@
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" groups="ddk"/>
   <project path="prebuilts/rust-toolchain/linux-x86" name="platform/prebuilts/rust-toolchain/linux-x86" clone-depth="1" groups="ddk"/>
   <project path="prebuilts/ndk-r27" name="toolchain/prebuilts/ndk/r27" clone-depth="1" groups="ddk"/>
+<<<<<<< HEAD   (e6dd8caff7db4cbf337e1a27a8cf2489502f6dd7 Merge remote-tracking branch 'origin' into HEAD)
   <!-- Dependencies for testing (kunit, kselftests, ltp & dittosuite) -->
   <project path="kernel/tests" name="kernel/tests"/>
   <project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts" clone-depth="1"/>
   <project path="prebuilts/asuite" name="platform/prebuilts/asuite" clone-depth="1"/>
+||||||| BASE   (d5049e082732d0e2056f1a4f5fee46d540fd6aeb Merge "manifest: Add zstd repository to the manifest" into c)
+
+  <!-- Dependencies for testing (kunit, kselftests, ltp & dittosuite) -->
+  <project path="kernel/tests" name="kernel/tests"/>
+  <project path="prebuilts/tradefed" name="platform/tools/tradefederation/prebuilts" clone-depth="1"/>
+  <project path="prebuilts/asuite" name="platform/prebuilts/asuite" clone-depth="1"/>
+=======
+
+  <!-- Dependencies for testing (kunit, kselftests, ltp) -->
+  <!-- Uncomment for local testing only -->
+  <!-- project path="kernel/tests" name="kernel/tests" revision="main-kernel" clone-depth="1" / -->
+>>>>>>> BRANCH (96442b8731e5ce7d7d2594ba12c778584e22e76a Remove smoltcp crate, now it's in the monorepo.)
   <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" clone-depth="1"/>
   <project path="external/libcap-ng" name="platform/external/libcap-ng"/>
   <project path="external/libcap" name="platform/external/libcap"/>
-  <project path="test/dittosuite" name="platform/test/dittosuite"/>
   <project path="test/ltp" name="platform/external/ltp"/>
   <!-- deps for for bzlmod -->
   <project path="external/bazel-contrib-bazel_features" name="platform/external/bazel-contrib-bazel_features" groups="ddk-external"/>
@@ -46,10 +76,13 @@
   <project path="external/bazelbuild-rules_shell" name="platform/external/bazelbuild-rules_shell" groups="ddk-external"/>
   <project path="external/python/absl-py" name="platform/external/python/absl-py" groups="ddk-external"/>
   <!-- local_repository()'s dependencies -->
+  <project path="external/argp-standalone" name="platform/external/argp-standalone" groups="ddk"/>
   <project path="external/avb" name="platform/external/avb" groups="ddk"/>
   <project path="external/dtc" name="platform/external/dtc" groups="ddk"/>
+  <project path="external/dwarves" name="platform/external/dwarves" groups="ddk"/>
   <project path="external/kmod" name="platform/external/kmod" groups="ddk"/>
   <project path="external/lz4" name="platform/external/lz4" groups="ddk"/>
+  <project path="external/obstack" name="platform/external/obstack" groups="ddk"/>
   <project path="external/pigz" name="platform/external/pigz" groups="ddk"/>
   <project path="external/toybox" name="platform/external/toybox" groups="ddk"/>
   <project path="external/zlib" name="platform/external/zlib" groups="ddk"/>
@@ -64,8 +97,13 @@
   <project path="external/open-dice" name="platform/external/open-dice"/>
   <project path="external/elfutils" name="platform/external/elfutils"/>
   <project path="external/googletest" name="platform/external/googletest"/>
+  <project path="external/mtools" name="platform/external/mtools"/>
   <project path="external/rust/android-crates-io" name="platform/external/rust/android-crates-io"/>
-  <project path="external/rust/crates/smoltcp" name="platform/external/rust/crates/smoltcp"/>
-  <project path="external/rust/crates/zune-inflate" name="platform/external/rust/crates/zune-inflate"/>
   <project path="prebuilts/fuchsia_sdk" name="platform/prebuilts/fuchsia_sdk" clone-depth="1" revision="gbl-mainline"/>
+  <project path="prebuilts/vmm" name="device/google/cuttlefish_vmm" clone-depth="1" />
+
+  <!-- dependencies for u-boot -->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" clone-depth="1" />
+  <project path="u-boot" name="platform/external/u-boot" revision="u-boot-mainline" />
 </manifest>
