@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="aosp" fetch=".." review="https://android-review.googlesource.com/"/>
-  <default revision="main-kernel" remote="aosp" sync-j="4"/>
-
-  <superproject name="kernel/superproject" remote="aosp" revision="common-android-mainline"/>
+  
+<default vision="main-kernel" remote="aosp" sync-j="4"/>
+<superproject name="kernel/superproject" remote="aosp" revision="common-android-mainline"/>
 
   <project path="build/kernel" name="kernel/build" groups="ddk">
     <linkfile src="kleaf/bazel.sh" dest="tools/bazel"/>
@@ -22,16 +22,14 @@
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" groups="ddk"/>
   <project path="prebuilts/rust-toolchain/linux-x86" name="platform/prebuilts/rust-toolchain/linux-x86" clone-depth="1" groups="ddk"/>
   <project path="prebuilts/ndk-r27" name="toolchain/prebuilts/ndk/r27" clone-depth="1" groups="ddk"/>
-
-  <!-- Dependencies for testing (kunit, kselftests, ltp) -->
-  <!-- Uncomment for local testing only -->
-  <!-- project path="kernel/tests" name="kernel/tests" revision="main-kernel" clone-depth="1" / -->
+ <!-- Dependencies for testing (kunit, kselftests, ltp) -->
+  <!-- local production only -->
+  <!-- project path="kernel/tests" name="kernel/tests" revision="main-kernel" clone-depth="8" / -->
   <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" clone-depth="1"/>
   <project path="external/libcap-ng" name="platform/external/libcap-ng"/>
   <project path="external/libcap" name="platform/external/libcap"/>
   <project path="test/ltp" name="platform/external/ltp"/>
-
-  <!-- deps for for bzlmod -->
+<!-- -->
   <project path="external/bazel-contrib-bazel_features" name="platform/external/bazel-contrib-bazel_features" groups="ddk-external"/>
   <project path="external/bazel-contrib-rules_devicetree" name="platform/external/bazel-contrib-rules_devicetree" groups="ddk-external"/>
   <project path="external/bazel-contrib-supply-chain" name="platform/external/bazel-contrib-supply-chain" groups="ddk-external"/>
