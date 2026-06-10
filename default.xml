@@ -9,6 +9,7 @@
     <linkfile src="kleaf/bazel.sh" dest="tools/bazel"/>
     <linkfile src="kleaf/bzlmod/bazel.MODULE.bazel" dest="MODULE.bazel"/>
   </project>
+<<<<<<< HEAD   (5f5a7280d6d09c3a254d467edbfd81e6e08bf78e Add dwarves project and its dependencies)
   <project name="kernel/common" path="common" revision="android-mainline" />
   <project name="kernel/google-modules/amplifiers" path="private/google-modules/amplifiers" />
   <project name="kernel/google-modules/aoc" path="private/google-modules/aoc" />
@@ -33,6 +34,36 @@
   <project name="kernel/google-modules/uwb" path="private/google-modules/uwb" />
   <project name="kernel/google-modules/video/gchips" path="private/google-modules/video/gchips" />
   <project name="kernel/google-modules/wlan/bcmdhd/bcm4389" path="private/google-modules/wlan/bcmdhd4389" />
+||||||| BASE   (af6e402eb8133bfa79b85838489cca91d3b0a2f7 Add stg project)
+  <project path="common" name="kernel/common" revision="android-mainline"/>
+  <project path="common-modules/wonder" name="kernel/common-modules/wonder" revision="android-mainline"/>
+  <project path="common-modules/trusty" name="kernel/common-modules/trusty"/>
+  <project path="common-modules/virtio-media" name="platform/external/virtio-media"/>
+  <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="android-mainline"/>
+  <project path="devices/google/raviole" name="kernel/devices/google/raviole" revision="android-gs-raviole-mainline"/>
+  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" groups="ddk"/>
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" groups="ddk"/>
+  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" groups="ddk"/>
+  <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" clone-depth="1" groups="ddk"/>
+  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" groups="ddk"/>
+  <project path="prebuilts/rust-toolchain/linux-x86" name="platform/prebuilts/rust-toolchain/linux-x86" clone-depth="1" groups="ddk"/>
+  <project path="prebuilts/ndk-r27" name="toolchain/prebuilts/ndk/r27" clone-depth="1" groups="ddk"/>
+=======
+  <project path="common" name="kernel/common" revision="android-mainline"/>
+  <project path="common-modules/wonder" name="kernel/common-modules/wonder" revision="android-mainline"/>
+  <project path="common-modules/trusty" name="kernel/common-modules/trusty"/>
+  <project path="common-modules/virtio-media" name="platform/external/virtio-media"/>
+  <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="android-mainline"/>
+  <project path="devices/google/raviole" name="kernel/devices/google/raviole" revision="android-gs-raviole-mainline"/>
+  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" groups="ddk"/>
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" groups="ddk"/>
+  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" groups="ddk"/>
+  <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" clone-depth="1" groups="ddk"/>
+  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" groups="ddk"/>
+  <project path="prebuilts/rust-toolchain/linux-x86" name="platform/prebuilts/rust-toolchain/linux-x86" clone-depth="1" groups="ddk"/>
+  <project path="prebuilts/rust-toolchain/linux-musl-x86" name="platform/prebuilts/rust-toolchain/linux-musl-x86" clone-depth="1" groups="ddk"/>
+  <project path="prebuilts/ndk-r27" name="toolchain/prebuilts/ndk/r27" clone-depth="1" groups="ddk"/>
+>>>>>>> CHANGE (aa67a76851168b6189111e7deb82e265d38dbdb0 Add linux-musl-x86 Rust toolchain.)
 
   <project name="platform/prebuilts/boot-artifacts" path="prebuilts/boot-artifacts" clone-depth="1"/>
 
