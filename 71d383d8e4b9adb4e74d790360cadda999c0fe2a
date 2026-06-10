@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4d740674_2468218b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4677650
+      },
+      "writtenOn": "2026-06-10T16:23:08Z",
+      "side": 1,
+      "message": "Mentioned in GKI Newsletter.",
+      "revId": "71d383d8e4b9adb4e74d790360cadda999c0fe2a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
