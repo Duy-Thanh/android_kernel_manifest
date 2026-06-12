@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "72c3289b_a83c313f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4677650
+      },
+      "writtenOn": "2026-06-12T14:42:13Z",
+      "side": 1,
+      "message": "This is needed to fix presubmit errors in the (WIP) rust glibc-\u003emusl migration. I\u0027m testing that on aosp/4119233.",
+      "revId": "09b957b5cd5f671474ae102745956c19495374d2",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
