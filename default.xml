@@ -36,6 +36,7 @@
 
   <project name="platform/prebuilts/boot-artifacts" path="prebuilts/boot-artifacts" clone-depth="1"/>
 
+  <project name="platform/external/abseil-cpp" path="external/abseil-cpp" revision="main-kernel" clone-depth="1" />
   <project name="platform/external/argp-standalone" path="external/argp-standalone" revision="main-kernel" clone-depth="1" />
   <project name="platform/external/avb" path="external/avb" revision="main-kernel" clone-depth="1" />
   <project name="kernel/prebuilts/build-tools" path="prebuilts/kernel-build-tools" revision="main-kernel" clone-depth="1"/>
@@ -59,6 +60,7 @@
   <project path="external/lz4" name="platform/external/lz4" revision="main-kernel" clone-depth="1" />
   <project name="platform/external/obstack" path="external/obstack" revision="main-kernel" clone-depth="1" />
   <project name="platform/external/pigz" path="external/pigz" revision="main-kernel" clone-depth="1"/>
+  <project name="platform/external/protobuf" path="external/protobuf" revision="main-kernel" clone-depth="1"/>
   <project name="platform/external/python/absl-py" path="external/python/absl-py" revision="main-kernel" clone-depth="1"/>
   <project name="platform/external/stg" path="external/stg" revision="main-kernel" clone-depth="1" />
   <project path="external/toybox" name="platform/external/toybox" revision="main-kernel" clone-depth="1" />
