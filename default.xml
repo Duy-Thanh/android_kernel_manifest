@@ -60,7 +60,7 @@
   <project path="external/protobuf" name="platform/external/protobuf" groups="ddk"/>
   <project path="external/stg" name="platform/external/stg" groups="ddk"/>
   <project path="external/toybox" name="platform/external/toybox" groups="ddk"/>
-  <project path="external/zlib" name="platform/external/zlib" groups="ddk"/>
+  <project path="external/zlib" name="platform/external/zlib-madler" groups="ddk"/>
   <project path="external/zopfli" name="platform/external/zopfli" groups="ddk"/>
   <project path="external/zstd" name="platform/external/zstd" groups="ddk"/>
 
