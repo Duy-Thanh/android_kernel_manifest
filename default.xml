@@ -73,6 +73,7 @@
   <project path="external/elfutils" name="platform/external/elfutils"/>
   <project path="external/googletest" name="platform/external/googletest"/>
   <project path="external/mtools" name="platform/external/mtools"/>
+  <project path="external/nasm" name="platform/external/nasm" revision="emu-36-1-release" clone-depth="1"/>
   <project path="external/rust/android-crates-io" name="platform/external/rust/android-crates-io"/>
   <project path="prebuilts/fuchsia_sdk" name="platform/prebuilts/fuchsia_sdk" clone-depth="1" revision="gbl-mainline"/>
   <project path="prebuilts/vmm" name="device/google/cuttlefish_vmm" clone-depth="1" />
