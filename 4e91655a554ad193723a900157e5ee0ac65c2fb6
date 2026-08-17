@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cc7c11c8_6b90a7cc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 2029640
+      },
+      "writtenOn": "2026-08-17T16:44:38Z",
+      "side": 1,
+      "message": "I heard kernel team is strict about adding additional dependency. In case it can\u0027t go through or you don\u0027t want to be blocked, `gbl_new_local_repository` support optional dependency and emits a bazel config_setting target that you can use to conditionally build other targets based on whether the repo exists. See the `vmm` example in MODULE.bazel and `qemu_test_dependencies_exist` in tests/BUILD.",
+      "revId": "4e91655a554ad193723a900157e5ee0ac65c2fb6",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
