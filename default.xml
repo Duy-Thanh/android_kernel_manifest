@@ -40,6 +40,7 @@
   <project path="external/pigz" name="platform/external/pigz" />
   <project path="external/googletest" name="platform/external/googletest" />
   <project path="external/mtools" name="platform/external/mtools" />
+  <project path="external/nasm" name="platform/external/nasm" revision="emu-master-dev" clone-depth="1" />
   <project path="external/rust/android-crates-io" name="platform/external/rust/android-crates-io" />
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8"
