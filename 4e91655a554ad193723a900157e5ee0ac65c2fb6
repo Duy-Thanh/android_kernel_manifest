@@ -52,6 +52,24 @@
       "parentUuid": "fed206aa_c26301e9",
       "revId": "4e91655a554ad193723a900157e5ee0ac65c2fb6",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4c2931a9_48e1be16",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1466604
+      },
+      "writtenOn": "2026-08-18T20:20:49Z",
+      "side": 1,
+      "message": "Updated on both cls to point to the newly create reference.",
+      "parentUuid": "d3008fab_c29d1521",
+      "revId": "4e91655a554ad193723a900157e5ee0ac65c2fb6",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
