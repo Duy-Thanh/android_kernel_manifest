@@ -34,6 +34,24 @@
       "parentUuid": "cc7c11c8_6b90a7cc",
       "revId": "4e91655a554ad193723a900157e5ee0ac65c2fb6",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d3008fab_c29d1521",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1466604
+      },
+      "writtenOn": "2026-08-18T00:53:02Z",
+      "side": 1,
+      "message": "Mirror got setup - b/548125485 covers the automerged branch. ONce that\u0027s done - you can update this to point to the default revision `main-kernel` and submit",
+      "parentUuid": "fed206aa_c26301e9",
+      "revId": "4e91655a554ad193723a900157e5ee0ac65c2fb6",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
