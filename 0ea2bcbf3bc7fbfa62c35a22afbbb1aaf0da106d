@@ -33,6 +33,24 @@
       "message": "4235299",
       "revId": "0ea2bcbf3bc7fbfa62c35a22afbbb1aaf0da106d",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e49681fe_f77cd5e2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 5111152
+      },
+      "writtenOn": "2026-08-25T05:39:38Z",
+      "side": 1,
+      "message": "https://android-review.googlesource.com/c/kernel/manifest/+/4235299/comments/818f4158_a60af85a",
+      "parentUuid": "818f4158_a60af85a",
+      "revId": "0ea2bcbf3bc7fbfa62c35a22afbbb1aaf0da106d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ],
   "submitRequirementResults": [
