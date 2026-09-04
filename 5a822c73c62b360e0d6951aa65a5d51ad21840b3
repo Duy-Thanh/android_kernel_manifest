@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9725e28a_cf22228d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1889140
+      },
+      "writtenOn": "2026-09-04T00:47:11Z",
+      "side": 1,
+      "message": "This dummy change is sent to trigger the -sp builds again.",
+      "revId": "5a822c73c62b360e0d6951aa65a5d51ad21840b3",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
