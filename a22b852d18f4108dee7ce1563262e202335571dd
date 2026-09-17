@@ -16,6 +16,24 @@
       "message": "Target `gbl_efi_dist_and_test` needs to be fixed though.",
       "revId": "a22b852d18f4108dee7ce1563262e202335571dd",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8c8f33be_f81f812f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1961395
+      },
+      "writtenOn": "2026-09-17T11:15:50Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b58d8c07_4b562e7d",
+      "revId": "a22b852d18f4108dee7ce1563262e202335571dd",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
