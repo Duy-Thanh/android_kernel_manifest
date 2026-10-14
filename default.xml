@@ -13,7 +13,7 @@
   <project path="common-modules/wonder" name="kernel/common-modules/wonder" revision="86ef5efc7d6534d8eb75c732c852a5bd53acff07" upstream="android17-6.18" dest-branch="android17-6.18" />
   <project path="common-modules/trusty" name="kernel/common-modules/trusty" />
   <project path="common-modules/virtio-media" name="platform/external/virtio-media" />
-  <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="6c4ec5627a4fe7f8ffe53e5fb53c4fcf4793e86e" upstream="android17-6.18" dest-branch="android17-6.18" />
+  <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="63ad7b13b89b935fac402976151ffcd3e319ca4f" upstream="android17-6.18" dest-branch="android17-6.18" />
   <project path="devices/google/raviole" name="kernel/devices/google/raviole" revision="a40488880d90f354ea095fcc0547a391e8cc0998" upstream="android17-6.18-gs101" dest-branch="android17-6.18-gs101" />
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" revision="8306bf6200fde4eee41882af6fccbc937ec81163" upstream="main-kernel-2026" dest-branch="main-kernel-2026" clone-depth="1" groups="ddk" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" groups="ddk" />
