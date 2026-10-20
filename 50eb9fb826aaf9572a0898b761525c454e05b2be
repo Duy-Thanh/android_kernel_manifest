@@ -16,6 +16,24 @@
       "message": "cl/973879122 looks related and might fix the issue.\n\nI\u0027m giving +2 anyway, it\u0027s up to you whether you\u0027d prefer to look into that or just submit this one.",
       "revId": "50eb9fb826aaf9572a0898b761525c454e05b2be",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "970e0cf7_12f2b7d4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1869395
+      },
+      "writtenOn": "2026-10-20T17:47:44Z",
+      "side": 1,
+      "message": "Isn\u0027t that for Google3 package though? Or are you saying we would need some sort of equivalent fix but for Android? I don\u0027t quite follow.",
+      "parentUuid": "08215a7c_485b7ebc",
+      "revId": "50eb9fb826aaf9572a0898b761525c454e05b2be",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ],
   "submitRequirementResults": [
