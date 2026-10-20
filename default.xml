@@ -46,7 +46,8 @@
   <project path="external/python/absl-py" name="platform/external/python/absl-py" groups="ddk-external"/>
 
   <!-- local_repository()'s dependencies -->
-  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" groups="ddk"/>
+  <!-- TODO(b/575845266): unpin abseil revision after gloop issue is resolved -->
+  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" groups="ddk" revision="9995e5820dbb1505ea942fb531473deb13d25a00" />
   <project path="external/argp-standalone" name="platform/external/argp-standalone" groups="ddk"/>
   <project path="external/avb" name="platform/external/avb" groups="ddk"/>
   <project path="external/dtc" name="platform/external/dtc" groups="ddk"/>
