@@ -1,5 +1,23 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "08215a7c_485b7ebc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4677650
+      },
+      "writtenOn": "2026-10-20T17:42:14Z",
+      "side": 1,
+      "message": "cl/973879122 looks related and might fix the issue.\n\nI\u0027m giving +2 anyway, it\u0027s up to you whether you\u0027d prefer to look into that or just submit this one.",
+      "revId": "50eb9fb826aaf9572a0898b761525c454e05b2be",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ],
   "submitRequirementResults": [
     {
       "submitRequirement": {
