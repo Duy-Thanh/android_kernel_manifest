@@ -3,5 +3,6 @@
 faae02fd2948e284e5b96cc93ef27aa2c4ae533d                      	ARCVM Approvers
 google:AI2Pq9qsAkqeMAbB8rhxUseGXs2U9guFZZlzfyCIuOnsKPH6lThjpJE	google/berkeley-android-kernel-team@google.com
 mdb:al-kernel-eng                                             	mdb/al-kernel-eng
+mdb:android-16k                                               	mdb/android-16k
 mdb:android-kernel-release                                    	mdb/android-kernel-release
 mdb:gki-release-gerrit-operator                               	mdb/gki-release-gerrit-operator
