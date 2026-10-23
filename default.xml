@@ -13,7 +13,7 @@
     <linkfile src="config.sh" dest="build/config.sh" />
   </project>
   
-  <project path="common" name="android_kernel_common" revision="common-android14-6.1-2025-12" remote="github" />
+  <project path="common" name="android_kernel_common" revision="android14-6.1-2025-12-Nekkochan" remote="github" />
   
   <!-- All others use default remote="aosp" automatically -->
   <!-- Uncomment for local testing only -->
